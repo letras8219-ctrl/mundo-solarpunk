@@ -1,0 +1,26 @@
+name: Simulación diaria
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  simular:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Correr simulación
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node simulation.js
+      - name: Guardar world.json
+        run: |
+          git config user.name "Solarpunk Bot"
+          git config user.email "bot@solarpunk.mundo"
+          git add world.json
+          git diff --staged --quiet || git commit -m "simulación día"
+          git push
