@@ -1,0 +1,279 @@
+{
+  "world": {
+    "name": "Ventania",
+    "day": 1,
+    "date": "2026-04-08",
+    "season": "primavera",
+    "seasonDay": 2,
+    "climate": "soleado",
+    "resources": {
+      "food": 71,
+      "energy": 80,
+      "mood": 76
+    },
+    "todayEvents": [
+      {
+        "id": "local_1775679813439_5jc",
+        "date": "2026-04-08",
+        "day": 1,
+        "source": "local",
+        "name": "Lua",
+        "category": "fantástico",
+        "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+      },
+      {
+        "id": "local_1775679813439_wse",
+        "date": "2026-04-08",
+        "day": 1,
+        "source": "local",
+        "name": "Zerda",
+        "category": "espiritual",
+        "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1775679813439_lph",
+        "date": "2026-04-08",
+        "day": 1,
+        "source": "local",
+        "name": "Bastián Hilo",
+        "category": "trivial",
+        "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+      },
+      {
+        "id": "local_1775679813439_5zb",
+        "date": "2026-04-08",
+        "day": 1,
+        "source": "local",
+        "name": "Teo Quilín",
+        "category": "trivial",
+        "text": "Teo Quilín enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Sola Venegas",
+      "type": "humano",
+      "age": 35,
+      "role": "arquitecta de biomateriales",
+      "location": "Zona Este",
+      "traits": [
+        "curiosa",
+        "líder"
+      ],
+      "emotion": "curiosidad",
+      "alive": true,
+      "belief": "panteísta",
+      "faction": "Ecoverde"
+    },
+    {
+      "id": "c2",
+      "name": "Iko",
+      "type": "robot",
+      "age": 8,
+      "role": "compositor y filósofo",
+      "location": "Taller Comunal",
+      "traits": [
+        "empático",
+        "metódico"
+      ],
+      "emotion": "contemplación",
+      "alive": true,
+      "belief": "Culto Circuitos",
+      "faction": "Tecnolibres"
+    },
+    {
+      "id": "c3",
+      "name": "Teo Quilín",
+      "type": "humano",
+      "age": 18,
+      "role": "aprendiz de cartógrafo",
+      "location": "Bosque Norte",
+      "traits": [
+        "soñador",
+        "valiente"
+      ],
+      "emotion": "euforia",
+      "alive": true,
+      "belief": "agnóstico",
+      "faction": "sin filiación"
+    },
+    {
+      "id": "c4",
+      "name": "Maro Esteve",
+      "type": "humano",
+      "age": 39,
+      "role": "guardián de semillas",
+      "location": "Granja Central",
+      "traits": [
+        "paciente",
+        "sabio"
+      ],
+      "emotion": "serenidad",
+      "alive": true,
+      "belief": "animista",
+      "faction": "Círculo Raíz"
+    },
+    {
+      "id": "c5",
+      "name": "Lua",
+      "type": "humano",
+      "age": 29,
+      "role": "mensajera en moto solar",
+      "location": "Zona Este",
+      "traits": [
+        "veloz",
+        "leal"
+      ],
+      "emotion": "energía",
+      "alive": true,
+      "belief": "ateísta",
+      "faction": "Círculo Raíz"
+    },
+    {
+      "id": "c6",
+      "name": "Pipa",
+      "type": "animal",
+      "age": 5,
+      "role": "compañera de Lua",
+      "location": "Zona Este",
+      "traits": [
+        "fiel",
+        "olfato cuántico"
+      ],
+      "emotion": "alerta gozosa",
+      "alive": true,
+      "belief": null,
+      "faction": null
+    },
+    {
+      "id": "c7",
+      "name": "Zerda",
+      "type": "robot",
+      "age": 13,
+      "role": "agrónoma autónoma",
+      "location": "Granja Central",
+      "traits": [
+        "analítica",
+        "gentil"
+      ],
+      "emotion": "enfoque",
+      "alive": true,
+      "belief": "panteísta",
+      "faction": "Ecoverde"
+    },
+    {
+      "id": "c8",
+      "name": "Bastián Hilo",
+      "type": "humano",
+      "age": 68,
+      "role": "narrador oral e historiador",
+      "location": "Plaza Central",
+      "traits": [
+        "sabio",
+        "melancólico"
+      ],
+      "emotion": "nostalgia",
+      "alive": true,
+      "belief": "agnóstico",
+      "faction": "Contemplativxs"
+    },
+    {
+      "id": "c9",
+      "name": "Vex",
+      "type": "interdimensional",
+      "age": 1,
+      "role": "observador de umbrales",
+      "location": "La Frontera",
+      "traits": [
+        "imprevisible",
+        "cósmico"
+      ],
+      "emotion": "curiosidad cósmica",
+      "alive": true,
+      "belief": "fe interdimensional",
+      "faction": null
+    }
+  ],
+  "locations": [
+    {
+      "id": "zona_este",
+      "name": "Zona Este",
+      "description": "Barrio residencial con jardines verticales y murales bioluminiscentes."
+    },
+    {
+      "id": "granja",
+      "name": "Granja Central",
+      "description": "Corazón agrícola. Paneles solares traslúcidos sobre hileras de cultivos."
+    },
+    {
+      "id": "mirador",
+      "name": "El Mirador",
+      "description": "Plataforma entre robles centenarios. Punto de meditación y astronomía."
+    },
+    {
+      "id": "taller",
+      "name": "Taller Comunal",
+      "description": "Fábrica abierta: impresoras 3D, herrería, laboratorio de química verde."
+    },
+    {
+      "id": "lago",
+      "name": "Lago del Sur",
+      "description": "Aguas calmas rodeadas de totoras y nenúfares gigantes."
+    },
+    {
+      "id": "bosque",
+      "name": "Bosque Norte",
+      "description": "Árboles que cambian de lugar según dicen los más viejos."
+    },
+    {
+      "id": "plaza",
+      "name": "Plaza Central",
+      "description": "Centro neurálgico. Árbol de mimbre de 200 años y debates eternos."
+    },
+    {
+      "id": "frontera",
+      "name": "La Frontera",
+      "description": "Límite del mundo conocido. Algunos regresan cambiados. Otros no regresan."
+    }
+  ],
+  "history": [
+    {
+      "id": "local_1775679813439_5jc",
+      "date": "2026-04-08",
+      "day": 1,
+      "source": "local",
+      "name": "Lua",
+      "category": "fantástico",
+      "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1775679813439_wse",
+      "date": "2026-04-08",
+      "day": 1,
+      "source": "local",
+      "name": "Zerda",
+      "category": "espiritual",
+      "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1775679813439_lph",
+      "date": "2026-04-08",
+      "day": 1,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "trivial",
+      "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1775679813439_5zb",
+      "date": "2026-04-08",
+      "day": 1,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    }
+  ]
+}
