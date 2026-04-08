@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ventania — Mundo Solarpunk Vivo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <style>
+    :root {
+      --bg:      #0d1a10;
+      --bg2:     #152018;
+      --green:   #2e6b40;
+      --mid:     #4a8c5c;
+      --leaf:    #7ab38a;
+      --mist:    #b5d4bc;
+      --cream:   #f2edd8;
+      --gold:    #c8a84b;
+      --gold2:   #e8d08a;
+      --rust:    #c86428;
+      --sky:     #7ab0c8;
+      --violet:  #9080c0;
+      --red:     #a06060;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      background: var(--bg);
+      color: var(--cream);
+      min-height: 100vh;
+    }
+
+    /* ── LOADING ─────────────────────────────── */
+    #loading {
+      position: fixed; inset: 0;
+      background: var(--bg);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      z-index: 99;
+      transition: opacity 0.6s;
+    }
+    #loading.gone { opacity: 0; pointer-events: none; }
+    .loading-leaf { font-size: 3rem; animation: breathe 2s ease-in-out infinite; }
+    .loading-msg  { font-size: 1.3rem; font-style: italic; color: var(--leaf); margin-top: 1rem; }
+    @keyframes breathe { 0%,100%{transform:scale(1);opacity:.7} 50%{transform:scale(1.1);opacity:1} }
+
+    /* ── HEADER ──────────────────────────────── */
+    header {
+      padding: 3.5rem 2rem 2.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--green);
+      position: relative;
+      overflow: hidden;
+    }
+    header::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+    .eyebrow {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem; letter-spacing: 0.35em;
+      text-transform: uppercase; color: var(--mid);
+      margin-bottom: 0.75rem;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 700; line-height: 1.05;
+      color: var(--cream);
+    }
+    h1 em { color: var(--gold2); font-style: italic; }
+    .tagline { font-size: 1rem; color: var(--leaf); font-style: italic; margin-top: 0.6rem; }
+
+    /* ── RIBBON (fecha, estación, clima, habitantes) ── */
+    #ribbon {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      background: var(--bg2);
+      border-bottom: 1px solid rgba(46,107,64,0.3);
+    }
+    .ritem {
+      padding: 0.9rem 1.8rem; text-align: center;
+      border-right: 1px solid rgba(46,107,64,0.2);
+    }
+    .ritem:last-child { border-right: none; }
+    .rlabel { font-family: 'Space Mono', monospace; font-size: 0.54rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--mid); margin-bottom: 0.15rem; }
+    .rval   { font-size: 1.15rem; color: var(--gold2); }
+
+    /* ── RECURSOS ────────────────────────────── */
+    #recursos {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      border-bottom: 1px solid rgba(46,107,64,0.2);
+    }
+    .res {
+      padding: 0.8rem 1.4rem;
+      border-right: 1px solid rgba(46,107,64,0.12);
+    }
+    .res:last-child { border-right: none; }
+    .res-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.3rem; }
+    .res-name { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--leaf); }
+    .res-num  { font-size: 1rem; color: var(--gold); }
+    .track { height: 3px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; }
+    .fill  { height: 100%; border-radius: 2px; width: 0; transition: width 1.6s ease; }
+    .fill.food   { background: linear-gradient(90deg, var(--mid), var(--leaf)); }
+    .fill.energy { background: linear-gradient(90deg, var(--gold), var(--gold2)); }
+    .fill.mood   { background: linear-gradient(90deg, var(--sky), #b5d8e8); }
+
+    /* ── MAIN ────────────────────────────────── */
+    main {
+      max-width: 1100px; margin: 0 auto;
+      padding: 2.5rem 1.5rem 6rem;
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 2rem 2.5rem;
+    }
+    @media (max-width: 780px) {
+      main { grid-template-columns: 1fr; }
+      #recursos { grid-template-columns: 1fr; }
+      #ribbon .ritem { border-right: none; border-bottom: 1px solid rgba(46,107,64,0.15); }
+    }
+
+    .sec-head {
+      display: flex; align-items: baseline; gap: 0.5rem;
+      margin-bottom: 1.1rem; padding-bottom: 0.4rem;
+      border-bottom: 1px solid rgba(200,168,75,0.2);
+    }
+    .sec-title { font-size: 1.35rem; font-weight: 700; color: var(--gold2); }
+    .sec-count { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--mid); }
+
+    /* ── EVENTOS ─────────────────────────────── */
+    #eventos { grid-column: 1; }
+    #lista-eventos { display: flex; flex-direction: column; gap: 0.55rem; }
+
+    .evento {
+      display: grid; grid-template-columns: 3px 1fr;
+      gap: 0.85rem;
+      background: rgba(21,32,24,0.6);
+      border: 1px solid rgba(46,107,64,0.18);
+      border-radius: 2px;
+      padding: 0.85rem 1rem;
+      opacity: 0; transform: translateY(8px);
+      animation: up 0.45s ease forwards;
+    }
+    @keyframes up { to { opacity:1; transform:translateY(0); } }
+    .ev-stripe { border-radius: 2px; }
+    .ev-stripe.contemplativo { background: var(--sky); }
+    .ev-stripe.trivial       { background: var(--mid); }
+    .ev-stripe.interpersonal { background: var(--gold); }
+    .ev-stripe.fantástico    { background: #c0a0d8; }
+    .ev-stripe.espiritual    { background: #b0a878; }
+    .ev-stripe.ecológico     { background: #60a060; }
+    .ev-stripe.nacimiento    { background: #80d490; }
+    .ev-stripe.muerte        { background: var(--red); }
+    .ev-stripe.llegada       { background: var(--mist); }
+
+    .ev-text { font-size: 0.9rem; line-height: 1.65; color: #ddd8c8; }
+    .ev-meta { display: flex; gap: 0.6rem; margin-top: 0.25rem; align-items: center; }
+    .ev-cat  { font-family: 'Space Mono', monospace; font-size: 0.52rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mid); }
+    .ev-name { font-style: italic; font-size: 0.75rem; color: var(--leaf); }
+    .ev-ai   { font-family: 'Space Mono', monospace; font-size: 0.48rem; color: rgba(122,176,200,0.45); }
+
+    /* ── PERSONAJES ──────────────────────────── */
+    #personajes { grid-column: 1; }
+    #grid-personajes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px,1fr));
+      gap: 0.9rem;
+    }
+    .char {
+      background: rgba(13,26,16,0.8);
+      border: 1px solid rgba(46,107,64,0.22);
+      border-radius: 2px; padding: 1rem;
+      transition: border-color .25s, transform .25s;
+      opacity: 0; animation: up 0.4s ease forwards;
+    }
+    .char:hover { border-color: var(--gold); transform: translateY(-2px); }
+
+    .char-top { display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.6rem; }
+    .char-ico { width:34px;height:34px; border-radius:50%; background:var(--green); border:1.5px solid var(--mid); display:flex;align-items:center;justify-content:center; font-size:1.1rem; flex-shrink:0; }
+    .char-name { font-size: 1rem; font-weight: 700; color: var(--cream); line-height: 1.2; }
+    .char-role { font-size: 0.67rem; color: var(--mid); font-style: italic; }
+
+    .badges { display: flex; flex-wrap: wrap; gap: 0.28rem; margin-bottom: 0.5rem; }
+    .badge {
+      font-family: 'Space Mono', monospace; font-size: 0.5rem;
+      letter-spacing: 0.07em; text-transform: uppercase;
+      padding: 0.12rem 0.4rem; border: 1px solid; border-radius: 2px;
+    }
+    .badge.humano { border-color: var(--leaf); color: var(--leaf); }
+    .badge.robot  { border-color: var(--gold); color: var(--gold); }
+    .badge.animal { border-color: #90c890;     color: #90c890; }
+    .badge.interdimensional { border-color: var(--violet); color: var(--violet); }
+    .badge.age    { border-color: rgba(122,179,138,.3); color: var(--mist); }
+
+    .char-emo { font-size: 0.75rem; font-style: italic; color: #ccc8b0; margin-bottom: 0.4rem; }
+    .char-loc { font-family: 'Space Mono', monospace; font-size: 0.56rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.45rem; }
+    .traits   { display: flex; flex-wrap: wrap; gap: 0.22rem; }
+    .trait    { font-size: 0.6rem; padding: 0.1rem 0.32rem; background: rgba(46,107,64,0.15); border-radius: 2px; color: var(--leaf); }
+
+    /* ── TOGGLE LISTA COMPLETA ───────────────── */
+    #toggle-btn {
+      margin-top: 0.9rem; padding: 0.65rem 1rem;
+      background: rgba(21,32,24,0.5);
+      border: 1px dashed rgba(46,107,64,0.35); border-radius: 2px;
+      cursor: pointer;
+      font-family: 'Space Mono', monospace; font-size: 0.6rem;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--leaf);
+      display: flex; align-items: center; gap: 0.4rem;
+      transition: background .2s, color .2s;
+    }
+    #toggle-btn:hover { background: rgba(46,107,64,0.3); color: var(--cream); }
+    #lista-todos { display: none; margin-top: 0.65rem; }
+    #lista-todos.open { display: block; }
+
+    .fila {
+      display: grid; grid-template-columns: 1.4rem 1fr auto auto;
+      gap: 0.55rem; align-items: center;
+      padding: 0.38rem 0.55rem; font-size: 0.8rem;
+      border-bottom: 1px solid rgba(46,107,64,0.08);
+    }
+    .fila:hover { background: rgba(21,32,24,0.5); }
+    .fila-name { font-style: italic; color: var(--cream); }
+    .fila-age  { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--mid); }
+    .fila-loc  { font-size: 0.62rem; color: var(--leaf); }
+
+    /* ── VITAL ───────────────────────────────── */
+    #vital { grid-column: 1; }
+    #vital-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .vbox { background: rgba(13,26,16,0.5); border: 1px solid rgba(46,107,64,0.18); border-radius: 2px; padding: 0.9rem 1rem; }
+    .vbox.nac { border-top: 2px solid #80d490; }
+    .vbox.mue { border-top: 2px solid var(--red); }
+    .vlabel { font-family: 'Space Mono', monospace; font-size: 0.56rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.55rem; }
+    .vbox.nac .vlabel { color: #80d490; }
+    .vbox.mue .vlabel { color: var(--red); }
+    .vitem  { font-size: 0.82rem; color: #ccc8b0; padding: 0.22rem 0; border-bottom: 1px solid rgba(46,107,64,0.07); }
+    .vempty { font-style: italic; font-size: 0.76rem; color: var(--mid); }
+
+    /* ── SIDEBAR ─────────────────────────────── */
+    #sidebar {
+      grid-row: 1 / 5;
+      grid-column: 2;
+      display: flex; flex-direction: column; gap: 1.5rem;
+      align-self: start; position: sticky; top: 1.5rem;
+    }
+    @media (max-width: 780px) { #sidebar { grid-column: 1; grid-row: auto; position: static; } }
+
+    .panel {
+      background: rgba(13,26,16,0.6);
+      border: 1px solid rgba(46,107,64,0.22);
+      border-radius: 2px; padding: 1rem 1.1rem;
+    }
+    .panel-title { font-size: 1.05rem; font-weight: 700; color: var(--gold2); margin-bottom: 0.85rem; padding-bottom: 0.35rem; border-bottom: 1px solid rgba(200,168,75,0.18); }
+
+    /* Facciones */
+    .faction-item { display: flex; align-items: center; gap: 0.55rem; padding: 0.4rem 0; border-bottom: 1px solid rgba(46,107,64,0.08); }
+    .fdot  { width:7px;height:7px;border-radius:50%;flex-shrink:0; }
+    .fname { font-size: 0.8rem; color: #ccc8b0; flex:1; }
+    .fideo { font-size: 0.62rem; color: var(--mid); font-style: italic; }
+    .fnum  { font-family: 'Space Mono', monospace; font-size: 0.62rem; color: var(--gold); }
+
+    /* Creencias */
+    .belief-item { padding: 0.38rem 0; border-bottom: 1px solid rgba(46,107,64,0.07); }
+    .bname { font-size: 0.76rem; color: #ccc8b0; margin-bottom: 0.18rem; }
+    .bbar  { display: flex; align-items: center; gap: 0.45rem; }
+    .btrack{ flex:1; height:3px; background:rgba(255,255,255,0.06); border-radius:2px; }
+    .bfill { height:100%; background:var(--violet); border-radius:2px; transition:width 1.4s ease; width:0; }
+    .bnum  { font-family: 'Space Mono', monospace; font-size: 0.55rem; color: var(--violet); }
+
+    /* Ubicaciones */
+    .loc-item { padding: 0.5rem 0; border-bottom: 1px solid rgba(46,107,64,0.08); }
+    .loc-name { font-size: 0.85rem; color: var(--gold2); margin-bottom: 0.12rem; }
+    .loc-desc { font-size: 0.7rem; font-style: italic; color: var(--leaf); line-height: 1.45; margin-bottom: 0.18rem; }
+    .loc-pop  { font-family: 'Space Mono', monospace; font-size: 0.54rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.08em; }
+
+    /* QR */
+    #qr-sec { text-align: center; }
+    #qr-sec .panel-title { margin-bottom: 0.5rem; }
+    #qr-sub  { font-size: 0.76rem; font-style: italic; color: var(--leaf); margin-bottom: 1rem; }
+    #qrcode  { display: inline-block; padding: 9px; background: var(--cream); border-radius: 2px; }
+    #qr-url  { font-family: 'Space Mono', monospace; font-size: 0.54rem; color: var(--mid); margin-top: 0.65rem; word-break: break-all; }
+
+    /* ── FOOTER ──────────────────────────────── */
+    footer {
+      text-align: center; padding: 1.8rem;
+      border-top: 1px solid rgba(46,107,64,0.15);
+      font-family: 'Space Mono', monospace; font-size: 0.52rem;
+      letter-spacing: 0.22em; text-transform: uppercase; color: var(--mid);
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="loading-leaf">🌿</div>
+  <div class="loading-msg">El mundo despierta…</div>
+</div>
+
+<header>
+  <div class="eyebrow">mundo vivo · actualización diaria · solarpunk</div>
+  <h1 id="world-name">Mundo <em>Solarpunk</em></h1>
+  <p class="tagline">Cada día que pasa, algo cambia.</p>
+</header>
+
+<div id="ribbon">
+  <div class="ritem"><div class="rlabel">Día</div><div class="rval" id="r-day">—</div></div>
+  <div class="ritem"><div class="rlabel">Fecha</div><div class="rval" id="r-date">—</div></div>
+  <div class="ritem"><div class="rlabel">Estación</div><div class="rval" id="r-season">—</div></div>
+  <div class="ritem"><div class="rlabel">Clima</div><div class="rval" id="r-climate">—</div></div>
+  <div class="ritem"><div class="rlabel">Habitantes</div><div class="rval" id="r-pop">—</div></div>
+</div>
+
+<div id="recursos">
+  <div class="res">
+    <div class="res-top"><span class="res-name">🌾 Comida</span><span class="res-num" id="rv-food">—</span></div>
+    <div class="track"><div class="fill food" id="rb-food"></div></div>
+  </div>
+  <div class="res">
+    <div class="res-top"><span class="res-name">⚡ Energía</span><span class="res-num" id="rv-energy">—</span></div>
+    <div class="track"><div class="fill energy" id="rb-energy"></div></div>
+  </div>
+  <div class="res">
+    <div class="res-top"><span class="res-name">💚 Humor</span><span class="res-num" id="rv-mood">—</span></div>
+    <div class="track"><div class="fill mood" id="rb-mood"></div></div>
+  </div>
+</div>
+
+<main>
+
+  <section id="eventos">
+    <div class="sec-head">
+      <h2 class="sec-title">Crónica del día</h2>
+      <span class="sec-count" id="ev-count"></span>
+    </div>
+    <div id="lista-eventos"></div>
+  </section>
+
+  <section id="personajes">
+    <div class="sec-head">
+      <h2 class="sec-title">Habitantes</h2>
+      <span class="sec-count" id="char-count"></span>
+    </div>
+    <div id="grid-personajes"></div>
+    <div id="toggle-btn" onclick="toggleAll()">
+      <span id="arrow">▸</span> <span id="toggle-label">Ver todos</span>
+    </div>
+    <div id="lista-todos"></div>
+  </section>
+
+  <section id="vital">
+    <div class="sec-head"><h2 class="sec-title">Ciclo vital de hoy</h2></div>
+    <div id="vital-grid">
+      <div class="vbox nac">
+        <div class="vlabel">Nacidos</div>
+        <div id="nac-list"><span class="vempty">Nadie nació hoy.</span></div>
+      </div>
+      <div class="vbox mue">
+        <div class="vlabel">Fallecidos</div>
+        <div id="mue-list"><span class="vempty">Nadie falleció hoy.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <aside id="sidebar">
+
+    <div class="panel">
+      <div class="panel-title">⚡ Facciones</div>
+      <div id="factions"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">✦ Cosmovisiones</div>
+      <div id="beliefs"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">🗺 Territorios</div>
+      <div id="locs"></div>
+    </div>
+
+    <div class="panel" id="qr-sec">
+      <div class="panel-title">Compartir mundo</div>
+      <p id="qr-sub">Imprimí este QR y pegalo en la ciudad.</p>
+      <div id="qrcode"></div>
+      <p id="qr-url"></p>
+    </div>
+
+  </aside>
+
+</main>
+
+<footer>
+  <span id="foot-name">Ventania</span> · Mundo Solarpunk Vivo · el futuro es verde
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════
+// ↓↓↓ ÚNICA LÍNEA QUE TENÉS QUE EDITAR ↓↓↓
+// Pegá acá el raw URL de world.json en tu repo
+// Ejemplo: https://raw.githubusercontent.com/miusuario/mundo-solarpunk/main/world.json
+// ═══════════════════════════════════════════════
+const WORLD_URL = "PEGAR_URL_AQUI";
+// ═══════════════════════════════════════════════
+
+const SEASON_ICON = { primavera:'🌸', verano:'☀️', otoño:'🍂', invierno:'❄️' };
+const TYPE_ICON   = { humano:'🧑', robot:'🤖', animal:'🐾', interdimensional:'✦' };
+const FACTIONS_META = {
+  'Ecoverde':      { color: '#4a8c5c', ideo: 'ecologismo radical' },
+  'Tecnolibres':   { color: '#7ab0c8', ideo: 'tecno-anarquismo' },
+  'Círculo Raíz':  { color: '#c8a84b', ideo: 'anarcosindicalismo' },
+  'Contemplativxs':{ color: '#b5a0d5', ideo: 'espiritualismo apolítico' },
+  'sin filiación': { color: '#888',    ideo: 'independiente' },
+};
+const BELIEFS_META = [
+  'animista','panteísta','ateísta','Culto Circuitos','politeísta','agnóstico','fe interdimensional'
+];
+
+const $ = id => document.getElementById(id);
+const set = (id, v) => { const el=$(id); if(el) el.textContent=v; };
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const [y,m,d] = iso.split('-');
+  return `${+d} ${'ene feb mar abr may jun jul ago sep oct nov dic'.split(' ')[+m-1]} ${y}`;
+}
+function bar(id, v) { setTimeout(() => { const el=$(id); if(el) el.style.width=v+'%'; }, 120); }
+
+// ─── RENDERS ─────────────────────────────────
+function renderRibbon(w, popCount) {
+  document.title = `${w.name||'Ventania'} — Día ${w.day}`;
+  $('world-name').innerHTML = `<em>${w.name||'Ventania'}</em>`;
+  $('foot-name').textContent = w.name||'Ventania';
+  set('r-day',    `Día ${w.day}`);
+  set('r-date',   fmtDate(w.date));
+  set('r-season', `${SEASON_ICON[w.season]||'🌿'} ${w.season||''}`);
+  set('r-climate', w.climate||'—');
+  set('r-pop',    `${popCount} hab.`);
+  const r = w.resources||{};
+  set('rv-food',   `${Math.round(r.food||0)}%`);
+  set('rv-energy', `${Math.round(r.energy||0)}%`);
+  set('rv-mood',   `${Math.round(r.mood||0)}%`);
+  bar('rb-food',   r.food  ||0);
+  bar('rb-energy', r.energy||0);
+  bar('rb-mood',   r.mood  ||0);
+}
+
+function renderEvents(events) {
+  set('ev-count', `${events.length} eventos`);
+  $('lista-eventos').innerHTML = events.map((e,i) => `
+    <div class="evento" style="animation-delay:${i*55}ms">
+      <div class="ev-stripe ${e.category||'trivial'}"></div>
+      <div>
+        <div class="ev-text">${e.text}</div>
+        <div class="ev-meta">
+          <span class="ev-cat">${e.category||''}</span>
+          ${e.name ? `<span class="ev-name">— ${e.name}</span>` : ''}
+          ${e.source==='ia' ? `<span class="ev-ai">✦ ia</span>` : ''}
+        </div>
+      </div>
+    </div>`).join('') || '<p style="color:var(--mid);font-style:italic">Hoy fue un día tranquilo.</p>';
+}
+
+function renderChars(characters) {
+  const alive = characters.filter(c => c.alive);
+  set('char-count', `${alive.length} habitantes`);
+  $('toggle-label').textContent = `Ver todos (${alive.length})`;
+
+  // Destacados: primeros 6
+  $('grid-personajes').innerHTML = alive.slice(0,6).map((c,i) => `
+    <div class="char" style="animation-delay:${i*65}ms">
+      <div class="char-top">
+        <div class="char-ico">${TYPE_ICON[c.type]||'🧑'}</div>
+        <div>
+          <div class="char-name">${c.name}</div>
+          <div class="char-role">${c.role||'habitante'}</div>
+        </div>
+      </div>
+      <div class="badges">
+        <span class="badge ${c.type}">${c.type}</span>
+        ${c.age!=null?`<span class="badge age">${c.age}a</span>`:''}
+      </div>
+      ${c.emotion?`<div class="char-emo">Estado: ${c.emotion}</div>`:''}
+      <div class="char-loc">📍 ${c.location||''}</div>
+      <div class="traits">${(c.traits||[]).map(t=>`<span class="trait">${t}</span>`).join('')}</div>
+    </div>`).join('');
+
+  // Lista completa
+  $('lista-todos').innerHTML = alive.map(c => `
+    <div class="fila">
+      <span>${TYPE_ICON[c.type]||'🧑'}</span>
+      <span class="fila-name">${c.name}</span>
+      <span class="fila-age">${c.age!=null?c.age+'a':'?'}</span>
+      <span class="fila-loc">${c.location||''}</span>
+    </div>`).join('');
+}
+
+function renderVital(events) {
+  const nac = events.filter(e => e.category==='nacimiento');
+  const mue = events.filter(e => e.category==='muerte');
+  $('nac-list').innerHTML = nac.length
+    ? nac.map(e=>`<div class="vitem">🌱 ${e.name}</div>`).join('')
+    : '<span class="vempty">Nadie nació hoy.</span>';
+  $('mue-list').innerHTML = mue.length
+    ? mue.map(e=>`<div class="vitem">🕯 ${e.name}</div>`).join('')
+    : '<span class="vempty">Nadie falleció hoy.</span>';
+}
+
+function renderSidebar(characters, locations) {
+  const alive = characters.filter(c => c.alive);
+
+  // Facciones
+  const factionCounts = {};
+  alive.forEach(c => { if(c.faction) factionCounts[c.faction] = (factionCounts[c.faction]||0)+1; });
+  $('factions').innerHTML = Object.entries(FACTIONS_META).map(([name,meta]) => `
+    <div class="faction-item">
+      <div class="fdot" style="background:${meta.color}"></div>
+      <div style="flex:1">
+        <div class="fname">${name}</div>
+        <div class="fideo">${meta.ideo}</div>
+      </div>
+      <div class="fnum">${factionCounts[name]||0}</div>
+    </div>`).join('');
+
+  // Creencias
+  const belCounts = {};
+  alive.forEach(c => { if(c.belief) belCounts[c.belief] = (belCounts[c.belief]||0)+1; });
+  const maxB = Math.max(1, ...Object.values(belCounts));
+  $('beliefs').innerHTML = BELIEFS_META.map(b => {
+    const count = belCounts[b]||0;
+    const pct   = Math.round(count/maxB*100);
+    return `
+      <div class="belief-item">
+        <div class="bname">${b}</div>
+        <div class="bbar">
+          <div class="btrack"><div class="bfill" style="width:${pct}%"></div></div>
+          <span class="bnum">${count}</span>
+        </div>
+      </div>`;
+  }).join('');
+
+  // Ubicaciones
+  const locPop = {};
+  alive.forEach(c => { if(c.location) locPop[c.location] = (locPop[c.location]||0)+1; });
+  $('locs').innerHTML = (locations||[]).map(l => `
+    <div class="loc-item">
+      <div class="loc-name">${l.name}</div>
+      <div class="loc-desc">${l.description}</div>
+      <div class="loc-pop">👥 ${locPop[l.name]||0} hab.</div>
+    </div>`).join('');
+}
+
+function renderQR() {
+  const url = window.location.href;
+  $('qr-url').textContent = url;
+  new QRCode($('qrcode'), {
+    text: url, width:148, height:148,
+    colorDark:'#0d1a10', colorLight:'#f2edd8',
+    correctLevel: QRCode.CorrectLevel.M
+  });
+}
+
+// ─── TOGGLE LISTA COMPLETA ───────────────────
+let open = false;
+function toggleAll() {
+  open = !open;
+  $('lista-todos').classList.toggle('open', open);
+  $('arrow').textContent = open ? '▾' : '▸';
+}
+
+// ─── CARGA PRINCIPAL ─────────────────────────
+async function load() {
+  // Detectar URL sin configurar
+  if (!WORLD_URL || WORLD_URL === 'PEGAR_URL_AQUI') {
+    $('loading').innerHTML = `
+      <div style="text-align:center;max-width:420px;padding:2rem">
+        <div style="font-size:2rem;margin-bottom:1rem">⚙️</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--gold2);margin-bottom:0.8rem">
+          Un paso más para activar el mundo
+        </div>
+        <div style="font-family:'Space Mono',monospace;font-size:0.62rem;color:var(--leaf);line-height:2">
+          1. Seguí las instrucciones en <strong style="color:var(--cream)">README.md</strong><br>
+          2. Corré <strong style="color:var(--cream)">node simulation.js</strong> una vez<br>
+          3. Copiá el raw URL de <strong style="color:var(--cream)">world.json</strong> en GitHub<br>
+          4. Pegalo en <strong style="color:var(--cream)">index.html</strong> → variable <strong style="color:var(--cream)">WORLD_URL</strong>
+        </div>
+      </div>`;
+    return;
+  }
+
+  try {
+    // Cache-bust para que GitHub entregue la versión más reciente
+    const res = await fetch(WORLD_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const s = await res.json();
+
+    const w    = s.world      || {};
+    const chars= s.characters || [];
+    const locs = s.locations  || [];
+    const hist = s.history    || [];
+
+    const alive  = chars.filter(c => c.alive);
+    const today  = (w.todayEvents || hist.filter(e => e.date===w.date));
+
+    renderRibbon(w, alive.length);
+    renderEvents(today);
+    renderChars(chars);
+    renderVital(today);
+    renderSidebar(chars, locs);
+    renderQR();
+
+    $('loading').classList.add('gone');
+
+  } catch(err) {
+    $('loading').innerHTML = `
+      <div style="text-align:center;padding:2rem;max-width:420px">
+        <div style="font-size:2.5rem;margin-bottom:1rem">🌧️</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--gold2);font-style:italic">
+          El mundo duerme momentáneamente.
+        </div>
+        <div style="font-family:'Space Mono',monospace;font-size:0.58rem;color:var(--mid);margin-top:0.5rem">
+          ${err.message}
+        </div>
+      </div>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>
