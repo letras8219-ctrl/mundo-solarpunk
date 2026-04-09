@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 1,
-    "date": "2026-04-08",
+    "day": 2,
+    "date": "2026-04-09",
     "season": "primavera",
-    "seasonDay": 2,
+    "seasonDay": 3,
     "climate": "soleado",
     "resources": {
-      "food": 71,
-      "energy": 80,
-      "mood": 76
+      "food": 70,
+      "energy": 82,
+      "mood": 79
     },
     "todayEvents": [
       {
-        "id": "local_1775679813439_5jc",
-        "date": "2026-04-08",
-        "day": 1,
+        "id": "local_1775753375668_sz6",
+        "date": "2026-04-09",
+        "day": 2,
+        "source": "local",
+        "name": "Vex",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
+      },
+      {
+        "id": "local_1775753375668_d7d",
+        "date": "2026-04-09",
+        "day": 2,
         "source": "local",
         "name": "Lua",
         "category": "fantástico",
         "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1775679813439_wse",
-        "date": "2026-04-08",
-        "day": 1,
-        "source": "local",
-        "name": "Zerda",
-        "category": "espiritual",
-        "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1775679813439_lph",
-        "date": "2026-04-08",
-        "day": 1,
+        "id": "local_1775753375668_pvi",
+        "date": "2026-04-09",
+        "day": 2,
         "source": "local",
         "name": "Bastián Hilo",
-        "category": "trivial",
-        "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "category": "fantástico",
+        "text": "Vex se materializó cerca de Bastián Hilo y dejó una nota en un idioma que nadie ha identificado. Bastián Hilo la guardó."
       },
       {
-        "id": "local_1775679813439_5zb",
-        "date": "2026-04-08",
-        "day": 1,
+        "id": "local_1775753375668_j4y",
+        "date": "2026-04-09",
+        "day": 2,
         "source": "local",
         "name": "Teo Quilín",
-        "category": "trivial",
-        "text": "Teo Quilín enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "category": "interpersonal",
+        "text": "Teo Quilín dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 35,
+      "age": 36,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 8,
+      "age": 9,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 18,
+      "age": 19,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -135,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 5,
+      "age": 6,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -151,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 13,
+      "age": 14,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -167,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -183,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 1,
+      "age": 2,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -239,6 +239,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1775753375668_sz6",
+      "date": "2026-04-09",
+      "day": 2,
+      "source": "local",
+      "name": "Vex",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1775753375668_d7d",
+      "date": "2026-04-09",
+      "day": 2,
+      "source": "local",
+      "name": "Lua",
+      "category": "fantástico",
+      "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1775753375668_pvi",
+      "date": "2026-04-09",
+      "day": 2,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "fantástico",
+      "text": "Vex se materializó cerca de Bastián Hilo y dejó una nota en un idioma que nadie ha identificado. Bastián Hilo la guardó."
+    },
+    {
+      "id": "local_1775753375668_j4y",
+      "date": "2026-04-09",
+      "day": 2,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "interpersonal",
+      "text": "Teo Quilín dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
     {
       "id": "local_1775679813439_5jc",
       "date": "2026-04-08",
