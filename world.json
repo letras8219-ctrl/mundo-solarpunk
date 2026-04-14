@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 6,
-    "date": "2026-04-13",
+    "day": 7,
+    "date": "2026-04-14",
     "season": "primavera",
-    "seasonDay": 7,
-    "climate": "soleado",
+    "seasonDay": 8,
+    "climate": "bruma",
     "resources": {
-      "food": 74,
-      "energy": 80,
+      "food": 73,
+      "energy": 78,
       "mood": 86
     },
     "todayEvents": [
       {
-        "id": "local_1776098450729_9gr",
-        "date": "2026-04-13",
-        "day": 6,
+        "id": "local_1776182252615_5dt",
+        "date": "2026-04-14",
+        "day": 7,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "fantástico",
-        "text": "Maro Esteve encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "name": "Iko",
+        "category": "interpersonal",
+        "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       },
       {
-        "id": "local_1776098450729_5de",
-        "date": "2026-04-13",
-        "day": 6,
+        "id": "local_1776182252615_v2v",
+        "date": "2026-04-14",
+        "day": 7,
         "source": "local",
-        "name": "Maro Esteve",
+        "name": "Zerda",
         "category": "trivial",
-        "text": "Maro Esteve horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "text": "Zerda organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       },
       {
-        "id": "local_1776098450729_6ic",
-        "date": "2026-04-13",
-        "day": 6,
+        "id": "local_1776182252615_p95",
+        "date": "2026-04-14",
+        "day": 7,
         "source": "local",
         "name": "Vex",
-        "category": "interpersonal",
-        "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "category": "trivial",
+        "text": "Vex catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
       },
       {
-        "id": "local_1776098450729_7na",
-        "date": "2026-04-13",
-        "day": 6,
+        "id": "local_1776182252615_1ab",
+        "date": "2026-04-14",
+        "day": 7,
         "source": "local",
-        "name": "Maro Esteve",
+        "name": "Sola Venegas",
         "category": "trivial",
-        "text": "Maro Esteve organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "text": "Sola Venegas organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 13,
+      "age": 14,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -135,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 10,
+      "age": 11,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -151,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 18,
+      "age": 19,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -167,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 73,
+      "age": 74,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -183,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 6,
+      "age": 7,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -239,6 +239,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776182252615_5dt",
+      "date": "2026-04-14",
+      "day": 7,
+      "source": "local",
+      "name": "Iko",
+      "category": "interpersonal",
+      "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1776182252615_v2v",
+      "date": "2026-04-14",
+      "day": 7,
+      "source": "local",
+      "name": "Zerda",
+      "category": "trivial",
+      "text": "Zerda organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
+    {
+      "id": "local_1776182252615_p95",
+      "date": "2026-04-14",
+      "day": 7,
+      "source": "local",
+      "name": "Vex",
+      "category": "trivial",
+      "text": "Vex catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1776182252615_1ab",
+      "date": "2026-04-14",
+      "day": 7,
+      "source": "local",
+      "name": "Sola Venegas",
+      "category": "trivial",
+      "text": "Sola Venegas organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
     {
       "id": "local_1776098450729_9gr",
       "date": "2026-04-13",
