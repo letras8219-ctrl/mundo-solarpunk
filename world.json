@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 7,
-    "date": "2026-04-14",
+    "day": 8,
+    "date": "2026-04-15",
     "season": "primavera",
-    "seasonDay": 8,
-    "climate": "bruma",
+    "seasonDay": 9,
+    "climate": "nublado",
     "resources": {
-      "food": 73,
-      "energy": 78,
-      "mood": 86
+      "food": 72,
+      "energy": 76,
+      "mood": 88
     },
     "todayEvents": [
       {
-        "id": "local_1776182252615_5dt",
-        "date": "2026-04-14",
-        "day": 7,
+        "id": "local_1776268502716_ru1",
+        "date": "2026-04-15",
+        "day": 8,
         "source": "local",
-        "name": "Iko",
-        "category": "interpersonal",
-        "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+        "name": "Vex",
+        "category": "contemplativo",
+        "text": "Vex se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1776182252615_v2v",
-        "date": "2026-04-14",
-        "day": 7,
+        "id": "local_1776268502716_4vt",
+        "date": "2026-04-15",
+        "day": 8,
+        "source": "local",
+        "name": "Pipa",
+        "category": "trivial",
+        "text": "Pipa enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+      },
+      {
+        "id": "local_1776268502716_x13",
+        "date": "2026-04-15",
+        "day": 8,
+        "source": "local",
+        "name": "Iko",
+        "category": "trivial",
+        "text": "Iko pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1776268502716_kid",
+        "date": "2026-04-15",
+        "day": 8,
         "source": "local",
         "name": "Zerda",
         "category": "trivial",
-        "text": "Zerda organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-      },
-      {
-        "id": "local_1776182252615_p95",
-        "date": "2026-04-14",
-        "day": 7,
-        "source": "local",
-        "name": "Vex",
-        "category": "trivial",
-        "text": "Vex catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-      },
-      {
-        "id": "local_1776182252615_1ab",
-        "date": "2026-04-14",
-        "day": 7,
-        "source": "local",
-        "name": "Sola Venegas",
-        "category": "trivial",
-        "text": "Sola Venegas organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 14,
+      "age": 15,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 24,
+      "age": 25,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 35,
+      "age": 36,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -135,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 11,
+      "age": 12,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -151,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 19,
+      "age": 20,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -167,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 74,
+      "age": 75,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -183,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 7,
+      "age": 8,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -239,6 +239,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776268502716_ru1",
+      "date": "2026-04-15",
+      "day": 8,
+      "source": "local",
+      "name": "Vex",
+      "category": "contemplativo",
+      "text": "Vex se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1776268502716_4vt",
+      "date": "2026-04-15",
+      "day": 8,
+      "source": "local",
+      "name": "Pipa",
+      "category": "trivial",
+      "text": "Pipa enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1776268502716_x13",
+      "date": "2026-04-15",
+      "day": 8,
+      "source": "local",
+      "name": "Iko",
+      "category": "trivial",
+      "text": "Iko pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1776268502716_kid",
+      "date": "2026-04-15",
+      "day": 8,
+      "source": "local",
+      "name": "Zerda",
+      "category": "trivial",
+      "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
     {
       "id": "local_1776182252615_5dt",
       "date": "2026-04-14",
