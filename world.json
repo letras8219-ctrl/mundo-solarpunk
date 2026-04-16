@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 8,
-    "date": "2026-04-15",
+    "day": 9,
+    "date": "2026-04-16",
     "season": "primavera",
-    "seasonDay": 9,
-    "climate": "nublado",
+    "seasonDay": 10,
+    "climate": "ventoso",
     "resources": {
-      "food": 72,
-      "energy": 76,
-      "mood": 88
+      "food": 73,
+      "energy": 78,
+      "mood": 91
     },
     "todayEvents": [
       {
-        "id": "local_1776268502716_ru1",
-        "date": "2026-04-15",
-        "day": 8,
-        "source": "local",
-        "name": "Vex",
-        "category": "contemplativo",
-        "text": "Vex se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-      },
-      {
-        "id": "local_1776268502716_4vt",
-        "date": "2026-04-15",
-        "day": 8,
-        "source": "local",
-        "name": "Pipa",
-        "category": "trivial",
-        "text": "Pipa enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-      },
-      {
-        "id": "local_1776268502716_x13",
-        "date": "2026-04-15",
-        "day": 8,
-        "source": "local",
-        "name": "Iko",
-        "category": "trivial",
-        "text": "Iko pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "local_1776268502716_kid",
-        "date": "2026-04-15",
-        "day": 8,
+        "id": "local_1776358622509_wgw",
+        "date": "2026-04-16",
+        "day": 9,
         "source": "local",
         "name": "Zerda",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
+      },
+      {
+        "id": "local_1776358622509_gsa",
+        "date": "2026-04-16",
+        "day": 9,
+        "source": "local",
+        "name": "Bastián Hilo",
+        "category": "interpersonal",
+        "text": "Bastián Hilo tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+      },
+      {
+        "id": "local_1776358622509_v6m",
+        "date": "2026-04-16",
+        "day": 9,
+        "source": "local",
+        "name": "Pipa",
+        "category": "fantástico",
+        "text": "Pipa encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+      },
+      {
+        "id": "local_1776358622509_aof",
+        "date": "2026-04-16",
+        "day": 9,
+        "source": "local",
+        "name": "Maro Esteve",
         "category": "trivial",
-        "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "v_1776358622509n",
+        "date": "2026-04-16",
+        "day": 9,
+        "source": "mundo",
+        "name": "Hira Sol",
+        "category": "nacimiento",
+        "text": "Hira Sol nació hoy."
       }
     ]
   },
@@ -55,7 +64,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +80,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 15,
+      "age": 16,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +96,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 25,
+      "age": 26,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +112,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 46,
+      "age": 47,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +128,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -135,7 +144,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 12,
+      "age": 13,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -151,7 +160,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 20,
+      "age": 21,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -167,7 +176,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -183,7 +192,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 8,
+      "age": 9,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -193,6 +202,21 @@
       "emotion": "curiosidad cósmica",
       "alive": true,
       "belief": "fe interdimensional",
+      "faction": null
+    },
+    {
+      "id": "c_1776358622274",
+      "name": "Hira Sol",
+      "type": "humano",
+      "age": 0,
+      "role": "recién nacido",
+      "location": "Plaza Central",
+      "traits": [
+        "curioso"
+      ],
+      "emotion": "asombro puro",
+      "alive": true,
+      "belief": null,
       "faction": null
     }
   ],
@@ -239,6 +263,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776358622509_wgw",
+      "date": "2026-04-16",
+      "day": 9,
+      "source": "local",
+      "name": "Zerda",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1776358622509_gsa",
+      "date": "2026-04-16",
+      "day": 9,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "interpersonal",
+      "text": "Bastián Hilo tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1776358622509_v6m",
+      "date": "2026-04-16",
+      "day": 9,
+      "source": "local",
+      "name": "Pipa",
+      "category": "fantástico",
+      "text": "Pipa encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1776358622509_aof",
+      "date": "2026-04-16",
+      "day": 9,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "trivial",
+      "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "v_1776358622509n",
+      "date": "2026-04-16",
+      "day": 9,
+      "source": "mundo",
+      "name": "Hira Sol",
+      "category": "nacimiento",
+      "text": "Hira Sol nació hoy."
+    },
     {
       "id": "local_1776268502716_ru1",
       "date": "2026-04-15",
