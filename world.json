@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 9,
-    "date": "2026-04-16",
+    "day": 10,
+    "date": "2026-04-17",
     "season": "primavera",
-    "seasonDay": 10,
-    "climate": "ventoso",
+    "seasonDay": 11,
+    "climate": "frío seco",
     "resources": {
-      "food": 73,
-      "energy": 78,
-      "mood": 91
+      "food": 75,
+      "energy": 79,
+      "mood": 92
     },
     "todayEvents": [
       {
-        "id": "local_1776358622509_wgw",
-        "date": "2026-04-16",
-        "day": 9,
+        "id": "local_1776440497802_hvr",
+        "date": "2026-04-17",
+        "day": 10,
         "source": "local",
-        "name": "Zerda",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
-      },
-      {
-        "id": "local_1776358622509_gsa",
-        "date": "2026-04-16",
-        "day": 9,
-        "source": "local",
-        "name": "Bastián Hilo",
+        "name": "Pipa",
         "category": "interpersonal",
-        "text": "Bastián Hilo tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+        "text": "Pipa tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       },
       {
-        "id": "local_1776358622509_v6m",
-        "date": "2026-04-16",
-        "day": 9,
+        "id": "local_1776440497802_edx",
+        "date": "2026-04-17",
+        "day": 10,
         "source": "local",
         "name": "Pipa",
         "category": "fantástico",
-        "text": "Pipa encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "text": "Pipa fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
       },
       {
-        "id": "local_1776358622509_aof",
-        "date": "2026-04-16",
-        "day": 9,
+        "id": "local_1776440497802_n6y",
+        "date": "2026-04-17",
+        "day": 10,
+        "source": "local",
+        "name": "Lua",
+        "category": "trivial",
+        "text": "Lua pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1776440497802_9u0",
+        "date": "2026-04-17",
+        "day": 10,
         "source": "local",
         "name": "Maro Esteve",
-        "category": "trivial",
-        "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "v_1776358622509n",
-        "date": "2026-04-16",
-        "day": 9,
-        "source": "mundo",
-        "name": "Hira Sol",
-        "category": "nacimiento",
-        "text": "Hira Sol nació hoy."
+        "category": "espiritual",
+        "text": "Maro Esteve participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 43,
+      "age": 44,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 16,
+      "age": 17,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 47,
+      "age": 48,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -144,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 13,
+      "age": 14,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -160,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 21,
+      "age": 22,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -176,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 76,
+      "age": 77,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -192,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 9,
+      "age": 10,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -208,7 +199,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 0,
+      "age": 1,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -263,6 +254,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776440497802_hvr",
+      "date": "2026-04-17",
+      "day": 10,
+      "source": "local",
+      "name": "Pipa",
+      "category": "interpersonal",
+      "text": "Pipa tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1776440497802_edx",
+      "date": "2026-04-17",
+      "day": 10,
+      "source": "local",
+      "name": "Pipa",
+      "category": "fantástico",
+      "text": "Pipa fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "local_1776440497802_n6y",
+      "date": "2026-04-17",
+      "day": 10,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1776440497802_9u0",
+      "date": "2026-04-17",
+      "day": 10,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "espiritual",
+      "text": "Maro Esteve participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
     {
       "id": "local_1776358622509_wgw",
       "date": "2026-04-16",
