@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 11,
-    "date": "2026-04-18",
+    "day": 12,
+    "date": "2026-04-19",
     "season": "primavera",
-    "seasonDay": 12,
-    "climate": "templado",
+    "seasonDay": 13,
+    "climate": "nublado",
     "resources": {
-      "food": 76,
-      "energy": 77,
-      "mood": 91
+      "food": 78,
+      "energy": 79,
+      "mood": 90
     },
     "todayEvents": [
       {
-        "id": "local_1776522342649_1fj",
-        "date": "2026-04-18",
-        "day": 11,
-        "source": "local",
-        "name": "Vela Sol",
-        "category": "fantástico",
-        "text": "Vex se materializó cerca de Vela Sol y dejó una nota en un idioma que nadie ha identificado. Vela Sol la guardó."
-      },
-      {
-        "id": "local_1776522342649_xqo",
-        "date": "2026-04-18",
-        "day": 11,
-        "source": "local",
-        "name": "Pipa",
-        "category": "espiritual",
-        "text": "Pipa participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1776522342649_24i",
-        "date": "2026-04-18",
-        "day": 11,
-        "source": "local",
-        "name": "Teo Quilín",
-        "category": "trivial",
-        "text": "Teo Quilín preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-      },
-      {
-        "id": "local_1776522342649_u8v",
-        "date": "2026-04-18",
-        "day": 11,
+        "id": "local_1776608762641_cxm",
+        "date": "2026-04-19",
+        "day": 12,
         "source": "local",
         "name": "Hira Sol",
         "category": "trivial",
-        "text": "Hira Sol organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       },
       {
-        "id": "v_1776522342649n",
-        "date": "2026-04-18",
-        "day": 11,
-        "source": "mundo",
+        "id": "local_1776608762641_vf9",
+        "date": "2026-04-19",
+        "day": 12,
+        "source": "local",
+        "name": "Maro Esteve",
+        "category": "trivial",
+        "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+      },
+      {
+        "id": "local_1776608762641_k5b",
+        "date": "2026-04-19",
+        "day": 12,
+        "source": "local",
         "name": "Vela Sol",
-        "category": "nacimiento",
-        "text": "Vela Sol nació hoy."
+        "category": "trivial",
+        "text": "Vela Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1776608762641_38r",
+        "date": "2026-04-19",
+        "day": 12,
+        "source": "local",
+        "name": "Vex",
+        "category": "contemplativo",
+        "text": "Vex caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 18,
+      "age": 19,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 49,
+      "age": 50,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -144,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 15,
+      "age": 16,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -160,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 23,
+      "age": 24,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -176,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -192,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 11,
+      "age": 12,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -208,7 +199,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 2,
+      "age": 3,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -223,7 +214,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 0,
+      "age": 1,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -278,6 +269,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776608762641_cxm",
+      "date": "2026-04-19",
+      "day": 12,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "trivial",
+      "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1776608762641_vf9",
+      "date": "2026-04-19",
+      "day": 12,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "trivial",
+      "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1776608762641_k5b",
+      "date": "2026-04-19",
+      "day": 12,
+      "source": "local",
+      "name": "Vela Sol",
+      "category": "trivial",
+      "text": "Vela Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1776608762641_38r",
+      "date": "2026-04-19",
+      "day": 12,
+      "source": "local",
+      "name": "Vex",
+      "category": "contemplativo",
+      "text": "Vex caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
     {
       "id": "local_1776522342649_1fj",
       "date": "2026-04-18",
