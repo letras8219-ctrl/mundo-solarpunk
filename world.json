@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 14,
-    "date": "2026-04-21",
+    "day": 15,
+    "date": "2026-04-22",
     "season": "primavera",
-    "seasonDay": 15,
-    "climate": "lluvioso",
+    "seasonDay": 16,
+    "climate": "templado",
     "resources": {
       "food": 82,
-      "energy": 78,
-      "mood": 92
+      "energy": 79,
+      "mood": 93
     },
     "todayEvents": [
       {
-        "id": "local_1776788377051_mu6",
-        "date": "2026-04-21",
-        "day": 14,
+        "id": "local_1776874674425_w6g",
+        "date": "2026-04-22",
+        "day": 15,
         "source": "local",
-        "name": "Sola Venegas",
-        "category": "interpersonal",
-        "text": "Sola Venegas tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+        "name": "Vex",
+        "category": "trivial",
+        "text": "Vex enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1776788377051_w47",
-        "date": "2026-04-21",
-        "day": 14,
+        "id": "local_1776874674425_nlk",
+        "date": "2026-04-22",
+        "day": 15,
+        "source": "local",
+        "name": "Teo Quilín",
+        "category": "contemplativo",
+        "text": "Teo Quilín caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+      },
+      {
+        "id": "local_1776874674426_uoc",
+        "date": "2026-04-22",
+        "day": 15,
+        "source": "local",
+        "name": "Iko",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
+      },
+      {
+        "id": "local_1776874674426_typ",
+        "date": "2026-04-22",
+        "day": 15,
         "source": "local",
         "name": "Lua",
         "category": "trivial",
-        "text": "Lua pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "local_1776788377051_fa1",
-        "date": "2026-04-21",
-        "day": 14,
-        "source": "local",
-        "name": "Vex",
-        "category": "interpersonal",
-        "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-      },
-      {
-        "id": "local_1776788377051_d2l",
-        "date": "2026-04-21",
-        "day": 14,
-        "source": "local",
-        "name": "Maro Esteve",
-        "category": "fantástico",
-        "text": "Maro Esteve encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "v_1776788377051a",
-        "date": "2026-04-21",
-        "day": 14,
-        "source": "mundo",
-        "name": "Umi Luz",
-        "category": "llegada",
-        "text": "Umi Luz llegó al mundo hoy."
+        "text": "Lua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 21,
+      "age": 22,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 31,
+      "age": 32,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -144,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 18,
+      "age": 19,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -160,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 26,
+      "age": 27,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -176,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 81,
+      "age": 82,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -192,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 14,
+      "age": 15,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -208,7 +199,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 5,
+      "age": 6,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -223,7 +214,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -238,7 +229,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 20,
+      "age": 21,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -293,6 +284,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776874674425_w6g",
+      "date": "2026-04-22",
+      "day": 15,
+      "source": "local",
+      "name": "Vex",
+      "category": "trivial",
+      "text": "Vex enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1776874674425_nlk",
+      "date": "2026-04-22",
+      "day": 15,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "contemplativo",
+      "text": "Teo Quilín caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "local_1776874674426_uoc",
+      "date": "2026-04-22",
+      "day": 15,
+      "source": "local",
+      "name": "Iko",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1776874674426_typ",
+      "date": "2026-04-22",
+      "day": 15,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
     {
       "id": "local_1776788377051_mu6",
       "date": "2026-04-21",
