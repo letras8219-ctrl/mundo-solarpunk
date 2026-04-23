@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 15,
-    "date": "2026-04-22",
+    "day": 16,
+    "date": "2026-04-23",
     "season": "primavera",
-    "seasonDay": 16,
+    "seasonDay": 17,
     "climate": "templado",
     "resources": {
       "food": 82,
-      "energy": 79,
-      "mood": 93
+      "energy": 78,
+      "mood": 92
     },
     "todayEvents": [
       {
-        "id": "local_1776874674425_w6g",
-        "date": "2026-04-22",
-        "day": 15,
-        "source": "local",
-        "name": "Vex",
-        "category": "trivial",
-        "text": "Vex enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-      },
-      {
-        "id": "local_1776874674425_nlk",
-        "date": "2026-04-22",
-        "day": 15,
-        "source": "local",
-        "name": "Teo Quilín",
-        "category": "contemplativo",
-        "text": "Teo Quilín caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1776874674426_uoc",
-        "date": "2026-04-22",
-        "day": 15,
-        "source": "local",
-        "name": "Iko",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
-      },
-      {
-        "id": "local_1776874674426_typ",
-        "date": "2026-04-22",
-        "day": 15,
+        "id": "local_1776963853970_d4p",
+        "date": "2026-04-23",
+        "day": 16,
         "source": "local",
         "name": "Lua",
         "category": "trivial",
         "text": "Lua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+      },
+      {
+        "id": "local_1776963853970_4ic",
+        "date": "2026-04-23",
+        "day": 16,
+        "source": "local",
+        "name": "Sola Venegas",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Sola Venegas. Duró poco pero dejó el aire oliendo a promesas."
+      },
+      {
+        "id": "local_1776963853970_dy6",
+        "date": "2026-04-23",
+        "day": 16,
+        "source": "local",
+        "name": "Vex",
+        "category": "fantástico",
+        "text": "Vex encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "local_1776963853970_9es",
+        "date": "2026-04-23",
+        "day": 16,
+        "source": "local",
+        "name": "Iko",
+        "category": "espiritual",
+        "text": "Iko participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 49,
+      "age": 50,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 22,
+      "age": 23,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 32,
+      "age": 33,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 53,
+      "age": 54,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 43,
+      "age": 44,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -135,7 +135,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 19,
+      "age": 20,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -151,7 +151,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 27,
+      "age": 28,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -167,7 +167,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -183,7 +183,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 15,
+      "age": 16,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -199,7 +199,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 6,
+      "age": 7,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -214,7 +214,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 4,
+      "age": 5,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -229,7 +229,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 21,
+      "age": 22,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -284,6 +284,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1776963853970_d4p",
+      "date": "2026-04-23",
+      "day": 16,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1776963853970_4ic",
+      "date": "2026-04-23",
+      "day": 16,
+      "source": "local",
+      "name": "Sola Venegas",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Sola Venegas. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1776963853970_dy6",
+      "date": "2026-04-23",
+      "day": 16,
+      "source": "local",
+      "name": "Vex",
+      "category": "fantástico",
+      "text": "Vex encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1776963853970_9es",
+      "date": "2026-04-23",
+      "day": 16,
+      "source": "local",
+      "name": "Iko",
+      "category": "espiritual",
+      "text": "Iko participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
     {
       "id": "local_1776874674425_w6g",
       "date": "2026-04-22",
