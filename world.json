@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 17,
-    "date": "2026-04-24",
+    "day": 18,
+    "date": "2026-04-25",
     "season": "primavera",
-    "seasonDay": 18,
-    "climate": "soleado",
+    "seasonDay": 19,
+    "climate": "lluvioso",
     "resources": {
-      "food": 85,
-      "energy": 76,
+      "food": 86,
+      "energy": 74,
       "mood": 92
     },
     "todayEvents": [
       {
-        "id": "local_1777046024494_d8n",
-        "date": "2026-04-24",
-        "day": 17,
+        "id": "local_1777127456330_9vf",
+        "date": "2026-04-25",
+        "day": 18,
         "source": "local",
-        "name": "Iko",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Lua",
+        "category": "interpersonal",
+        "text": "Lua tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       },
       {
-        "id": "local_1777046024494_kl0",
-        "date": "2026-04-24",
-        "day": 17,
+        "id": "local_1777127456330_s35",
+        "date": "2026-04-25",
+        "day": 18,
+        "source": "local",
+        "name": "Zerda",
+        "category": "espiritual",
+        "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1777127456330_w9t",
+        "date": "2026-04-25",
+        "day": 18,
+        "source": "local",
+        "name": "Bastián Hilo",
+        "category": "fantástico",
+        "text": "Bastián Hilo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+      },
+      {
+        "id": "local_1777127456330_z4q",
+        "date": "2026-04-25",
+        "day": 18,
         "source": "local",
         "name": "Umi Luz",
-        "category": "espiritual",
-        "text": "Umi Luz participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1777046024494_95k",
-        "date": "2026-04-24",
-        "day": 17,
-        "source": "local",
-        "name": "Iko",
-        "category": "contemplativo",
-        "text": "Iko pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1777046024494_rp7",
-        "date": "2026-04-24",
-        "day": 17,
-        "source": "local",
-        "name": "Vela Sol",
         "category": "trivial",
-        "text": "Vela Sol enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "text": "Umi Luz pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+      },
+      {
+        "id": "v_1777127456330d",
+        "date": "2026-04-25",
+        "day": 18,
+        "source": "mundo",
+        "name": "Pipa",
+        "category": "muerte",
+        "text": "Pipa falleció hoy."
       }
     ]
   },
@@ -55,7 +64,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 51,
+      "age": 52,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +80,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 24,
+      "age": 25,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +96,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +112,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +128,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -135,7 +144,7 @@
       "id": "c6",
       "name": "Pipa",
       "type": "animal",
-      "age": 21,
+      "age": 22,
       "role": "compañera de Lua",
       "location": "Zona Este",
       "traits": [
@@ -143,15 +152,16 @@
         "olfato cuántico"
       ],
       "emotion": "alerta gozosa",
-      "alive": true,
+      "alive": false,
       "belief": null,
-      "faction": null
+      "faction": null,
+      "deathDay": 18
     },
     {
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 29,
+      "age": 30,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -167,7 +177,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 84,
+      "age": 85,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -183,7 +193,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 17,
+      "age": 18,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -199,7 +209,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 8,
+      "age": 9,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -214,7 +224,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 6,
+      "age": 7,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -229,7 +239,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -284,6 +294,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1777127456330_9vf",
+      "date": "2026-04-25",
+      "day": 18,
+      "source": "local",
+      "name": "Lua",
+      "category": "interpersonal",
+      "text": "Lua tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1777127456330_s35",
+      "date": "2026-04-25",
+      "day": 18,
+      "source": "local",
+      "name": "Zerda",
+      "category": "espiritual",
+      "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1777127456330_w9t",
+      "date": "2026-04-25",
+      "day": 18,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "fantástico",
+      "text": "Bastián Hilo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "local_1777127456330_z4q",
+      "date": "2026-04-25",
+      "day": 18,
+      "source": "local",
+      "name": "Umi Luz",
+      "category": "trivial",
+      "text": "Umi Luz pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "v_1777127456330d",
+      "date": "2026-04-25",
+      "day": 18,
+      "source": "mundo",
+      "name": "Pipa",
+      "category": "muerte",
+      "text": "Pipa falleció hoy."
+    },
     {
       "id": "local_1777046024494_d8n",
       "date": "2026-04-24",
