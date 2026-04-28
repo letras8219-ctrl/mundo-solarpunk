@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 20,
-    "date": "2026-04-27",
+    "day": 21,
+    "date": "2026-04-28",
     "season": "primavera",
-    "seasonDay": 21,
+    "seasonDay": 22,
     "climate": "soleado",
     "resources": {
-      "food": 90,
-      "energy": 77,
-      "mood": 93
+      "food": 93,
+      "energy": 78,
+      "mood": 96
     },
     "todayEvents": [
       {
-        "id": "local_1777309846036_afg",
-        "date": "2026-04-27",
-        "day": 20,
+        "id": "local_1777399078281_873",
+        "date": "2026-04-28",
+        "day": 21,
         "source": "local",
         "name": "Vex",
         "category": "fantástico",
-        "text": "Vex encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "text": "Vex encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1777309846036_5sp",
-        "date": "2026-04-27",
-        "day": 20,
+        "id": "local_1777399078281_2ly",
+        "date": "2026-04-28",
+        "day": 21,
         "source": "local",
-        "name": "Lua",
+        "name": "Teo Quilín",
         "category": "trivial",
-        "text": "Lua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "text": "Teo Quilín preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
       },
       {
-        "id": "local_1777309846036_q9j",
-        "date": "2026-04-27",
-        "day": 20,
+        "id": "local_1777399078281_f1j",
+        "date": "2026-04-28",
+        "day": 21,
         "source": "local",
-        "name": "Iko",
-        "category": "interpersonal",
-        "text": "Iko dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Maro Esteve",
+        "category": "trivial",
+        "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
       },
       {
-        "id": "local_1777309846037_nv9",
-        "date": "2026-04-27",
-        "day": 20,
+        "id": "local_1777399078281_k2r",
+        "date": "2026-04-28",
+        "day": 21,
         "source": "local",
-        "name": "Lua",
-        "category": "interpersonal",
-        "text": "Lua dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Maro Esteve",
+        "category": "trivial",
+        "text": "Maro Esteve pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+      },
+      {
+        "id": "v_1777399078281a",
+        "date": "2026-04-28",
+        "day": 21,
+        "source": "mundo",
+        "name": "Gael Savia",
+        "category": "llegada",
+        "text": "Gael Savia llegó al mundo hoy."
       }
     ]
   },
@@ -55,7 +64,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 54,
+      "age": 55,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +80,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 27,
+      "age": 28,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +96,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +112,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +128,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +161,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 32,
+      "age": 33,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +177,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +193,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 20,
+      "age": 21,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +209,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 11,
+      "age": 12,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +224,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 9,
+      "age": 10,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +239,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -240,6 +249,21 @@
       "alive": true,
       "belief": "agnóstico",
       "faction": "Tecnolibres"
+    },
+    {
+      "id": "c_1777399077873_i",
+      "name": "Gael Savia",
+      "type": "robot",
+      "age": 44,
+      "role": "recién llegado",
+      "location": "Plaza Central",
+      "traits": [
+        "silencioso"
+      ],
+      "emotion": "esperanza",
+      "alive": true,
+      "belief": "agnóstico",
+      "faction": "sin filiación"
     }
   ],
   "locations": [
@@ -285,6 +309,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1777399078281_873",
+      "date": "2026-04-28",
+      "day": 21,
+      "source": "local",
+      "name": "Vex",
+      "category": "fantástico",
+      "text": "Vex encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1777399078281_2ly",
+      "date": "2026-04-28",
+      "day": 21,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1777399078281_f1j",
+      "date": "2026-04-28",
+      "day": 21,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "trivial",
+      "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1777399078281_k2r",
+      "date": "2026-04-28",
+      "day": 21,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "trivial",
+      "text": "Maro Esteve pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "v_1777399078281a",
+      "date": "2026-04-28",
+      "day": 21,
+      "source": "mundo",
+      "name": "Gael Savia",
+      "category": "llegada",
+      "text": "Gael Savia llegó al mundo hoy."
+    },
     {
       "id": "local_1777309846036_afg",
       "date": "2026-04-27",
