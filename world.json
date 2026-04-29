@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 21,
-    "date": "2026-04-28",
+    "day": 22,
+    "date": "2026-04-29",
     "season": "primavera",
-    "seasonDay": 22,
-    "climate": "soleado",
+    "seasonDay": 23,
+    "climate": "ventoso",
     "resources": {
-      "food": 93,
+      "food": 95,
       "energy": 78,
       "mood": 96
     },
     "todayEvents": [
       {
-        "id": "local_1777399078281_873",
-        "date": "2026-04-28",
-        "day": 21,
-        "source": "local",
-        "name": "Vex",
-        "category": "fantástico",
-        "text": "Vex encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-      },
-      {
-        "id": "local_1777399078281_2ly",
-        "date": "2026-04-28",
-        "day": 21,
+        "id": "local_1777482610958_9bg",
+        "date": "2026-04-29",
+        "day": 22,
         "source": "local",
         "name": "Teo Quilín",
         "category": "trivial",
-        "text": "Teo Quilín preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       },
       {
-        "id": "local_1777399078281_f1j",
-        "date": "2026-04-28",
-        "day": 21,
+        "id": "local_1777482610958_tux",
+        "date": "2026-04-29",
+        "day": 22,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "trivial",
-        "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "name": "Lua",
+        "category": "contemplativo",
+        "text": "Lua se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
       },
       {
-        "id": "local_1777399078281_k2r",
-        "date": "2026-04-28",
-        "day": 21,
+        "id": "local_1777482610958_31l",
+        "date": "2026-04-29",
+        "day": 22,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "trivial",
-        "text": "Maro Esteve pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "name": "Lua",
+        "category": "fantástico",
+        "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "v_1777399078281a",
-        "date": "2026-04-28",
-        "day": 21,
-        "source": "mundo",
-        "name": "Gael Savia",
-        "category": "llegada",
-        "text": "Gael Savia llegó al mundo hoy."
+        "id": "local_1777482610958_aus",
+        "date": "2026-04-29",
+        "day": 22,
+        "source": "local",
+        "name": "Hira Sol",
+        "category": "trivial",
+        "text": "Hira Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 28,
+      "age": 29,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 49,
+      "age": 50,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -161,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 33,
+      "age": 34,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -177,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 88,
+      "age": 89,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -193,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 21,
+      "age": 22,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -209,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -224,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 10,
+      "age": 11,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -239,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 27,
+      "age": 28,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -254,7 +245,7 @@
       "id": "c_1777399077873_i",
       "name": "Gael Savia",
       "type": "robot",
-      "age": 44,
+      "age": 45,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -309,6 +300,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1777482610958_9bg",
+      "date": "2026-04-29",
+      "day": 22,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1777482610958_tux",
+      "date": "2026-04-29",
+      "day": 22,
+      "source": "local",
+      "name": "Lua",
+      "category": "contemplativo",
+      "text": "Lua se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
+    {
+      "id": "local_1777482610958_31l",
+      "date": "2026-04-29",
+      "day": 22,
+      "source": "local",
+      "name": "Lua",
+      "category": "fantástico",
+      "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1777482610958_aus",
+      "date": "2026-04-29",
+      "day": 22,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "trivial",
+      "text": "Hira Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
     {
       "id": "local_1777399078281_873",
       "date": "2026-04-28",
