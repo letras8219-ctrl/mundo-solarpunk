@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 23,
-    "date": "2026-04-30",
+    "day": 24,
+    "date": "2026-05-01",
     "season": "primavera",
-    "seasonDay": 24,
-    "climate": "ventoso",
+    "seasonDay": 25,
+    "climate": "soleado",
     "resources": {
-      "food": 97,
-      "energy": 78,
-      "mood": 99
+      "food": 98,
+      "energy": 80,
+      "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1777568611116_ew2",
-        "date": "2026-04-30",
-        "day": 23,
+        "id": "local_1777649756768_ukr",
+        "date": "2026-05-01",
+        "day": 24,
         "source": "local",
-        "name": "Vex",
-        "category": "interpersonal",
-        "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Teo Quilín",
+        "category": "trivial",
+        "text": "Teo Quilín organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       },
       {
-        "id": "local_1777568611116_mu1",
-        "date": "2026-04-30",
-        "day": 23,
-        "source": "local",
-        "name": "Lua",
-        "category": "espiritual",
-        "text": "Lua participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1777568611116_t7y",
-        "date": "2026-04-30",
-        "day": 23,
-        "source": "local",
-        "name": "Vex",
-        "category": "fantástico",
-        "text": "Vex encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1777568611116_i7e",
-        "date": "2026-04-30",
-        "day": 23,
+        "id": "local_1777649756768_z6n",
+        "date": "2026-05-01",
+        "day": 24,
         "source": "local",
         "name": "Teo Quilín",
         "category": "contemplativo",
         "text": "Teo Quilín se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1777649756768_kty",
+        "date": "2026-05-01",
+        "day": 24,
+        "source": "local",
+        "name": "Gael Savia",
+        "category": "trivial",
+        "text": "Gael Savia organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+      },
+      {
+        "id": "local_1777649756768_90d",
+        "date": "2026-05-01",
+        "day": 24,
+        "source": "local",
+        "name": "Zerda",
+        "category": "contemplativo",
+        "text": "Zerda caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 57,
+      "age": 58,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 30,
+      "age": 31,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 51,
+      "age": 52,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 35,
+      "age": 36,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 23,
+      "age": 24,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 14,
+      "age": 15,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -245,7 +245,7 @@
       "id": "c_1777399077873_i",
       "name": "Gael Savia",
       "type": "robot",
-      "age": 46,
+      "age": 47,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -300,6 +300,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1777649756768_ukr",
+      "date": "2026-05-01",
+      "day": 24,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
+    {
+      "id": "local_1777649756768_z6n",
+      "date": "2026-05-01",
+      "day": 24,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "contemplativo",
+      "text": "Teo Quilín se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1777649756768_kty",
+      "date": "2026-05-01",
+      "day": 24,
+      "source": "local",
+      "name": "Gael Savia",
+      "category": "trivial",
+      "text": "Gael Savia organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
+    {
+      "id": "local_1777649756768_90d",
+      "date": "2026-05-01",
+      "day": 24,
+      "source": "local",
+      "name": "Zerda",
+      "category": "contemplativo",
+      "text": "Zerda caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
     {
       "id": "local_1777568611116_ew2",
       "date": "2026-04-30",
@@ -1163,15 +1199,6 @@
       "name": "Bastián Hilo",
       "category": "trivial",
       "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "local_1775679813439_5zb",
-      "date": "2026-04-08",
-      "day": 1,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "trivial",
-      "text": "Teo Quilín enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
     }
   ]
 }
