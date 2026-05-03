@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 25,
-    "date": "2026-05-02",
+    "day": 26,
+    "date": "2026-05-03",
     "season": "primavera",
-    "seasonDay": 26,
-    "climate": "lluvioso",
+    "seasonDay": 27,
+    "climate": "frío seco",
     "resources": {
-      "food": 99,
-      "energy": 78,
+      "food": 100,
+      "energy": 79,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1777732828757_ejw",
-        "date": "2026-05-02",
-        "day": 25,
+        "id": "local_1777820794593_biy",
+        "date": "2026-05-03",
+        "day": 26,
         "source": "local",
-        "name": "Iko",
+        "name": "Teo Quilín",
+        "category": "contemplativo",
+        "text": "Teo Quilín se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1777820794593_hid",
+        "date": "2026-05-03",
+        "day": 26,
+        "source": "local",
+        "name": "Hira Sol",
+        "category": "contemplativo",
+        "text": "Hira Sol pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+      },
+      {
+        "id": "local_1777820794593_7w2",
+        "date": "2026-05-03",
+        "day": 26,
+        "source": "local",
+        "name": "Teo Quilín",
+        "category": "espiritual",
+        "text": "Teo Quilín participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1777820794593_tx1",
+        "date": "2026-05-03",
+        "day": 26,
+        "source": "local",
+        "name": "Teo Quilín",
         "category": "trivial",
-        "text": "Iko preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-      },
-      {
-        "id": "local_1777732828757_4qt",
-        "date": "2026-05-02",
-        "day": 25,
-        "source": "local",
-        "name": "Gael Savia",
-        "category": "fantástico",
-        "text": "Vex se materializó cerca de Gael Savia y dejó una nota en un idioma que nadie ha identificado. Gael Savia la guardó."
-      },
-      {
-        "id": "local_1777732828757_g3t",
-        "date": "2026-05-02",
-        "day": 25,
-        "source": "local",
-        "name": "Maro Esteve",
-        "category": "contemplativo",
-        "text": "Maro Esteve caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1777732828757_ju3",
-        "date": "2026-05-02",
-        "day": 25,
-        "source": "local",
-        "name": "Gael Savia",
-        "category": "contemplativo",
-        "text": "Gael Savia se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "text": "Teo Quilín organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 32,
+      "age": 33,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 53,
+      "age": 54,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 37,
+      "age": 38,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 92,
+      "age": 93,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 25,
+      "age": 26,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 16,
+      "age": 17,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 14,
+      "age": 15,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 31,
+      "age": 32,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -245,7 +245,7 @@
       "id": "c_1777399077873_i",
       "name": "Gael Savia",
       "type": "robot",
-      "age": 48,
+      "age": 49,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -300,6 +300,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1777820794593_biy",
+      "date": "2026-05-03",
+      "day": 26,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "contemplativo",
+      "text": "Teo Quilín se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1777820794593_hid",
+      "date": "2026-05-03",
+      "day": 26,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "contemplativo",
+      "text": "Hira Sol pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1777820794593_7w2",
+      "date": "2026-05-03",
+      "day": 26,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "espiritual",
+      "text": "Teo Quilín participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1777820794593_tx1",
+      "date": "2026-05-03",
+      "day": 26,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
     {
       "id": "local_1777732828757_ejw",
       "date": "2026-05-02",
@@ -1163,42 +1199,6 @@
       "name": "Lua",
       "category": "trivial",
       "text": "Lua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1775833625864_mva",
-      "date": "2026-04-10",
-      "day": 3,
-      "source": "local",
-      "name": "Lua",
-      "category": "fantástico",
-      "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1775753375668_sz6",
-      "date": "2026-04-09",
-      "day": 2,
-      "source": "local",
-      "name": "Vex",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1775753375668_d7d",
-      "date": "2026-04-09",
-      "day": 2,
-      "source": "local",
-      "name": "Lua",
-      "category": "fantástico",
-      "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1775753375668_pvi",
-      "date": "2026-04-09",
-      "day": 2,
-      "source": "local",
-      "name": "Bastián Hilo",
-      "category": "fantástico",
-      "text": "Vex se materializó cerca de Bastián Hilo y dejó una nota en un idioma que nadie ha identificado. Bastián Hilo la guardó."
     }
   ]
 }
