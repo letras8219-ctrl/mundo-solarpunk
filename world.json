@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 30,
-    "date": "2026-05-07",
+    "day": 31,
+    "date": "2026-05-08",
     "season": "primavera",
-    "seasonDay": 31,
-    "climate": "nublado",
+    "seasonDay": 32,
+    "climate": "frío seco",
     "resources": {
       "food": 100,
-      "energy": 75,
+      "energy": 73,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1778176887113_91n",
-        "date": "2026-05-07",
-        "day": 30,
+        "id": "local_1778259192981_fg8",
+        "date": "2026-05-08",
+        "day": 31,
         "source": "local",
-        "name": "Vex",
-        "category": "interpersonal",
-        "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Bastián Hilo",
+        "category": "espiritual",
+        "text": "Bastián Hilo participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       },
       {
-        "id": "local_1778176887113_yf5",
-        "date": "2026-05-07",
-        "day": 30,
+        "id": "local_1778259192981_ick",
+        "date": "2026-05-08",
+        "day": 31,
         "source": "local",
-        "name": "Vex",
+        "name": "Iko",
         "category": "trivial",
-        "text": "Vex pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "text": "Iko enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1778176887113_mvk",
-        "date": "2026-05-07",
-        "day": 30,
+        "id": "local_1778259192981_b6e",
+        "date": "2026-05-08",
+        "day": 31,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "trivial",
-        "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "name": "Hira Sol",
+        "category": "fantástico",
+        "text": "Hira Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
       },
       {
-        "id": "local_1778176887113_7tj",
-        "date": "2026-05-07",
-        "day": 30,
+        "id": "local_1778259192981_2lv",
+        "date": "2026-05-08",
+        "day": 31,
         "source": "local",
-        "name": "Vela Sol",
+        "name": "Lua",
         "category": "trivial",
-        "text": "Vela Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "text": "Lua horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+      },
+      {
+        "id": "v_1778259192981d",
+        "date": "2026-05-08",
+        "day": 31,
+        "source": "mundo",
+        "name": "Gael Savia",
+        "category": "muerte",
+        "text": "Gael Savia falleció hoy."
       }
     ]
   },
@@ -55,7 +64,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 64,
+      "age": 65,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +80,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 37,
+      "age": 38,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +96,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 47,
+      "age": 48,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +112,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +128,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +161,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 42,
+      "age": 43,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +177,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 97,
+      "age": 98,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +193,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 30,
+      "age": 31,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +209,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 21,
+      "age": 22,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +224,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 19,
+      "age": 20,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +239,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -245,16 +254,17 @@
       "id": "c_1777399077873_i",
       "name": "Gael Savia",
       "type": "robot",
-      "age": 53,
+      "age": 54,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
         "silencioso"
       ],
       "emotion": "esperanza",
-      "alive": true,
+      "alive": false,
       "belief": "agnóstico",
-      "faction": "sin filiación"
+      "faction": "sin filiación",
+      "deathDay": 31
     }
   ],
   "locations": [
@@ -300,6 +310,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1778259192981_fg8",
+      "date": "2026-05-08",
+      "day": 31,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "espiritual",
+      "text": "Bastián Hilo participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1778259192981_ick",
+      "date": "2026-05-08",
+      "day": 31,
+      "source": "local",
+      "name": "Iko",
+      "category": "trivial",
+      "text": "Iko enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1778259192981_b6e",
+      "date": "2026-05-08",
+      "day": 31,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "fantástico",
+      "text": "Hira Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1778259192981_2lv",
+      "date": "2026-05-08",
+      "day": 31,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
+    {
+      "id": "v_1778259192981d",
+      "date": "2026-05-08",
+      "day": 31,
+      "source": "mundo",
+      "name": "Gael Savia",
+      "category": "muerte",
+      "text": "Gael Savia falleció hoy."
+    },
     {
       "id": "local_1778176887113_91n",
       "date": "2026-05-07",
@@ -1154,51 +1209,6 @@
       "name": "Pipa",
       "category": "trivial",
       "text": "Pipa enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "local_1776268502716_x13",
-      "date": "2026-04-15",
-      "day": 8,
-      "source": "local",
-      "name": "Iko",
-      "category": "trivial",
-      "text": "Iko pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1776268502716_kid",
-      "date": "2026-04-15",
-      "day": 8,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1776182252615_5dt",
-      "date": "2026-04-14",
-      "day": 7,
-      "source": "local",
-      "name": "Iko",
-      "category": "interpersonal",
-      "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1776182252615_v2v",
-      "date": "2026-04-14",
-      "day": 7,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1776182252615_p95",
-      "date": "2026-04-14",
-      "day": 7,
-      "source": "local",
-      "name": "Vex",
-      "category": "trivial",
-      "text": "Vex catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
     }
   ]
 }
