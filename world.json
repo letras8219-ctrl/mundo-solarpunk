@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 31,
-    "date": "2026-05-08",
+    "day": 32,
+    "date": "2026-05-09",
     "season": "primavera",
-    "seasonDay": 32,
-    "climate": "frío seco",
+    "seasonDay": 33,
+    "climate": "lluvioso",
     "resources": {
       "food": 100,
-      "energy": 73,
+      "energy": 75,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1778259192981_fg8",
-        "date": "2026-05-08",
-        "day": 31,
+        "id": "local_1778339696767_y87",
+        "date": "2026-05-09",
+        "day": 32,
         "source": "local",
-        "name": "Bastián Hilo",
-        "category": "espiritual",
-        "text": "Bastián Hilo participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+        "name": "Zerda",
+        "category": "trivial",
+        "text": "Zerda horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       },
       {
-        "id": "local_1778259192981_ick",
-        "date": "2026-05-08",
-        "day": 31,
+        "id": "local_1778339696767_m7z",
+        "date": "2026-05-09",
+        "day": 32,
+        "source": "local",
+        "name": "Vela Sol",
+        "category": "contemplativo",
+        "text": "Vela Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1778339696767_bzi",
+        "date": "2026-05-09",
+        "day": 32,
         "source": "local",
         "name": "Iko",
         "category": "trivial",
         "text": "Iko enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1778259192981_b6e",
-        "date": "2026-05-08",
-        "day": 31,
+        "id": "local_1778339696767_iv0",
+        "date": "2026-05-09",
+        "day": 32,
         "source": "local",
-        "name": "Hira Sol",
-        "category": "fantástico",
-        "text": "Hira Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1778259192981_2lv",
-        "date": "2026-05-08",
-        "day": 31,
-        "source": "local",
-        "name": "Lua",
+        "name": "Maro Esteve",
         "category": "trivial",
-        "text": "Lua horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-      },
-      {
-        "id": "v_1778259192981d",
-        "date": "2026-05-08",
-        "day": 31,
-        "source": "mundo",
-        "name": "Gael Savia",
-        "category": "muerte",
-        "text": "Gael Savia falleció hoy."
+        "text": "Maro Esteve organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 38,
+      "age": 39,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -161,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 43,
+      "age": 44,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -177,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 98,
+      "age": 99,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -193,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 31,
+      "age": 32,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -209,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 22,
+      "age": 23,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -224,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 20,
+      "age": 21,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -239,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -310,6 +301,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1778339696767_y87",
+      "date": "2026-05-09",
+      "day": 32,
+      "source": "local",
+      "name": "Zerda",
+      "category": "trivial",
+      "text": "Zerda horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
+    {
+      "id": "local_1778339696767_m7z",
+      "date": "2026-05-09",
+      "day": 32,
+      "source": "local",
+      "name": "Vela Sol",
+      "category": "contemplativo",
+      "text": "Vela Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1778339696767_bzi",
+      "date": "2026-05-09",
+      "day": 32,
+      "source": "local",
+      "name": "Iko",
+      "category": "trivial",
+      "text": "Iko enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1778339696767_iv0",
+      "date": "2026-05-09",
+      "day": 32,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "trivial",
+      "text": "Maro Esteve organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
     {
       "id": "local_1778259192981_fg8",
       "date": "2026-05-08",
@@ -1173,42 +1200,6 @@
       "name": "Pipa",
       "category": "fantástico",
       "text": "Pipa encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1776358622509_aof",
-      "date": "2026-04-16",
-      "day": 9,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "trivial",
-      "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "v_1776358622509n",
-      "date": "2026-04-16",
-      "day": 9,
-      "source": "mundo",
-      "name": "Hira Sol",
-      "category": "nacimiento",
-      "text": "Hira Sol nació hoy."
-    },
-    {
-      "id": "local_1776268502716_ru1",
-      "date": "2026-04-15",
-      "day": 8,
-      "source": "local",
-      "name": "Vex",
-      "category": "contemplativo",
-      "text": "Vex se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1776268502716_4vt",
-      "date": "2026-04-15",
-      "day": 8,
-      "source": "local",
-      "name": "Pipa",
-      "category": "trivial",
-      "text": "Pipa enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
     }
   ]
 }
