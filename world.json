@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 32,
-    "date": "2026-05-09",
+    "day": 33,
+    "date": "2026-05-10",
     "season": "primavera",
-    "seasonDay": 33,
-    "climate": "lluvioso",
+    "seasonDay": 34,
+    "climate": "soleado",
     "resources": {
       "food": 100,
-      "energy": 75,
+      "energy": 73,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1778339696767_y87",
-        "date": "2026-05-09",
-        "day": 32,
+        "id": "local_1778420343900_1wp",
+        "date": "2026-05-10",
+        "day": 33,
         "source": "local",
-        "name": "Zerda",
+        "name": "Sola Venegas",
         "category": "trivial",
-        "text": "Zerda horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "text": "Sola Venegas pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       },
       {
-        "id": "local_1778339696767_m7z",
-        "date": "2026-05-09",
-        "day": 32,
+        "id": "local_1778420343900_s2f",
+        "date": "2026-05-10",
+        "day": 33,
         "source": "local",
-        "name": "Vela Sol",
+        "name": "Umi Luz",
         "category": "contemplativo",
-        "text": "Vela Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "text": "Umi Luz se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1778339696767_bzi",
-        "date": "2026-05-09",
-        "day": 32,
+        "id": "local_1778420343900_0c5",
+        "date": "2026-05-10",
+        "day": 33,
         "source": "local",
-        "name": "Iko",
+        "name": "Hira Sol",
         "category": "trivial",
-        "text": "Iko enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       },
       {
-        "id": "local_1778339696767_iv0",
-        "date": "2026-05-09",
-        "day": 32,
+        "id": "local_1778420343900_w5u",
+        "date": "2026-05-10",
+        "day": 33,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "trivial",
-        "text": "Maro Esteve organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "name": "Vex",
+        "category": "espiritual",
+        "text": "Vex participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 66,
+      "age": 67,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 39,
+      "age": 40,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 49,
+      "age": 50,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 70,
+      "age": 71,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 60,
+      "age": 61,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 44,
+      "age": 45,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 99,
+      "age": 100,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 32,
+      "age": 33,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 21,
+      "age": 22,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -301,6 +301,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1778420343900_1wp",
+      "date": "2026-05-10",
+      "day": 33,
+      "source": "local",
+      "name": "Sola Venegas",
+      "category": "trivial",
+      "text": "Sola Venegas pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1778420343900_s2f",
+      "date": "2026-05-10",
+      "day": 33,
+      "source": "local",
+      "name": "Umi Luz",
+      "category": "contemplativo",
+      "text": "Umi Luz se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1778420343900_0c5",
+      "date": "2026-05-10",
+      "day": 33,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "trivial",
+      "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1778420343900_w5u",
+      "date": "2026-05-10",
+      "day": 33,
+      "source": "local",
+      "name": "Vex",
+      "category": "espiritual",
+      "text": "Vex participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
     {
       "id": "local_1778339696767_y87",
       "date": "2026-05-09",
@@ -1164,42 +1200,6 @@
       "name": "Lua",
       "category": "trivial",
       "text": "Lua pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1776440497802_9u0",
-      "date": "2026-04-17",
-      "day": 10,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "espiritual",
-      "text": "Maro Esteve participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1776358622509_wgw",
-      "date": "2026-04-16",
-      "day": 9,
-      "source": "local",
-      "name": "Zerda",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1776358622509_gsa",
-      "date": "2026-04-16",
-      "day": 9,
-      "source": "local",
-      "name": "Bastián Hilo",
-      "category": "interpersonal",
-      "text": "Bastián Hilo tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1776358622509_v6m",
-      "date": "2026-04-16",
-      "day": 9,
-      "source": "local",
-      "name": "Pipa",
-      "category": "fantástico",
-      "text": "Pipa encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
     }
   ]
 }
