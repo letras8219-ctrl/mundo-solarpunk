@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 33,
-    "date": "2026-05-10",
+    "day": 34,
+    "date": "2026-05-11",
     "season": "primavera",
-    "seasonDay": 34,
-    "climate": "soleado",
+    "seasonDay": 35,
+    "climate": "ventoso",
     "resources": {
       "food": 100,
       "energy": 73,
-      "mood": 100
+      "mood": 99
     },
     "todayEvents": [
       {
-        "id": "local_1778420343900_1wp",
-        "date": "2026-05-10",
-        "day": 33,
+        "id": "local_1778512901252_d2r",
+        "date": "2026-05-11",
+        "day": 34,
         "source": "local",
-        "name": "Sola Venegas",
+        "name": "Lua",
         "category": "trivial",
-        "text": "Sola Venegas pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "text": "Lua pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       },
       {
-        "id": "local_1778420343900_s2f",
-        "date": "2026-05-10",
-        "day": 33,
+        "id": "local_1778512901252_846",
+        "date": "2026-05-11",
+        "day": 34,
         "source": "local",
-        "name": "Umi Luz",
+        "name": "Lua",
+        "category": "fantástico",
+        "text": "Lua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "local_1778512901252_e8v",
+        "date": "2026-05-11",
+        "day": 34,
+        "source": "local",
+        "name": "Zerda",
+        "category": "fantástico",
+        "text": "Zerda encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "local_1778512901252_qaf",
+        "date": "2026-05-11",
+        "day": 34,
+        "source": "local",
+        "name": "Vela Sol",
         "category": "contemplativo",
-        "text": "Umi Luz se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-      },
-      {
-        "id": "local_1778420343900_0c5",
-        "date": "2026-05-10",
-        "day": 33,
-        "source": "local",
-        "name": "Hira Sol",
-        "category": "trivial",
-        "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-      },
-      {
-        "id": "local_1778420343900_w5u",
-        "date": "2026-05-10",
-        "day": 33,
-        "source": "local",
-        "name": "Vex",
-        "category": "espiritual",
-        "text": "Vex participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+        "text": "Vela Sol pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 40,
+      "age": 41,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 50,
+      "age": 51,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 45,
+      "age": 46,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 100,
+      "age": 101,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 33,
+      "age": 34,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 24,
+      "age": 25,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 22,
+      "age": 23,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -301,6 +301,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1778512901252_d2r",
+      "date": "2026-05-11",
+      "day": 34,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1778512901252_846",
+      "date": "2026-05-11",
+      "day": 34,
+      "source": "local",
+      "name": "Lua",
+      "category": "fantástico",
+      "text": "Lua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1778512901252_e8v",
+      "date": "2026-05-11",
+      "day": 34,
+      "source": "local",
+      "name": "Zerda",
+      "category": "fantástico",
+      "text": "Zerda encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1778512901252_qaf",
+      "date": "2026-05-11",
+      "day": 34,
+      "source": "local",
+      "name": "Vela Sol",
+      "category": "contemplativo",
+      "text": "Vela Sol pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
     {
       "id": "local_1778420343900_1wp",
       "date": "2026-05-10",
@@ -1164,42 +1200,6 @@
       "name": "Hira Sol",
       "category": "trivial",
       "text": "Hira Sol organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "v_1776522342649n",
-      "date": "2026-04-18",
-      "day": 11,
-      "source": "mundo",
-      "name": "Vela Sol",
-      "category": "nacimiento",
-      "text": "Vela Sol nació hoy."
-    },
-    {
-      "id": "local_1776440497802_hvr",
-      "date": "2026-04-17",
-      "day": 10,
-      "source": "local",
-      "name": "Pipa",
-      "category": "interpersonal",
-      "text": "Pipa tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1776440497802_edx",
-      "date": "2026-04-17",
-      "day": 10,
-      "source": "local",
-      "name": "Pipa",
-      "category": "fantástico",
-      "text": "Pipa fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1776440497802_n6y",
-      "date": "2026-04-17",
-      "day": 10,
-      "source": "local",
-      "name": "Lua",
-      "category": "trivial",
-      "text": "Lua pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
     }
   ]
 }
