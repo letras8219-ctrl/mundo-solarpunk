@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 35,
-    "date": "2026-05-12",
+    "day": 36,
+    "date": "2026-05-13",
     "season": "primavera",
-    "seasonDay": 36,
-    "climate": "frío seco",
+    "seasonDay": 37,
+    "climate": "templado",
     "resources": {
-      "food": 99,
+      "food": 100,
       "energy": 71,
-      "mood": 100
+      "mood": 99
     },
     "todayEvents": [
       {
-        "id": "local_1778596489255_ds6",
-        "date": "2026-05-12",
-        "day": 35,
+        "id": "local_1778683535294_gze",
+        "date": "2026-05-13",
+        "day": 36,
         "source": "local",
-        "name": "Umi Luz",
-        "category": "contemplativo",
-        "text": "Umi Luz caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "name": "Lua",
+        "category": "trivial",
+        "text": "Lua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
       },
       {
-        "id": "local_1778596489255_4xq",
-        "date": "2026-05-12",
-        "day": 35,
+        "id": "local_1778683535295_8wc",
+        "date": "2026-05-13",
+        "day": 36,
+        "source": "local",
+        "name": "Teo Quilín",
+        "category": "fantástico",
+        "text": "Teo Quilín encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "local_1778683535295_utn",
+        "date": "2026-05-13",
+        "day": 36,
         "source": "local",
         "name": "Sola Venegas",
+        "category": "espiritual",
+        "text": "Sola Venegas participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1778683535295_noq",
+        "date": "2026-05-13",
+        "day": 36,
+        "source": "local",
+        "name": "Lua",
         "category": "contemplativo",
-        "text": "Sola Venegas pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1778596489255_9zc",
-        "date": "2026-05-12",
-        "day": 35,
-        "source": "local",
-        "name": "Zerda",
-        "category": "interpersonal",
-        "text": "Zerda tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-      },
-      {
-        "id": "local_1778596489255_r4a",
-        "date": "2026-05-12",
-        "day": 35,
-        "source": "local",
-        "name": "Maro Esteve",
-        "category": "fantástico",
-        "text": "Maro Esteve encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "text": "Lua se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 42,
+      "age": 43,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 73,
+      "age": 74,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 47,
+      "age": 48,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 102,
+      "age": 103,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 35,
+      "age": 36,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 24,
+      "age": 25,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -301,6 +301,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1778683535294_gze",
+      "date": "2026-05-13",
+      "day": 36,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1778683535295_8wc",
+      "date": "2026-05-13",
+      "day": 36,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "fantástico",
+      "text": "Teo Quilín encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1778683535295_utn",
+      "date": "2026-05-13",
+      "day": 36,
+      "source": "local",
+      "name": "Sola Venegas",
+      "category": "espiritual",
+      "text": "Sola Venegas participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1778683535295_noq",
+      "date": "2026-05-13",
+      "day": 36,
+      "source": "local",
+      "name": "Lua",
+      "category": "contemplativo",
+      "text": "Lua se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
     {
       "id": "local_1778596489255_ds6",
       "date": "2026-05-12",
@@ -1164,42 +1200,6 @@
       "name": "Teo Quilín",
       "category": "trivial",
       "text": "Teo Quilín pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1776608762641_cxm",
-      "date": "2026-04-19",
-      "day": 12,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "trivial",
-      "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1776608762641_vf9",
-      "date": "2026-04-19",
-      "day": 12,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "trivial",
-      "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1776608762641_k5b",
-      "date": "2026-04-19",
-      "day": 12,
-      "source": "local",
-      "name": "Vela Sol",
-      "category": "trivial",
-      "text": "Vela Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1776608762641_38r",
-      "date": "2026-04-19",
-      "day": 12,
-      "source": "local",
-      "name": "Vex",
-      "category": "contemplativo",
-      "text": "Vex caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
     }
   ]
 }
