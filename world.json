@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 37,
-    "date": "2026-05-14",
+    "day": 38,
+    "date": "2026-05-15",
     "season": "primavera",
-    "seasonDay": 38,
-    "climate": "templado",
+    "seasonDay": 39,
+    "climate": "bruma",
     "resources": {
       "food": 100,
-      "energy": 73,
+      "energy": 71,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1778768724950_e5m",
-        "date": "2026-05-14",
-        "day": 37,
+        "id": "local_1778854755016_zd3",
+        "date": "2026-05-15",
+        "day": 38,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "contemplativo",
-        "text": "Maro Esteve caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1778768724950_xly",
-        "date": "2026-05-14",
-        "day": 37,
-        "source": "local",
-        "name": "Bastián Hilo",
+        "name": "Umi Luz",
         "category": "trivial",
-        "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "text": "Umi Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1778768724950_a8j",
-        "date": "2026-05-14",
-        "day": 37,
+        "id": "local_1778854755016_ym5",
+        "date": "2026-05-15",
+        "day": 38,
         "source": "local",
-        "name": "Teo Quilín",
-        "category": "interpersonal",
-        "text": "Teo Quilín dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Hira Sol",
+        "category": "trivial",
+        "text": "Hira Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       },
       {
-        "id": "local_1778768724950_fd1",
-        "date": "2026-05-14",
-        "day": 37,
+        "id": "local_1778854755016_3he",
+        "date": "2026-05-15",
+        "day": 38,
         "source": "local",
-        "name": "Teo Quilín",
-        "category": "espiritual",
-        "text": "Teo Quilín participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+        "name": "Iko",
+        "category": "fantástico",
+        "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+      },
+      {
+        "id": "local_1778854755016_c38",
+        "date": "2026-05-15",
+        "day": 38,
+        "source": "local",
+        "name": "Hira Sol",
+        "category": "trivial",
+        "text": "Hira Sol enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 44,
+      "age": 45,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 54,
+      "age": 55,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 49,
+      "age": 50,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 104,
+      "age": 105,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 37,
+      "age": 38,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 43,
+      "age": 44,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -301,6 +301,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1778854755016_zd3",
+      "date": "2026-05-15",
+      "day": 38,
+      "source": "local",
+      "name": "Umi Luz",
+      "category": "trivial",
+      "text": "Umi Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1778854755016_ym5",
+      "date": "2026-05-15",
+      "day": 38,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "trivial",
+      "text": "Hira Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1778854755016_3he",
+      "date": "2026-05-15",
+      "day": 38,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1778854755016_c38",
+      "date": "2026-05-15",
+      "day": 38,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "trivial",
+      "text": "Hira Sol enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
     {
       "id": "local_1778768724950_e5m",
       "date": "2026-05-14",
@@ -1164,42 +1200,6 @@
       "name": "Sola Venegas",
       "category": "interpersonal",
       "text": "Sola Venegas tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1776788377051_w47",
-      "date": "2026-04-21",
-      "day": 14,
-      "source": "local",
-      "name": "Lua",
-      "category": "trivial",
-      "text": "Lua pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1776788377051_fa1",
-      "date": "2026-04-21",
-      "day": 14,
-      "source": "local",
-      "name": "Vex",
-      "category": "interpersonal",
-      "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1776788377051_d2l",
-      "date": "2026-04-21",
-      "day": 14,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "fantástico",
-      "text": "Maro Esteve encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "v_1776788377051a",
-      "date": "2026-04-21",
-      "day": 14,
-      "source": "mundo",
-      "name": "Umi Luz",
-      "category": "llegada",
-      "text": "Umi Luz llegó al mundo hoy."
     }
   ]
 }
