@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 51,
-    "date": "2026-05-28",
+    "day": 52,
+    "date": "2026-05-29",
     "season": "primavera",
-    "seasonDay": 52,
-    "climate": "soleado",
+    "seasonDay": 53,
+    "climate": "nublado",
     "resources": {
       "food": 100,
-      "energy": 60,
+      "energy": 62,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1779984653537_q3v",
-        "date": "2026-05-28",
-        "day": 51,
+        "id": "local_1780069866952_anb",
+        "date": "2026-05-29",
+        "day": 52,
         "source": "local",
-        "name": "Vela Sol",
-        "category": "trivial",
-        "text": "Vela Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "local_1779984653537_ia9",
-        "date": "2026-05-28",
-        "day": 51,
-        "source": "local",
-        "name": "Sal Sol",
-        "category": "trivial",
-        "text": "Sal Sol horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-      },
-      {
-        "id": "local_1779984653537_ndw",
-        "date": "2026-05-28",
-        "day": 51,
-        "source": "local",
-        "name": "Hira Sol",
+        "name": "Iko",
         "category": "fantástico",
-        "text": "Hira Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "text": "Una mariposa de alas plateadas siguió a Iko todo el día. Donde se posaba, las plantas florecían en segundos."
       },
       {
-        "id": "local_1779984653537_wsz",
-        "date": "2026-05-28",
-        "day": 51,
+        "id": "local_1780069866952_u02",
+        "date": "2026-05-29",
+        "day": 52,
+        "source": "local",
+        "name": "Umi Luz",
+        "category": "trivial",
+        "text": "Umi Luz pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1780069866952_tyk",
+        "date": "2026-05-29",
+        "day": 52,
+        "source": "local",
+        "name": "Iko",
+        "category": "contemplativo",
+        "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+      },
+      {
+        "id": "local_1780069866952_rvv",
+        "date": "2026-05-29",
+        "day": 52,
         "source": "local",
         "name": "Bastián Hilo",
-        "category": "trivial",
-        "text": "Bastián Hilo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "v_1779984653537a",
-        "date": "2026-05-28",
-        "day": 51,
-        "source": "mundo",
-        "name": "Sal Sol",
-        "category": "llegada",
-        "text": "Sal Sol llegó al mundo hoy."
+        "category": "fantástico",
+        "text": "Bastián Hilo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 85,
+      "age": 86,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 58,
+      "age": 59,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 89,
+      "age": 90,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -161,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 63,
+      "age": 64,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -177,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 118,
+      "age": 119,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -193,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 51,
+      "age": 52,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -209,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -224,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -239,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 57,
+      "age": 58,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -270,7 +261,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 9,
+      "age": 10,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -285,7 +276,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -340,6 +331,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1780069866952_anb",
+      "date": "2026-05-29",
+      "day": 52,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Iko todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1780069866952_u02",
+      "date": "2026-05-29",
+      "day": 52,
+      "source": "local",
+      "name": "Umi Luz",
+      "category": "trivial",
+      "text": "Umi Luz pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1780069866952_tyk",
+      "date": "2026-05-29",
+      "day": 52,
+      "source": "local",
+      "name": "Iko",
+      "category": "contemplativo",
+      "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "local_1780069866952_rvv",
+      "date": "2026-05-29",
+      "day": 52,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "fantástico",
+      "text": "Bastián Hilo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
     {
       "id": "local_1779984653537_q3v",
       "date": "2026-05-28",
@@ -1203,42 +1230,6 @@
       "name": "Vex",
       "category": "trivial",
       "text": "Vex preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1778000872630_7bo",
-      "date": "2026-05-05",
-      "day": 28,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "contemplativo",
-      "text": "Teo Quilín caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1778000872630_bgy",
-      "date": "2026-05-05",
-      "day": 28,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "interpersonal",
-      "text": "Hira Sol tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1778000872630_9v9",
-      "date": "2026-05-05",
-      "day": 28,
-      "source": "local",
-      "name": "Sola Venegas",
-      "category": "trivial",
-      "text": "Sola Venegas horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "local_1777915049840_rzp",
-      "date": "2026-05-04",
-      "day": 27,
-      "source": "local",
-      "name": "Gael Savia",
-      "category": "fantástico",
-      "text": "Vex se materializó cerca de Gael Savia y dejó una nota en un idioma que nadie ha identificado. Gael Savia la guardó."
     }
   ]
 }
