@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 52,
-    "date": "2026-05-29",
+    "day": 53,
+    "date": "2026-05-30",
     "season": "primavera",
-    "seasonDay": 53,
-    "climate": "nublado",
+    "seasonDay": 54,
+    "climate": "frío seco",
     "resources": {
       "food": 100,
-      "energy": 62,
+      "energy": 60,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1780069866952_anb",
-        "date": "2026-05-29",
-        "day": 52,
+        "id": "local_1780148945832_pvr",
+        "date": "2026-05-30",
+        "day": 53,
+        "source": "local",
+        "name": "Zerda",
+        "category": "interpersonal",
+        "text": "Zerda dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+      },
+      {
+        "id": "local_1780148945832_8c0",
+        "date": "2026-05-30",
+        "day": 53,
+        "source": "local",
+        "name": "Sola Venegas",
+        "category": "interpersonal",
+        "text": "Sola Venegas dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+      },
+      {
+        "id": "local_1780148945832_vpi",
+        "date": "2026-05-30",
+        "day": 53,
+        "source": "local",
+        "name": "Vela Sol",
+        "category": "fantástico",
+        "text": "Vela Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+      },
+      {
+        "id": "local_1780148945832_0f9",
+        "date": "2026-05-30",
+        "day": 53,
         "source": "local",
         "name": "Iko",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Iko todo el día. Donde se posaba, las plantas florecían en segundos."
-      },
-      {
-        "id": "local_1780069866952_u02",
-        "date": "2026-05-29",
-        "day": 52,
-        "source": "local",
-        "name": "Umi Luz",
-        "category": "trivial",
-        "text": "Umi Luz pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "local_1780069866952_tyk",
-        "date": "2026-05-29",
-        "day": 52,
-        "source": "local",
-        "name": "Iko",
-        "category": "contemplativo",
-        "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1780069866952_rvv",
-        "date": "2026-05-29",
-        "day": 52,
-        "source": "local",
-        "name": "Bastián Hilo",
-        "category": "fantástico",
-        "text": "Bastián Hilo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 59,
+      "age": 60,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 80,
+      "age": 81,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 64,
+      "age": 65,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 119,
+      "age": 120,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 52,
+      "age": 53,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 43,
+      "age": 44,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -261,7 +261,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 10,
+      "age": 11,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -276,7 +276,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -331,6 +331,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1780148945832_pvr",
+      "date": "2026-05-30",
+      "day": 53,
+      "source": "local",
+      "name": "Zerda",
+      "category": "interpersonal",
+      "text": "Zerda dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1780148945832_8c0",
+      "date": "2026-05-30",
+      "day": 53,
+      "source": "local",
+      "name": "Sola Venegas",
+      "category": "interpersonal",
+      "text": "Sola Venegas dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1780148945832_vpi",
+      "date": "2026-05-30",
+      "day": 53,
+      "source": "local",
+      "name": "Vela Sol",
+      "category": "fantástico",
+      "text": "Vela Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "local_1780148945832_0f9",
+      "date": "2026-05-30",
+      "day": 53,
+      "source": "local",
+      "name": "Iko",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
+    },
     {
       "id": "local_1780069866952_anb",
       "date": "2026-05-29",
@@ -1194,42 +1230,6 @@
       "name": "Zerda",
       "category": "trivial",
       "text": "Zerda enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "local_1778087803071_o31",
-      "date": "2026-05-06",
-      "day": 29,
-      "source": "local",
-      "name": "Umi Luz",
-      "category": "contemplativo",
-      "text": "Umi Luz se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1778087803071_pim",
-      "date": "2026-05-06",
-      "day": 29,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "contemplativo",
-      "text": "Maro Esteve pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1778087803072_3h6",
-      "date": "2026-05-06",
-      "day": 29,
-      "source": "local",
-      "name": "Lua",
-      "category": "trivial",
-      "text": "Lua pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1778000872630_drv",
-      "date": "2026-05-05",
-      "day": 28,
-      "source": "local",
-      "name": "Vex",
-      "category": "trivial",
-      "text": "Vex preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
     }
   ]
 }
