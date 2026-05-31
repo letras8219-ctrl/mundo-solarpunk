@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 53,
-    "date": "2026-05-30",
+    "day": 54,
+    "date": "2026-05-31",
     "season": "primavera",
-    "seasonDay": 54,
-    "climate": "frío seco",
+    "seasonDay": 55,
+    "climate": "lluvioso",
     "resources": {
       "food": 100,
-      "energy": 60,
+      "energy": 62,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1780148945832_pvr",
-        "date": "2026-05-30",
-        "day": 53,
-        "source": "local",
-        "name": "Zerda",
-        "category": "interpersonal",
-        "text": "Zerda dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-      },
-      {
-        "id": "local_1780148945832_8c0",
-        "date": "2026-05-30",
-        "day": 53,
-        "source": "local",
-        "name": "Sola Venegas",
-        "category": "interpersonal",
-        "text": "Sola Venegas dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-      },
-      {
-        "id": "local_1780148945832_vpi",
-        "date": "2026-05-30",
-        "day": 53,
-        "source": "local",
-        "name": "Vela Sol",
-        "category": "fantástico",
-        "text": "Vela Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-      },
-      {
-        "id": "local_1780148945832_0f9",
-        "date": "2026-05-30",
-        "day": 53,
+        "id": "local_1780235695764_ct1",
+        "date": "2026-05-31",
+        "day": 54,
         "source": "local",
         "name": "Iko",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
+        "category": "contemplativo",
+        "text": "Iko se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1780235695764_9wr",
+        "date": "2026-05-31",
+        "day": 54,
+        "source": "local",
+        "name": "Teo Quilín",
+        "category": "trivial",
+        "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1780235695764_b8v",
+        "date": "2026-05-31",
+        "day": 54,
+        "source": "local",
+        "name": "Teo Quilín",
+        "category": "trivial",
+        "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1780235695764_wwn",
+        "date": "2026-05-31",
+        "day": 54,
+        "source": "local",
+        "name": "Ari Musgo",
+        "category": "contemplativo",
+        "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "v_1780235695764n",
+        "date": "2026-05-31",
+        "day": 54,
+        "source": "mundo",
+        "name": "Remi Agua",
+        "category": "nacimiento",
+        "text": "Remi Agua nació hoy."
       }
     ]
   },
@@ -55,7 +64,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +80,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 60,
+      "age": 61,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +96,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 70,
+      "age": 71,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +112,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 91,
+      "age": 92,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +128,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 81,
+      "age": 82,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +161,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 65,
+      "age": 66,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +177,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 120,
+      "age": 121,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +193,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 53,
+      "age": 54,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +209,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +224,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +239,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -261,7 +270,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 11,
+      "age": 12,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -276,7 +285,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 30,
+      "age": 31,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -286,6 +295,21 @@
       "alive": true,
       "belief": "ateísta",
       "faction": "Tecnolibres"
+    },
+    {
+      "id": "c_1780235695579",
+      "name": "Remi Agua",
+      "type": "humano",
+      "age": 0,
+      "role": "recién nacido",
+      "location": "Zona Este",
+      "traits": [
+        "curioso"
+      ],
+      "emotion": "asombro puro",
+      "alive": true,
+      "belief": null,
+      "faction": null
     }
   ],
   "locations": [
@@ -331,6 +355,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1780235695764_ct1",
+      "date": "2026-05-31",
+      "day": 54,
+      "source": "local",
+      "name": "Iko",
+      "category": "contemplativo",
+      "text": "Iko se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1780235695764_9wr",
+      "date": "2026-05-31",
+      "day": 54,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1780235695764_b8v",
+      "date": "2026-05-31",
+      "day": 54,
+      "source": "local",
+      "name": "Teo Quilín",
+      "category": "trivial",
+      "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1780235695764_wwn",
+      "date": "2026-05-31",
+      "day": 54,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "contemplativo",
+      "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "v_1780235695764n",
+      "date": "2026-05-31",
+      "day": 54,
+      "source": "mundo",
+      "name": "Remi Agua",
+      "category": "nacimiento",
+      "text": "Remi Agua nació hoy."
+    },
     {
       "id": "local_1780148945832_pvr",
       "date": "2026-05-30",
@@ -1185,51 +1254,6 @@
       "name": "Gael Savia",
       "category": "muerte",
       "text": "Gael Savia falleció hoy."
-    },
-    {
-      "id": "local_1778176887113_91n",
-      "date": "2026-05-07",
-      "day": 30,
-      "source": "local",
-      "name": "Vex",
-      "category": "interpersonal",
-      "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1778176887113_yf5",
-      "date": "2026-05-07",
-      "day": 30,
-      "source": "local",
-      "name": "Vex",
-      "category": "trivial",
-      "text": "Vex pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1778176887113_mvk",
-      "date": "2026-05-07",
-      "day": 30,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "trivial",
-      "text": "Maro Esteve preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1778176887113_7tj",
-      "date": "2026-05-07",
-      "day": 30,
-      "source": "local",
-      "name": "Vela Sol",
-      "category": "trivial",
-      "text": "Vela Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1778087803071_8un",
-      "date": "2026-05-06",
-      "day": 29,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
     }
   ]
 }
