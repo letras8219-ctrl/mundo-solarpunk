@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 59,
-    "date": "2026-06-05",
+    "day": 60,
+    "date": "2026-06-06",
     "season": "primavera",
-    "seasonDay": 60,
-    "climate": "frío seco",
+    "seasonDay": 61,
+    "climate": "soleado",
     "resources": {
       "food": 100,
-      "energy": 64,
-      "mood": 100
+      "energy": 63,
+      "mood": 99
     },
     "todayEvents": [
       {
-        "id": "local_1780672433856_gog",
-        "date": "2026-06-05",
-        "day": 59,
+        "id": "local_1780753988508_vet",
+        "date": "2026-06-06",
+        "day": 60,
+        "source": "local",
+        "name": "Maro Esteve",
+        "category": "trivial",
+        "text": "Maro Esteve enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+      },
+      {
+        "id": "local_1780753988508_56x",
+        "date": "2026-06-06",
+        "day": 60,
+        "source": "local",
+        "name": "Vex",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
+      },
+      {
+        "id": "local_1780753988508_25e",
+        "date": "2026-06-06",
+        "day": 60,
         "source": "local",
         "name": "Remi Agua",
-        "category": "trivial",
-        "text": "Remi Agua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+        "category": "contemplativo",
+        "text": "Remi Agua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       },
       {
-        "id": "local_1780672433856_7li",
-        "date": "2026-06-05",
-        "day": 59,
+        "id": "local_1780753988508_64m",
+        "date": "2026-06-06",
+        "day": 60,
         "source": "local",
-        "name": "Vela Savia",
-        "category": "fantástico",
-        "text": "Vex se materializó cerca de Vela Savia y dejó una nota en un idioma que nadie ha identificado. Vela Savia la guardó."
-      },
-      {
-        "id": "local_1780672433856_bpw",
-        "date": "2026-06-05",
-        "day": 59,
-        "source": "local",
-        "name": "Hira Sol",
+        "name": "Ari Musgo",
         "category": "trivial",
-        "text": "Hira Sol organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-      },
-      {
-        "id": "local_1780672433856_hhz",
-        "date": "2026-06-05",
-        "day": 59,
-        "source": "local",
-        "name": "Sal Sol",
-        "category": "trivial",
-        "text": "Sal Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-      },
-      {
-        "id": "v_1780672433856n",
-        "date": "2026-06-05",
-        "day": 59,
-        "source": "mundo",
-        "name": "Cal Río",
-        "category": "nacimiento",
-        "text": "Cal Río nació hoy."
+        "text": "Ari Musgo organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       }
     ]
   },
@@ -64,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 93,
+      "age": 94,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -80,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 66,
+      "age": 67,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -96,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 76,
+      "age": 77,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -112,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 97,
+      "age": 98,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -128,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -161,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 71,
+      "age": 72,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -177,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 126,
+      "age": 127,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -193,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 59,
+      "age": 60,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -209,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 50,
+      "age": 51,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -224,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -239,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -270,7 +261,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 17,
+      "age": 18,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -285,7 +276,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -300,7 +291,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 5,
+      "age": 6,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -315,7 +306,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 35,
+      "age": 36,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -330,7 +321,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 0,
+      "age": 1,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -385,6 +376,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1780753988508_vet",
+      "date": "2026-06-06",
+      "day": 60,
+      "source": "local",
+      "name": "Maro Esteve",
+      "category": "trivial",
+      "text": "Maro Esteve enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1780753988508_56x",
+      "date": "2026-06-06",
+      "day": 60,
+      "source": "local",
+      "name": "Vex",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1780753988508_25e",
+      "date": "2026-06-06",
+      "day": 60,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "contemplativo",
+      "text": "Remi Agua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1780753988508_64m",
+      "date": "2026-06-06",
+      "day": 60,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "trivial",
+      "text": "Ari Musgo organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
     {
       "id": "local_1780672433856_gog",
       "date": "2026-06-05",
@@ -1248,42 +1275,6 @@
       "name": "Teo Quilín",
       "category": "interpersonal",
       "text": "Teo Quilín dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1778768724950_fd1",
-      "date": "2026-05-14",
-      "day": 37,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "espiritual",
-      "text": "Teo Quilín participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1778683535294_gze",
-      "date": "2026-05-13",
-      "day": 36,
-      "source": "local",
-      "name": "Lua",
-      "category": "trivial",
-      "text": "Lua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1778683535295_8wc",
-      "date": "2026-05-13",
-      "day": 36,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "fantástico",
-      "text": "Teo Quilín encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "local_1778683535295_utn",
-      "date": "2026-05-13",
-      "day": 36,
-      "source": "local",
-      "name": "Sola Venegas",
-      "category": "espiritual",
-      "text": "Sola Venegas participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
     }
   ]
 }
