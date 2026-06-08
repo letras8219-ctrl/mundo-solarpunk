@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 61,
-    "date": "2026-06-07",
+    "day": 62,
+    "date": "2026-06-08",
     "season": "primavera",
-    "seasonDay": 62,
+    "seasonDay": 63,
     "climate": "bruma",
     "resources": {
       "food": 100,
-      "energy": 65,
-      "mood": 99
+      "energy": 64,
+      "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1780841017813_c17",
-        "date": "2026-06-07",
-        "day": 61,
+        "id": "local_1780934509116_ofy",
+        "date": "2026-06-08",
+        "day": 62,
+        "source": "local",
+        "name": "Zerda",
+        "category": "trivial",
+        "text": "Zerda pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1780934509116_dsi",
+        "date": "2026-06-08",
+        "day": 62,
         "source": "local",
         "name": "Hira Sol",
         "category": "trivial",
-        "text": "Hira Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "text": "Hira Sol horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       },
       {
-        "id": "local_1780841017813_655",
-        "date": "2026-06-07",
-        "day": 61,
+        "id": "local_1780934509116_35o",
+        "date": "2026-06-08",
+        "day": 62,
         "source": "local",
-        "name": "Maro Esteve",
+        "name": "Remi Agua",
         "category": "trivial",
-        "text": "Maro Esteve horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "text": "Remi Agua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
       },
       {
-        "id": "local_1780841017813_u3n",
-        "date": "2026-06-07",
-        "day": 61,
+        "id": "local_1780934509116_6t3",
+        "date": "2026-06-08",
+        "day": 62,
         "source": "local",
-        "name": "Sola Venegas",
+        "name": "Sal Sol",
         "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Sola Venegas todo el día. Donde se posaba, las plantas florecían en segundos."
-      },
-      {
-        "id": "local_1780841017813_r40",
-        "date": "2026-06-07",
-        "day": 61,
-        "source": "local",
-        "name": "Vela Sol",
-        "category": "trivial",
-        "text": "Vela Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "text": "Sal Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
       }
     ]
   },
@@ -55,7 +55,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 95,
+      "age": 96,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -71,7 +71,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 68,
+      "age": 69,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +87,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +103,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 99,
+      "age": 100,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 89,
+      "age": 90,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +152,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 73,
+      "age": 74,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +168,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 128,
+      "age": 129,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +184,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 61,
+      "age": 62,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +200,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +215,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 50,
+      "age": 51,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +230,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -261,7 +261,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 19,
+      "age": 20,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -276,7 +276,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -291,7 +291,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 7,
+      "age": 8,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -306,7 +306,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -321,7 +321,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 2,
+      "age": 3,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -376,6 +376,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1780934509116_ofy",
+      "date": "2026-06-08",
+      "day": 62,
+      "source": "local",
+      "name": "Zerda",
+      "category": "trivial",
+      "text": "Zerda pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1780934509116_dsi",
+      "date": "2026-06-08",
+      "day": 62,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "trivial",
+      "text": "Hira Sol horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
+    {
+      "id": "local_1780934509116_35o",
+      "date": "2026-06-08",
+      "day": 62,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "trivial",
+      "text": "Remi Agua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1780934509116_6t3",
+      "date": "2026-06-08",
+      "day": 62,
+      "source": "local",
+      "name": "Sal Sol",
+      "category": "fantástico",
+      "text": "Sal Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
     {
       "id": "local_1780841017813_c17",
       "date": "2026-06-07",
@@ -1239,42 +1275,6 @@
       "name": "Teo Quilín",
       "category": "trivial",
       "text": "Teo Quilín pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1778938917339_05m",
-      "date": "2026-05-16",
-      "day": 39,
-      "source": "local",
-      "name": "Vex",
-      "category": "contemplativo",
-      "text": "Vex caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1778854755016_zd3",
-      "date": "2026-05-15",
-      "day": 38,
-      "source": "local",
-      "name": "Umi Luz",
-      "category": "trivial",
-      "text": "Umi Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "local_1778854755016_ym5",
-      "date": "2026-05-15",
-      "day": 38,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "trivial",
-      "text": "Hira Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1778854755016_3he",
-      "date": "2026-05-15",
-      "day": 38,
-      "source": "local",
-      "name": "Iko",
-      "category": "fantástico",
-      "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
     }
   ]
 }
