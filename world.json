@@ -1,11 +1,11 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 62,
-    "date": "2026-06-08",
+    "day": 63,
+    "date": "2026-06-09",
     "season": "primavera",
-    "seasonDay": 63,
-    "climate": "bruma",
+    "seasonDay": 64,
+    "climate": "ventoso",
     "resources": {
       "food": 100,
       "energy": 64,
@@ -13,40 +13,49 @@
     },
     "todayEvents": [
       {
-        "id": "local_1780934509116_ofy",
-        "date": "2026-06-08",
-        "day": 62,
+        "id": "local_1781018062724_yl2",
+        "date": "2026-06-09",
+        "day": 63,
+        "source": "local",
+        "name": "Iko",
+        "category": "fantástico",
+        "text": "Iko fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+      },
+      {
+        "id": "local_1781018062724_dsv",
+        "date": "2026-06-09",
+        "day": 63,
         "source": "local",
         "name": "Zerda",
-        "category": "trivial",
-        "text": "Zerda pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "category": "contemplativo",
+        "text": "Zerda pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       },
       {
-        "id": "local_1780934509116_dsi",
-        "date": "2026-06-08",
-        "day": 62,
+        "id": "local_1781018062724_33j",
+        "date": "2026-06-09",
+        "day": 63,
         "source": "local",
-        "name": "Hira Sol",
-        "category": "trivial",
-        "text": "Hira Sol horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "name": "Cal Río",
+        "category": "contemplativo",
+        "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       },
       {
-        "id": "local_1780934509116_35o",
-        "date": "2026-06-08",
-        "day": 62,
+        "id": "local_1781018062724_to5",
+        "date": "2026-06-09",
+        "day": 63,
         "source": "local",
-        "name": "Remi Agua",
+        "name": "Umi Luz",
         "category": "trivial",
-        "text": "Remi Agua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "text": "Umi Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1780934509116_6t3",
-        "date": "2026-06-08",
-        "day": 62,
-        "source": "local",
-        "name": "Sal Sol",
-        "category": "fantástico",
-        "text": "Sal Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+        "id": "v_1781018062724d",
+        "date": "2026-06-09",
+        "day": 63,
+        "source": "mundo",
+        "name": "Sola Venegas",
+        "category": "muerte",
+        "text": "Sola Venegas falleció hoy."
       }
     ]
   },
@@ -55,7 +64,7 @@
       "id": "c1",
       "name": "Sola Venegas",
       "type": "humano",
-      "age": 96,
+      "age": 97,
       "role": "arquitecta de biomateriales",
       "location": "Zona Este",
       "traits": [
@@ -63,15 +72,16 @@
         "líder"
       ],
       "emotion": "curiosidad",
-      "alive": true,
+      "alive": false,
       "belief": "panteísta",
-      "faction": "Ecoverde"
+      "faction": "Ecoverde",
+      "deathDay": 63
     },
     {
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 69,
+      "age": 70,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -87,7 +97,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -103,7 +113,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 100,
+      "age": 101,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -119,7 +129,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -152,7 +162,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 74,
+      "age": 75,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -168,7 +178,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 129,
+      "age": 130,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -184,7 +194,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 62,
+      "age": 63,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -200,7 +210,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 53,
+      "age": 54,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -215,7 +225,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 51,
+      "age": 52,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -230,7 +240,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -261,7 +271,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 20,
+      "age": 21,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -276,7 +286,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -291,7 +301,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 8,
+      "age": 9,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -306,7 +316,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -321,7 +331,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -376,6 +386,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1781018062724_yl2",
+      "date": "2026-06-09",
+      "day": 63,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Iko fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "local_1781018062724_dsv",
+      "date": "2026-06-09",
+      "day": 63,
+      "source": "local",
+      "name": "Zerda",
+      "category": "contemplativo",
+      "text": "Zerda pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1781018062724_33j",
+      "date": "2026-06-09",
+      "day": 63,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "contemplativo",
+      "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1781018062724_to5",
+      "date": "2026-06-09",
+      "day": 63,
+      "source": "local",
+      "name": "Umi Luz",
+      "category": "trivial",
+      "text": "Umi Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "v_1781018062724d",
+      "date": "2026-06-09",
+      "day": 63,
+      "source": "mundo",
+      "name": "Sola Venegas",
+      "category": "muerte",
+      "text": "Sola Venegas falleció hoy."
+    },
     {
       "id": "local_1780934509116_ofy",
       "date": "2026-06-08",
@@ -1230,51 +1285,6 @@
       "name": "Teo Quilín",
       "category": "fantástico",
       "text": "Teo Quilín fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1779025267444_2mb",
-      "date": "2026-05-17",
-      "day": 40,
-      "source": "local",
-      "name": "Iko",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1779025267444_kh0",
-      "date": "2026-05-17",
-      "day": 40,
-      "source": "local",
-      "name": "Zerda",
-      "category": "fantástico",
-      "text": "Zerda encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1778938917339_r9k",
-      "date": "2026-05-16",
-      "day": 39,
-      "source": "local",
-      "name": "Bastián Hilo",
-      "category": "fantástico",
-      "text": "Bastián Hilo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1778938917339_4mb",
-      "date": "2026-05-16",
-      "day": 39,
-      "source": "local",
-      "name": "Umi Luz",
-      "category": "trivial",
-      "text": "Umi Luz organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1778938917339_rlz",
-      "date": "2026-05-16",
-      "day": 39,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "trivial",
-      "text": "Teo Quilín pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
     }
   ]
 }
