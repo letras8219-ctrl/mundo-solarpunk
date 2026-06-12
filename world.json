@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 65,
-    "date": "2026-06-11",
+    "day": 66,
+    "date": "2026-06-12",
     "season": "primavera",
-    "seasonDay": 66,
+    "seasonDay": 67,
     "climate": "templado",
     "resources": {
-      "food": 99,
-      "energy": 65,
+      "food": 100,
+      "energy": 66,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1781194249241_r3p",
-        "date": "2026-06-11",
-        "day": 65,
+        "id": "local_1781277933332_zdz",
+        "date": "2026-06-12",
+        "day": 66,
         "source": "local",
-        "name": "Maro Esteve",
-        "category": "contemplativo",
-        "text": "Maro Esteve pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1781194249241_ccz",
-        "date": "2026-06-11",
-        "day": 65,
-        "source": "local",
-        "name": "Sal Sol",
-        "category": "contemplativo",
-        "text": "Sal Sol pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1781194249241_yyf",
-        "date": "2026-06-11",
-        "day": 65,
-        "source": "local",
-        "name": "Sal Sol",
+        "name": "Ari Musgo",
         "category": "fantástico",
-        "text": "Sal Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "text": "Ari Musgo encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
       },
       {
-        "id": "local_1781194249241_bcl",
-        "date": "2026-06-11",
-        "day": 65,
+        "id": "local_1781277933332_fxl",
+        "date": "2026-06-12",
+        "day": 66,
         "source": "local",
         "name": "Lua",
-        "category": "fantástico",
-        "text": "Lua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "category": "contemplativo",
+        "text": "Lua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+      },
+      {
+        "id": "local_1781277933332_lb8",
+        "date": "2026-06-12",
+        "day": 66,
+        "source": "local",
+        "name": "Remi Agua",
+        "category": "contemplativo",
+        "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1781277933332_tzp",
+        "date": "2026-06-12",
+        "day": 66,
+        "source": "local",
+        "name": "Iko",
+        "category": "interpersonal",
+        "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+      },
+      {
+        "id": "v_1781277933332n",
+        "date": "2026-06-12",
+        "day": 66,
+        "source": "mundo",
+        "name": "Juno Río",
+        "category": "nacimiento",
+        "text": "Juno Río nació hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 72,
+      "age": 73,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -88,7 +97,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -104,7 +113,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 103,
+      "age": 104,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -120,7 +129,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 93,
+      "age": 94,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -153,7 +162,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 77,
+      "age": 78,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -169,7 +178,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 132,
+      "age": 133,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -185,7 +194,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 65,
+      "age": 66,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -201,7 +210,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 56,
+      "age": 57,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -216,7 +225,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 54,
+      "age": 55,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -231,7 +240,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -262,7 +271,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -277,7 +286,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -292,7 +301,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 11,
+      "age": 12,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -307,7 +316,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -322,9 +331,24 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 6,
+      "age": 7,
       "role": "recién nacido",
       "location": "Zona Este",
+      "traits": [
+        "curioso"
+      ],
+      "emotion": "asombro puro",
+      "alive": true,
+      "belief": null,
+      "faction": null
+    },
+    {
+      "id": "c_1781277933129",
+      "name": "Juno Río",
+      "type": "humano",
+      "age": 0,
+      "role": "recién nacido",
+      "location": "Granja Central",
       "traits": [
         "curioso"
       ],
@@ -377,6 +401,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1781277933332_zdz",
+      "date": "2026-06-12",
+      "day": 66,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "fantástico",
+      "text": "Ari Musgo encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1781277933332_fxl",
+      "date": "2026-06-12",
+      "day": 66,
+      "source": "local",
+      "name": "Lua",
+      "category": "contemplativo",
+      "text": "Lua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1781277933332_lb8",
+      "date": "2026-06-12",
+      "day": 66,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "contemplativo",
+      "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1781277933332_tzp",
+      "date": "2026-06-12",
+      "day": 66,
+      "source": "local",
+      "name": "Iko",
+      "category": "interpersonal",
+      "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "v_1781277933332n",
+      "date": "2026-06-12",
+      "day": 66,
+      "source": "mundo",
+      "name": "Juno Río",
+      "category": "nacimiento",
+      "text": "Juno Río nació hoy."
+    },
     {
       "id": "local_1781194249241_r3p",
       "date": "2026-06-11",
@@ -1231,51 +1300,6 @@
       "name": "Maro Esteve",
       "category": "trivial",
       "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1779291191375_siu",
-      "date": "2026-05-20",
-      "day": 43,
-      "source": "local",
-      "name": "Iko",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Iko todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1779291191375_rg3",
-      "date": "2026-05-20",
-      "day": 43,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "trivial",
-      "text": "Maro Esteve organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1779204916993_khx",
-      "date": "2026-05-19",
-      "day": 42,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "interpersonal",
-      "text": "Ari Musgo tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1779204916993_z81",
-      "date": "2026-05-19",
-      "day": 42,
-      "source": "local",
-      "name": "Lua",
-      "category": "trivial",
-      "text": "Lua preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1779204916993_run",
-      "date": "2026-05-19",
-      "day": 42,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "fantástico",
-      "text": "Hira Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
     }
   ]
 }
