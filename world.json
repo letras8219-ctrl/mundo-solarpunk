@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 66,
-    "date": "2026-06-12",
+    "day": 67,
+    "date": "2026-06-13",
     "season": "primavera",
-    "seasonDay": 67,
-    "climate": "templado",
+    "seasonDay": 68,
+    "climate": "nublado",
     "resources": {
       "food": 100,
-      "energy": 66,
+      "energy": 64,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1781277933332_zdz",
-        "date": "2026-06-12",
-        "day": 66,
-        "source": "local",
-        "name": "Ari Musgo",
-        "category": "fantástico",
-        "text": "Ari Musgo encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1781277933332_fxl",
-        "date": "2026-06-12",
-        "day": 66,
+        "id": "local_1781359777860_e09",
+        "date": "2026-06-13",
+        "day": 67,
         "source": "local",
         "name": "Lua",
-        "category": "contemplativo",
-        "text": "Lua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Lua. Duró poco pero dejó el aire oliendo a promesas."
       },
       {
-        "id": "local_1781277933332_lb8",
-        "date": "2026-06-12",
-        "day": 66,
+        "id": "local_1781359777860_xne",
+        "date": "2026-06-13",
+        "day": 67,
         "source": "local",
-        "name": "Remi Agua",
-        "category": "contemplativo",
-        "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "name": "Cal Río",
+        "category": "fantástico",
+        "text": "Cal Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
       },
       {
-        "id": "local_1781277933332_tzp",
-        "date": "2026-06-12",
-        "day": 66,
+        "id": "local_1781359777860_fys",
+        "date": "2026-06-13",
+        "day": 67,
         "source": "local",
-        "name": "Iko",
+        "name": "Zerda",
+        "category": "contemplativo",
+        "text": "Zerda se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1781359777860_eg2",
+        "date": "2026-06-13",
+        "day": 67,
+        "source": "local",
+        "name": "Lua",
         "category": "interpersonal",
-        "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-      },
-      {
-        "id": "v_1781277933332n",
-        "date": "2026-06-12",
-        "day": 66,
-        "source": "mundo",
-        "name": "Juno Río",
-        "category": "nacimiento",
-        "text": "Juno Río nació hoy."
+        "text": "Lua tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       }
     ]
   },
@@ -81,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 73,
+      "age": 74,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -97,7 +88,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 83,
+      "age": 84,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -113,7 +104,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 104,
+      "age": 105,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -129,7 +120,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 94,
+      "age": 95,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -162,7 +153,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 78,
+      "age": 79,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -178,7 +169,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 133,
+      "age": 134,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -194,7 +185,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 66,
+      "age": 67,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -210,7 +201,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 57,
+      "age": 58,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -225,7 +216,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -240,7 +231,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 72,
+      "age": 73,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -271,7 +262,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 24,
+      "age": 25,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -286,7 +277,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 43,
+      "age": 44,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -301,7 +292,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -316,7 +307,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -331,7 +322,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 7,
+      "age": 8,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -346,7 +337,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 0,
+      "age": 1,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -401,6 +392,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1781359777860_e09",
+      "date": "2026-06-13",
+      "day": 67,
+      "source": "local",
+      "name": "Lua",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Lua. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1781359777860_xne",
+      "date": "2026-06-13",
+      "day": 67,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "fantástico",
+      "text": "Cal Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1781359777860_fys",
+      "date": "2026-06-13",
+      "day": 67,
+      "source": "local",
+      "name": "Zerda",
+      "category": "contemplativo",
+      "text": "Zerda se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1781359777860_eg2",
+      "date": "2026-06-13",
+      "day": 67,
+      "source": "local",
+      "name": "Lua",
+      "category": "interpersonal",
+      "text": "Lua tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
     {
       "id": "local_1781277933332_zdz",
       "date": "2026-06-12",
@@ -1264,42 +1291,6 @@
       "name": "Maro Esteve",
       "category": "trivial",
       "text": "Maro Esteve catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-    },
-    {
-      "id": "local_1779377884982_wlh",
-      "date": "2026-05-21",
-      "day": 44,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "trivial",
-      "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1779377884982_lje",
-      "date": "2026-05-21",
-      "day": 44,
-      "source": "local",
-      "name": "Lua",
-      "category": "trivial",
-      "text": "Lua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-    },
-    {
-      "id": "local_1779291191375_97z",
-      "date": "2026-05-20",
-      "day": 43,
-      "source": "local",
-      "name": "Iko",
-      "category": "contemplativo",
-      "text": "Iko se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
-    },
-    {
-      "id": "local_1779291191375_5l6",
-      "date": "2026-05-20",
-      "day": 43,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "trivial",
-      "text": "Maro Esteve pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
     }
   ]
 }
