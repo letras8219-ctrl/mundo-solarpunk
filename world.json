@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 69,
-    "date": "2026-06-15",
+    "day": 70,
+    "date": "2026-06-16",
     "season": "primavera",
-    "seasonDay": 70,
-    "climate": "lluvioso",
+    "seasonDay": 71,
+    "climate": "ventoso",
     "resources": {
-      "food": 100,
-      "energy": 67,
+      "food": 99,
+      "energy": 65,
       "mood": 99
     },
     "todayEvents": [
       {
-        "id": "local_1781544030037_0xr",
-        "date": "2026-06-15",
-        "day": 69,
+        "id": "local_1781629416227_lty",
+        "date": "2026-06-16",
+        "day": 70,
         "source": "local",
         "name": "Remi Agua",
-        "category": "interpersonal",
-        "text": "Remi Agua tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-      },
-      {
-        "id": "local_1781544030037_2z9",
-        "date": "2026-06-15",
-        "day": 69,
-        "source": "local",
-        "name": "Cal Río",
-        "category": "fantástico",
-        "text": "Cal Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1781544030037_3v3",
-        "date": "2026-06-15",
-        "day": 69,
-        "source": "local",
-        "name": "Vela Savia",
-        "category": "fantástico",
-        "text": "Vela Savia encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1781544030037_xjn",
-        "date": "2026-06-15",
-        "day": 69,
-        "source": "local",
-        "name": "Iko",
         "category": "trivial",
-        "text": "Iko preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "text": "Remi Agua pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+      },
+      {
+        "id": "local_1781629416227_k3g",
+        "date": "2026-06-16",
+        "day": 70,
+        "source": "local",
+        "name": "Zerda",
+        "category": "trivial",
+        "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+      },
+      {
+        "id": "local_1781629416227_xyz",
+        "date": "2026-06-16",
+        "day": 70,
+        "source": "local",
+        "name": "Vex",
+        "category": "contemplativo",
+        "text": "Vex caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+      },
+      {
+        "id": "local_1781629416227_v4b",
+        "date": "2026-06-16",
+        "day": 70,
+        "source": "local",
+        "name": "Hira Sol",
+        "category": "fantástico",
+        "text": "Hira Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "v_1781629416227d",
+        "date": "2026-06-16",
+        "day": 70,
+        "source": "mundo",
+        "name": "Maro Esteve",
+        "category": "muerte",
+        "text": "Maro Esteve falleció hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 76,
+      "age": 77,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -88,7 +97,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -104,7 +113,7 @@
       "id": "c4",
       "name": "Maro Esteve",
       "type": "humano",
-      "age": 107,
+      "age": 108,
       "role": "guardián de semillas",
       "location": "Granja Central",
       "traits": [
@@ -112,15 +121,16 @@
         "sabio"
       ],
       "emotion": "serenidad",
-      "alive": true,
+      "alive": false,
       "belief": "animista",
-      "faction": "Círculo Raíz"
+      "faction": "Círculo Raíz",
+      "deathDay": 70
     },
     {
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 97,
+      "age": 98,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -153,7 +163,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 81,
+      "age": 82,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -169,7 +179,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 136,
+      "age": 137,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -185,7 +195,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 69,
+      "age": 70,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -201,7 +211,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 60,
+      "age": 61,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -216,7 +226,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -231,7 +241,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -262,7 +272,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 27,
+      "age": 28,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -277,7 +287,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 46,
+      "age": 47,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -292,7 +302,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 15,
+      "age": 16,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -307,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -322,7 +332,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 10,
+      "age": 11,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -337,7 +347,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -392,6 +402,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1781629416227_lty",
+      "date": "2026-06-16",
+      "day": 70,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "trivial",
+      "text": "Remi Agua pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1781629416227_k3g",
+      "date": "2026-06-16",
+      "day": 70,
+      "source": "local",
+      "name": "Zerda",
+      "category": "trivial",
+      "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1781629416227_xyz",
+      "date": "2026-06-16",
+      "day": 70,
+      "source": "local",
+      "name": "Vex",
+      "category": "contemplativo",
+      "text": "Vex caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "local_1781629416227_v4b",
+      "date": "2026-06-16",
+      "day": 70,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "fantástico",
+      "text": "Hira Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "v_1781629416227d",
+      "date": "2026-06-16",
+      "day": 70,
+      "source": "mundo",
+      "name": "Maro Esteve",
+      "category": "muerte",
+      "text": "Maro Esteve falleció hoy."
+    },
     {
       "id": "local_1781544030037_0xr",
       "date": "2026-06-15",
@@ -1246,51 +1301,6 @@
       "name": "Lua",
       "category": "trivial",
       "text": "Lua organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1779630310409_k9l",
-      "date": "2026-05-24",
-      "day": 47,
-      "source": "local",
-      "name": "Lua",
-      "category": "contemplativo",
-      "text": "Lua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1779630310409_ygt",
-      "date": "2026-05-24",
-      "day": 47,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1779630310409_hu6",
-      "date": "2026-05-24",
-      "day": 47,
-      "source": "local",
-      "name": "Sola Venegas",
-      "category": "contemplativo",
-      "text": "Sola Venegas se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1779543998244_h4w",
-      "date": "2026-05-23",
-      "day": 46,
-      "source": "local",
-      "name": "Zerda",
-      "category": "contemplativo",
-      "text": "Zerda se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
-    },
-    {
-      "id": "local_1779543998244_sf2",
-      "date": "2026-05-23",
-      "day": 46,
-      "source": "local",
-      "name": "Vela Sol",
-      "category": "fantástico",
-      "text": "Vela Sol fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
     }
   ]
 }
