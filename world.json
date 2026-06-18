@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 71,
-    "date": "2026-06-17",
+    "day": 72,
+    "date": "2026-06-18",
     "season": "primavera",
-    "seasonDay": 72,
-    "climate": "nublado",
+    "seasonDay": 73,
+    "climate": "frío seco",
     "resources": {
       "food": 100,
-      "energy": 63,
+      "energy": 62,
       "mood": 98
     },
     "todayEvents": [
       {
-        "id": "local_1781711132660_b7p",
-        "date": "2026-06-17",
-        "day": 71,
+        "id": "local_1781796943506_hjo",
+        "date": "2026-06-18",
+        "day": 72,
         "source": "local",
-        "name": "Juno Río",
+        "name": "Lua",
+        "category": "trivial",
+        "text": "Lua horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+      },
+      {
+        "id": "local_1781796943506_b1x",
+        "date": "2026-06-18",
+        "day": 72,
+        "source": "local",
+        "name": "Cal Río",
+        "category": "trivial",
+        "text": "Cal Río pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+      },
+      {
+        "id": "local_1781796943506_d33",
+        "date": "2026-06-18",
+        "day": 72,
+        "source": "local",
+        "name": "Lua",
         "category": "fantástico",
-        "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "text": "Lua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
       },
       {
-        "id": "local_1781711132660_es3",
-        "date": "2026-06-17",
-        "day": 71,
+        "id": "local_1781796943506_w8n",
+        "date": "2026-06-18",
+        "day": 72,
         "source": "local",
+        "name": "Cal Río",
+        "category": "trivial",
+        "text": "Cal Río pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "v_1781796943507d",
+        "date": "2026-06-18",
+        "day": 72,
+        "source": "mundo",
         "name": "Teo Quilín",
-        "category": "trivial",
-        "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-      },
-      {
-        "id": "local_1781711132660_b5v",
-        "date": "2026-06-17",
-        "day": 71,
-        "source": "local",
-        "name": "Ari Musgo",
-        "category": "contemplativo",
-        "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-      },
-      {
-        "id": "local_1781711132660_isb",
-        "date": "2026-06-17",
-        "day": 71,
-        "source": "local",
-        "name": "Zerda",
-        "category": "trivial",
-        "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "category": "muerte",
+        "text": "Teo Quilín falleció hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 78,
+      "age": 79,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -88,7 +97,7 @@
       "id": "c3",
       "name": "Teo Quilín",
       "type": "humano",
-      "age": 88,
+      "age": 89,
       "role": "aprendiz de cartógrafo",
       "location": "Bosque Norte",
       "traits": [
@@ -96,9 +105,10 @@
         "valiente"
       ],
       "emotion": "euforia",
-      "alive": true,
+      "alive": false,
       "belief": "agnóstico",
-      "faction": "sin filiación"
+      "faction": "sin filiación",
+      "deathDay": 72
     },
     {
       "id": "c4",
@@ -121,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 99,
+      "age": 100,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -154,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 83,
+      "age": 84,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -170,7 +180,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 138,
+      "age": 139,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -186,7 +196,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 71,
+      "age": 72,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -202,7 +212,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -217,7 +227,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 60,
+      "age": 61,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -232,7 +242,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -263,7 +273,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -278,7 +288,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -293,7 +303,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 17,
+      "age": 18,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -308,7 +318,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 47,
+      "age": 48,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -323,7 +333,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -338,7 +348,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 5,
+      "age": 6,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -393,6 +403,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1781796943506_hjo",
+      "date": "2026-06-18",
+      "day": 72,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
+    {
+      "id": "local_1781796943506_b1x",
+      "date": "2026-06-18",
+      "day": 72,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "trivial",
+      "text": "Cal Río pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1781796943506_d33",
+      "date": "2026-06-18",
+      "day": 72,
+      "source": "local",
+      "name": "Lua",
+      "category": "fantástico",
+      "text": "Lua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1781796943506_w8n",
+      "date": "2026-06-18",
+      "day": 72,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "trivial",
+      "text": "Cal Río pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "v_1781796943507d",
+      "date": "2026-06-18",
+      "day": 72,
+      "source": "mundo",
+      "name": "Teo Quilín",
+      "category": "muerte",
+      "text": "Teo Quilín falleció hoy."
+    },
     {
       "id": "local_1781711132660_b7p",
       "date": "2026-06-17",
@@ -1247,51 +1302,6 @@
       "name": "Hira Sol",
       "category": "fantástico",
       "text": "Una mariposa de alas plateadas siguió a Hira Sol todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1779810672701_yxv",
-      "date": "2026-05-26",
-      "day": 49,
-      "source": "local",
-      "name": "Bastián Hilo",
-      "category": "contemplativo",
-      "text": "Bastián Hilo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1779810672701_3ar",
-      "date": "2026-05-26",
-      "day": 49,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "trivial",
-      "text": "Teo Quilín preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1779810672701_0cr",
-      "date": "2026-05-26",
-      "day": 49,
-      "source": "local",
-      "name": "Iko",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1779810672701_7vk",
-      "date": "2026-05-26",
-      "day": 49,
-      "source": "local",
-      "name": "Sola Venegas",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Sola Venegas todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1779722260437_a98",
-      "date": "2026-05-25",
-      "day": 48,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "contemplativo",
-      "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
     }
   ]
 }
