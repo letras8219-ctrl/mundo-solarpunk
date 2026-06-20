@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 73,
-    "date": "2026-06-19",
+    "day": 74,
+    "date": "2026-06-20",
     "season": "primavera",
-    "seasonDay": 74,
+    "seasonDay": 75,
     "climate": "templado",
     "resources": {
-      "food": 100,
-      "energy": 63,
-      "mood": 98
+      "food": 99,
+      "energy": 61,
+      "mood": 97
     },
     "todayEvents": [
       {
-        "id": "local_1781882967478_wyh",
-        "date": "2026-06-19",
-        "day": 73,
+        "id": "local_1781964800671_20d",
+        "date": "2026-06-20",
+        "day": 74,
         "source": "local",
         "name": "Iko",
         "category": "fantástico",
-        "text": "Iko encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "text": "Iko fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
       },
       {
-        "id": "local_1781882967479_lez",
-        "date": "2026-06-19",
-        "day": 73,
+        "id": "local_1781964800671_qz6",
+        "date": "2026-06-20",
+        "day": 74,
         "source": "local",
-        "name": "Umi Luz",
-        "category": "trivial",
-        "text": "Umi Luz preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "name": "Iko",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
       },
       {
-        "id": "local_1781882967479_bsu",
-        "date": "2026-06-19",
-        "day": 73,
+        "id": "local_1781964800671_idj",
+        "date": "2026-06-20",
+        "day": 74,
         "source": "local",
-        "name": "Bastián Hilo",
-        "category": "trivial",
-        "text": "Bastián Hilo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "name": "Remi Agua",
+        "category": "contemplativo",
+        "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1781882967479_ajx",
-        "date": "2026-06-19",
-        "day": 73,
+        "id": "local_1781964800671_emf",
+        "date": "2026-06-20",
+        "day": 74,
         "source": "local",
-        "name": "Vela Sol",
-        "category": "trivial",
-        "text": "Vela Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "name": "Sal Sol",
+        "category": "fantástico",
+        "text": "Sal Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 80,
+      "age": 81,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 101,
+      "age": 102,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 85,
+      "age": 86,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +171,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 140,
+      "age": 141,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +187,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 73,
+      "age": 74,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +203,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 64,
+      "age": 65,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +218,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,7 +233,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -264,7 +264,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 31,
+      "age": 32,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +279,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 50,
+      "age": 51,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +294,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 19,
+      "age": 20,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +309,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 49,
+      "age": 50,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +324,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 14,
+      "age": 15,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +339,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 7,
+      "age": 8,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -394,6 +394,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1781964800671_20d",
+      "date": "2026-06-20",
+      "day": 74,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Iko fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "local_1781964800671_qz6",
+      "date": "2026-06-20",
+      "day": 74,
+      "source": "local",
+      "name": "Iko",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Iko. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1781964800671_idj",
+      "date": "2026-06-20",
+      "day": 74,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "contemplativo",
+      "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1781964800671_emf",
+      "date": "2026-06-20",
+      "day": 74,
+      "source": "local",
+      "name": "Sal Sol",
+      "category": "fantástico",
+      "text": "Sal Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
     {
       "id": "local_1781882967478_wyh",
       "date": "2026-06-19",
@@ -1257,42 +1293,6 @@
       "name": "Vela Sol",
       "category": "trivial",
       "text": "Vela Sol pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1779984653537_ia9",
-      "date": "2026-05-28",
-      "day": 51,
-      "source": "local",
-      "name": "Sal Sol",
-      "category": "trivial",
-      "text": "Sal Sol horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "local_1779984653537_ndw",
-      "date": "2026-05-28",
-      "day": 51,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "fantástico",
-      "text": "Hira Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1779984653537_wsz",
-      "date": "2026-05-28",
-      "day": 51,
-      "source": "local",
-      "name": "Bastián Hilo",
-      "category": "trivial",
-      "text": "Bastián Hilo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "v_1779984653537a",
-      "date": "2026-05-28",
-      "day": 51,
-      "source": "mundo",
-      "name": "Sal Sol",
-      "category": "llegada",
-      "text": "Sal Sol llegó al mundo hoy."
     }
   ]
 }
