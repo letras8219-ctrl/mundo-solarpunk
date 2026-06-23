@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 76,
-    "date": "2026-06-22",
+    "day": 77,
+    "date": "2026-06-23",
     "season": "primavera",
-    "seasonDay": 77,
-    "climate": "bruma",
+    "seasonDay": 78,
+    "climate": "ventoso",
     "resources": {
-      "food": 99,
-      "energy": 60,
-      "mood": 99
+      "food": 100,
+      "energy": 58,
+      "mood": 98
     },
     "todayEvents": [
       {
-        "id": "local_1782147861153_amt",
-        "date": "2026-06-22",
-        "day": 76,
+        "id": "local_1782227486222_zqv",
+        "date": "2026-06-23",
+        "day": 77,
         "source": "local",
-        "name": "Juno Río",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Juno Río. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Ari Musgo",
+        "category": "contemplativo",
+        "text": "Ari Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
       },
       {
-        "id": "local_1782147861153_7yk",
-        "date": "2026-06-22",
-        "day": 76,
+        "id": "local_1782227486222_57a",
+        "date": "2026-06-23",
+        "day": 77,
         "source": "local",
-        "name": "Zerda",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
+        "name": "Bastián Hilo",
+        "category": "trivial",
+        "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1782147861153_44o",
-        "date": "2026-06-22",
-        "day": 76,
+        "id": "local_1782227486222_rbs",
+        "date": "2026-06-23",
+        "day": 77,
         "source": "local",
         "name": "Cal Río",
-        "category": "espiritual",
-        "text": "Cal Río participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+        "category": "trivial",
+        "text": "Cal Río catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
       },
       {
-        "id": "local_1782147861153_kmo",
-        "date": "2026-06-22",
-        "day": 76,
+        "id": "local_1782227486222_ad4",
+        "date": "2026-06-23",
+        "day": 77,
         "source": "local",
-        "name": "Vela Sol",
+        "name": "Juno Río",
         "category": "fantástico",
-        "text": "Vela Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+      },
+      {
+        "id": "v_1782227486222a",
+        "date": "2026-06-23",
+        "day": 77,
+        "source": "mundo",
+        "name": "Gael Tierra",
+        "category": "llegada",
+        "text": "Gael Tierra llegó al mundo hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 83,
+      "age": 84,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 104,
+      "age": 105,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 88,
+      "age": 89,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +180,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 143,
+      "age": 144,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +196,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 76,
+      "age": 77,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +212,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +227,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,7 +242,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -264,7 +273,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +288,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 53,
+      "age": 54,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +303,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 22,
+      "age": 23,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +318,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +333,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 17,
+      "age": 18,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +348,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 10,
+      "age": 11,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -349,6 +358,21 @@
       "alive": true,
       "belief": null,
       "faction": null
+    },
+    {
+      "id": "c_1782227485997_i",
+      "name": "Gael Tierra",
+      "type": "humano",
+      "age": 32,
+      "role": "recién llegado",
+      "location": "El Mirador",
+      "traits": [
+        "viajero"
+      ],
+      "emotion": "nostalgia",
+      "alive": true,
+      "belief": "animista",
+      "faction": "Círculo Raíz"
     }
   ],
   "locations": [
@@ -394,6 +418,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1782227486222_zqv",
+      "date": "2026-06-23",
+      "day": 77,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "contemplativo",
+      "text": "Ari Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "local_1782227486222_57a",
+      "date": "2026-06-23",
+      "day": 77,
+      "source": "local",
+      "name": "Bastián Hilo",
+      "category": "trivial",
+      "text": "Bastián Hilo enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1782227486222_rbs",
+      "date": "2026-06-23",
+      "day": 77,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "trivial",
+      "text": "Cal Río catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1782227486222_ad4",
+      "date": "2026-06-23",
+      "day": 77,
+      "source": "local",
+      "name": "Juno Río",
+      "category": "fantástico",
+      "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "v_1782227486222a",
+      "date": "2026-06-23",
+      "day": 77,
+      "source": "mundo",
+      "name": "Gael Tierra",
+      "category": "llegada",
+      "text": "Gael Tierra llegó al mundo hoy."
+    },
     {
       "id": "local_1782147861153_amt",
       "date": "2026-06-22",
@@ -1248,51 +1317,6 @@
       "name": "Iko",
       "category": "contemplativo",
       "text": "Iko se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1780235695764_9wr",
-      "date": "2026-05-31",
-      "day": 54,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "trivial",
-      "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1780235695764_b8v",
-      "date": "2026-05-31",
-      "day": 54,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "trivial",
-      "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1780235695764_wwn",
-      "date": "2026-05-31",
-      "day": 54,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "contemplativo",
-      "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "v_1780235695764n",
-      "date": "2026-05-31",
-      "day": 54,
-      "source": "mundo",
-      "name": "Remi Agua",
-      "category": "nacimiento",
-      "text": "Remi Agua nació hoy."
-    },
-    {
-      "id": "local_1780148945832_pvr",
-      "date": "2026-05-30",
-      "day": 53,
-      "source": "local",
-      "name": "Zerda",
-      "category": "interpersonal",
-      "text": "Zerda dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
     }
   ]
 }
