@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 78,
-    "date": "2026-06-24",
+    "day": 79,
+    "date": "2026-06-25",
     "season": "primavera",
-    "seasonDay": 79,
-    "climate": "tormenta suave",
+    "seasonDay": 80,
+    "climate": "lluvioso",
     "resources": {
       "food": 100,
       "energy": 59,
-      "mood": 97
+      "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1782312068084_hau",
-        "date": "2026-06-24",
-        "day": 78,
+        "id": "local_1782398622115_8l7",
+        "date": "2026-06-25",
+        "day": 79,
         "source": "local",
-        "name": "Bastián Hilo",
-        "category": "contemplativo",
-        "text": "Bastián Hilo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "name": "Hira Sol",
+        "category": "espiritual",
+        "text": "Hira Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       },
       {
-        "id": "local_1782312068084_7d9",
-        "date": "2026-06-24",
-        "day": 78,
+        "id": "local_1782398622115_wa4",
+        "date": "2026-06-25",
+        "day": 79,
         "source": "local",
-        "name": "Iko",
+        "name": "Sal Sol",
         "category": "contemplativo",
-        "text": "Iko se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "text": "Sal Sol se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
       },
       {
-        "id": "local_1782312068084_9od",
-        "date": "2026-06-24",
-        "day": 78,
+        "id": "local_1782398622115_hra",
+        "date": "2026-06-25",
+        "day": 79,
         "source": "local",
-        "name": "Lua",
-        "category": "contemplativo",
-        "text": "Lua se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+        "name": "Vela Savia",
+        "category": "interpersonal",
+        "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       },
       {
-        "id": "local_1782312068084_0mw",
-        "date": "2026-06-24",
-        "day": 78,
+        "id": "local_1782398622115_y9d",
+        "date": "2026-06-25",
+        "day": 79,
         "source": "local",
-        "name": "Zerda",
-        "category": "fantástico",
-        "text": "Zerda encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "name": "Vela Savia",
+        "category": "trivial",
+        "text": "Vela Savia pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 85,
+      "age": 86,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 106,
+      "age": 107,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 90,
+      "age": 91,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +171,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 145,
+      "age": 146,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +187,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 78,
+      "age": 79,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +203,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +218,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,7 +233,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 84,
+      "age": 85,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -264,7 +264,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +279,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +294,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 24,
+      "age": 25,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +309,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 54,
+      "age": 55,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +324,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 19,
+      "age": 20,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +339,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -354,7 +354,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 33,
+      "age": 34,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -409,6 +409,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1782398622115_8l7",
+      "date": "2026-06-25",
+      "day": 79,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "espiritual",
+      "text": "Hira Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1782398622115_wa4",
+      "date": "2026-06-25",
+      "day": 79,
+      "source": "local",
+      "name": "Sal Sol",
+      "category": "contemplativo",
+      "text": "Sal Sol se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
+    {
+      "id": "local_1782398622115_hra",
+      "date": "2026-06-25",
+      "day": 79,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "interpersonal",
+      "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1782398622115_y9d",
+      "date": "2026-06-25",
+      "day": 79,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "trivial",
+      "text": "Vela Savia pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
     {
       "id": "local_1782312068084_hau",
       "date": "2026-06-24",
@@ -1272,42 +1308,6 @@
       "name": "Hira Sol",
       "category": "trivial",
       "text": "Hira Sol enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "local_1780418527406_tcp",
-      "date": "2026-06-02",
-      "day": 56,
-      "source": "local",
-      "name": "Vela Sol",
-      "category": "contemplativo",
-      "text": "Vela Sol se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
-    },
-    {
-      "id": "local_1780418527406_j4w",
-      "date": "2026-06-02",
-      "day": 56,
-      "source": "local",
-      "name": "Bastián Hilo",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Bastián Hilo. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "v_1780418527406a",
-      "date": "2026-06-02",
-      "day": 56,
-      "source": "mundo",
-      "name": "Vela Savia",
-      "category": "llegada",
-      "text": "Vela Savia llegó al mundo hoy."
-    },
-    {
-      "id": "local_1780336235596_y2r",
-      "date": "2026-06-01",
-      "day": 55,
-      "source": "local",
-      "name": "Maro Esteve",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Maro Esteve todo el día. Donde se posaba, las plantas florecían en segundos."
     }
   ]
 }
