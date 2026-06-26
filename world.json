@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 79,
-    "date": "2026-06-25",
+    "day": 80,
+    "date": "2026-06-26",
     "season": "primavera",
-    "seasonDay": 80,
-    "climate": "lluvioso",
+    "seasonDay": 81,
+    "climate": "templado",
     "resources": {
-      "food": 100,
-      "energy": 59,
+      "food": 99,
+      "energy": 58,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1782398622115_8l7",
-        "date": "2026-06-25",
-        "day": 79,
-        "source": "local",
-        "name": "Hira Sol",
-        "category": "espiritual",
-        "text": "Hira Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1782398622115_wa4",
-        "date": "2026-06-25",
-        "day": 79,
+        "id": "local_1782484445906_exu",
+        "date": "2026-06-26",
+        "day": 80,
         "source": "local",
         "name": "Sal Sol",
         "category": "contemplativo",
-        "text": "Sal Sol se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+        "text": "Sal Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1782398622115_hra",
-        "date": "2026-06-25",
-        "day": 79,
+        "id": "local_1782484445906_rlg",
+        "date": "2026-06-26",
+        "day": 80,
         "source": "local",
-        "name": "Vela Savia",
-        "category": "interpersonal",
-        "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Juno Río",
+        "category": "contemplativo",
+        "text": "Juno Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1782398622115_y9d",
-        "date": "2026-06-25",
-        "day": 79,
+        "id": "local_1782484445906_0wq",
+        "date": "2026-06-26",
+        "day": 80,
         "source": "local",
-        "name": "Vela Savia",
-        "category": "trivial",
-        "text": "Vela Savia pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "name": "Vela Sol",
+        "category": "espiritual",
+        "text": "Vela Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1782484445906_0f4",
+        "date": "2026-06-26",
+        "day": 80,
+        "source": "local",
+        "name": "Lua",
+        "category": "contemplativo",
+        "text": "Lua caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 86,
+      "age": 87,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 107,
+      "age": 108,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 91,
+      "age": 92,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +171,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 146,
+      "age": 147,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +187,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 79,
+      "age": 80,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +203,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 70,
+      "age": 71,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +218,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,7 +233,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 85,
+      "age": 86,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -264,7 +264,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +279,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 56,
+      "age": 57,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +294,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 25,
+      "age": 26,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +309,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +324,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 20,
+      "age": 21,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +339,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 13,
+      "age": 14,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -354,7 +354,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -409,6 +409,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1782484445906_exu",
+      "date": "2026-06-26",
+      "day": 80,
+      "source": "local",
+      "name": "Sal Sol",
+      "category": "contemplativo",
+      "text": "Sal Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1782484445906_rlg",
+      "date": "2026-06-26",
+      "day": 80,
+      "source": "local",
+      "name": "Juno Río",
+      "category": "contemplativo",
+      "text": "Juno Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1782484445906_0wq",
+      "date": "2026-06-26",
+      "day": 80,
+      "source": "local",
+      "name": "Vela Sol",
+      "category": "espiritual",
+      "text": "Vela Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1782484445906_0f4",
+      "date": "2026-06-26",
+      "day": 80,
+      "source": "local",
+      "name": "Lua",
+      "category": "contemplativo",
+      "text": "Lua caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
     {
       "id": "local_1782398622115_8l7",
       "date": "2026-06-25",
@@ -1272,42 +1308,6 @@
       "name": "Sola Venegas",
       "category": "fantástico",
       "text": "Sola Venegas encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "local_1780505915981_cgl",
-      "date": "2026-06-03",
-      "day": 57,
-      "source": "local",
-      "name": "Zerda",
-      "category": "espiritual",
-      "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1780505915981_erv",
-      "date": "2026-06-03",
-      "day": 57,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "fantástico",
-      "text": "Vex se materializó cerca de Ari Musgo y dejó una nota en un idioma que nadie ha identificado. Ari Musgo la guardó."
-    },
-    {
-      "id": "local_1780418527406_sep",
-      "date": "2026-06-02",
-      "day": 56,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "contemplativo",
-      "text": "Vela Savia se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
-    },
-    {
-      "id": "local_1780418527406_pq2",
-      "date": "2026-06-02",
-      "day": 56,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "trivial",
-      "text": "Hira Sol enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
     }
   ]
 }
