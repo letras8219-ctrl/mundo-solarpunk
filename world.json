@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 82,
-    "date": "2026-06-28",
+    "day": 83,
+    "date": "2026-06-29",
     "season": "primavera",
-    "seasonDay": 83,
-    "climate": "templado",
+    "seasonDay": 84,
+    "climate": "lluvioso",
     "resources": {
-      "food": 99,
-      "energy": 61,
+      "food": 98,
+      "energy": 62,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1782655048591_4na",
-        "date": "2026-06-28",
-        "day": 82,
+        "id": "local_1782748484022_96o",
+        "date": "2026-06-29",
+        "day": 83,
         "source": "local",
         "name": "Sal Sol",
         "category": "fantástico",
-        "text": "Vex se materializó cerca de Sal Sol y dejó una nota en un idioma que nadie ha identificado. Sal Sol la guardó."
+        "text": "Sal Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1782655048591_86b",
-        "date": "2026-06-28",
-        "day": 82,
+        "id": "local_1782748484022_ozd",
+        "date": "2026-06-29",
+        "day": 83,
         "source": "local",
-        "name": "Remi Agua",
+        "name": "Vex",
+        "category": "interpersonal",
+        "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+      },
+      {
+        "id": "local_1782748484022_2g1",
+        "date": "2026-06-29",
+        "day": 83,
+        "source": "local",
+        "name": "Sal Sol",
         "category": "fantástico",
-        "text": "Remi Agua fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+        "text": "Una mariposa de alas plateadas siguió a Sal Sol todo el día. Donde se posaba, las plantas florecían en segundos."
       },
       {
-        "id": "local_1782655048591_ej2",
-        "date": "2026-06-28",
-        "day": 82,
+        "id": "local_1782748484022_3h7",
+        "date": "2026-06-29",
+        "day": 83,
         "source": "local",
-        "name": "Ari Musgo",
-        "category": "contemplativo",
-        "text": "Ari Musgo pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1782655048591_081",
-        "date": "2026-06-28",
-        "day": 82,
-        "source": "local",
-        "name": "Zerda",
-        "category": "contemplativo",
-        "text": "Zerda caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "name": "Lua",
+        "category": "trivial",
+        "text": "Lua organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 89,
+      "age": 90,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 110,
+      "age": 111,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 94,
+      "age": 95,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +171,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 149,
+      "age": 150,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +187,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 82,
+      "age": 83,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +203,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 73,
+      "age": 74,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +218,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,7 +233,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 88,
+      "age": 89,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -264,7 +264,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +279,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +294,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +309,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +324,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +339,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 16,
+      "age": 17,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -354,7 +354,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -369,7 +369,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 1,
+      "age": 2,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -424,6 +424,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1782748484022_96o",
+      "date": "2026-06-29",
+      "day": 83,
+      "source": "local",
+      "name": "Sal Sol",
+      "category": "fantástico",
+      "text": "Sal Sol encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1782748484022_ozd",
+      "date": "2026-06-29",
+      "day": 83,
+      "source": "local",
+      "name": "Vex",
+      "category": "interpersonal",
+      "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1782748484022_2g1",
+      "date": "2026-06-29",
+      "day": 83,
+      "source": "local",
+      "name": "Sal Sol",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Sal Sol todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1782748484022_3h7",
+      "date": "2026-06-29",
+      "day": 83,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
     {
       "id": "local_1782655048591_4na",
       "date": "2026-06-28",
@@ -1287,42 +1323,6 @@
       "name": "Vex",
       "category": "fantástico",
       "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1780753988508_25e",
-      "date": "2026-06-06",
-      "day": 60,
-      "source": "local",
-      "name": "Remi Agua",
-      "category": "contemplativo",
-      "text": "Remi Agua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1780753988508_64m",
-      "date": "2026-06-06",
-      "day": 60,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "trivial",
-      "text": "Ari Musgo organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1780672433856_gog",
-      "date": "2026-06-05",
-      "day": 59,
-      "source": "local",
-      "name": "Remi Agua",
-      "category": "trivial",
-      "text": "Remi Agua catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-    },
-    {
-      "id": "local_1780672433856_7li",
-      "date": "2026-06-05",
-      "day": 59,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "fantástico",
-      "text": "Vex se materializó cerca de Vela Savia y dejó una nota en un idioma que nadie ha identificado. Vela Savia la guardó."
     }
   ]
 }
