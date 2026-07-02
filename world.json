@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 85,
-    "date": "2026-07-01",
+    "day": 86,
+    "date": "2026-07-02",
     "season": "primavera",
-    "seasonDay": 86,
-    "climate": "soleado",
+    "seasonDay": 87,
+    "climate": "lluvioso",
     "resources": {
       "food": 100,
-      "energy": 61,
+      "energy": 60,
       "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1782917147979_pgp",
-        "date": "2026-07-01",
-        "day": 85,
+        "id": "local_1783001482622_ceu",
+        "date": "2026-07-02",
+        "day": 86,
+        "source": "local",
+        "name": "Cal Río",
+        "category": "trivial",
+        "text": "Cal Río catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+      },
+      {
+        "id": "local_1783001482622_42c",
+        "date": "2026-07-02",
+        "day": 86,
         "source": "local",
         "name": "Vela Savia",
         "category": "fantástico",
-        "text": "Vex se materializó cerca de Vela Savia y dejó una nota en un idioma que nadie ha identificado. Vela Savia la guardó."
+        "text": "Vela Savia encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1782917147979_2rk",
-        "date": "2026-07-01",
-        "day": 85,
+        "id": "local_1783001482622_eex",
+        "date": "2026-07-02",
+        "day": 86,
         "source": "local",
         "name": "Ari Musgo",
-        "category": "contemplativo",
-        "text": "Ari Musgo pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1782917147979_q9p",
-        "date": "2026-07-01",
-        "day": 85,
-        "source": "local",
-        "name": "Juno Río",
         "category": "trivial",
-        "text": "Juno Río pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "text": "Ari Musgo horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       },
       {
-        "id": "local_1782917147979_mnm",
-        "date": "2026-07-01",
-        "day": 85,
+        "id": "local_1783001482622_vvt",
+        "date": "2026-07-02",
+        "day": 86,
         "source": "local",
-        "name": "Umi Luz",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Umi Luz. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Vex",
+        "category": "trivial",
+        "text": "Vex horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 92,
+      "age": 93,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 113,
+      "age": 114,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 97,
+      "age": 98,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +171,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 152,
+      "age": 153,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +187,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 85,
+      "age": 86,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +203,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 76,
+      "age": 77,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +218,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 74,
+      "age": 75,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,7 +233,7 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 91,
+      "age": 92,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -264,7 +264,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 43,
+      "age": 44,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +279,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +294,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 31,
+      "age": 32,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +309,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +324,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +339,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 19,
+      "age": 20,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -354,7 +354,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -369,7 +369,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 4,
+      "age": 5,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -424,6 +424,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1783001482622_ceu",
+      "date": "2026-07-02",
+      "day": 86,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "trivial",
+      "text": "Cal Río catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1783001482622_42c",
+      "date": "2026-07-02",
+      "day": 86,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "fantástico",
+      "text": "Vela Savia encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1783001482622_eex",
+      "date": "2026-07-02",
+      "day": 86,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "trivial",
+      "text": "Ari Musgo horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
+    {
+      "id": "local_1783001482622_vvt",
+      "date": "2026-07-02",
+      "day": 86,
+      "source": "local",
+      "name": "Vex",
+      "category": "trivial",
+      "text": "Vex horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
     {
       "id": "local_1782917147979_pgp",
       "date": "2026-07-01",
@@ -1287,42 +1323,6 @@
       "name": "Cal Río",
       "category": "contemplativo",
       "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1781018062724_to5",
-      "date": "2026-06-09",
-      "day": 63,
-      "source": "local",
-      "name": "Umi Luz",
-      "category": "trivial",
-      "text": "Umi Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "v_1781018062724d",
-      "date": "2026-06-09",
-      "day": 63,
-      "source": "mundo",
-      "name": "Sola Venegas",
-      "category": "muerte",
-      "text": "Sola Venegas falleció hoy."
-    },
-    {
-      "id": "local_1780934509116_ofy",
-      "date": "2026-06-08",
-      "day": 62,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1780934509116_dsi",
-      "date": "2026-06-08",
-      "day": 62,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "trivial",
-      "text": "Hira Sol horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
     }
   ]
 }
