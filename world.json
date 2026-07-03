@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 86,
-    "date": "2026-07-02",
+    "day": 87,
+    "date": "2026-07-03",
     "season": "primavera",
-    "seasonDay": 87,
-    "climate": "lluvioso",
+    "seasonDay": 88,
+    "climate": "soleado",
     "resources": {
       "food": 100,
       "energy": 60,
-      "mood": 100
+      "mood": 99
     },
     "todayEvents": [
       {
-        "id": "local_1783001482622_ceu",
-        "date": "2026-07-02",
-        "day": 86,
+        "id": "local_1783088321768_n77",
+        "date": "2026-07-03",
+        "day": 87,
         "source": "local",
-        "name": "Cal Río",
-        "category": "trivial",
-        "text": "Cal Río catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+        "name": "Lua",
+        "category": "interpersonal",
+        "text": "Lua dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       },
       {
-        "id": "local_1783001482622_42c",
-        "date": "2026-07-02",
-        "day": 86,
+        "id": "local_1783088321768_fdk",
+        "date": "2026-07-03",
+        "day": 87,
         "source": "local",
-        "name": "Vela Savia",
+        "name": "Zerda",
         "category": "fantástico",
-        "text": "Vela Savia encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+        "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
       },
       {
-        "id": "local_1783001482622_eex",
-        "date": "2026-07-02",
-        "day": 86,
+        "id": "local_1783088321768_13h",
+        "date": "2026-07-03",
+        "day": 87,
         "source": "local",
-        "name": "Ari Musgo",
-        "category": "trivial",
-        "text": "Ari Musgo horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "name": "Remi Agua",
+        "category": "fantástico",
+        "text": "Vex se materializó cerca de Remi Agua y dejó una nota en un idioma que nadie ha identificado. Remi Agua la guardó."
       },
       {
-        "id": "local_1783001482622_vvt",
-        "date": "2026-07-02",
-        "day": 86,
+        "id": "local_1783088321768_1w7",
+        "date": "2026-07-03",
+        "day": 87,
         "source": "local",
-        "name": "Vex",
-        "category": "trivial",
-        "text": "Vex horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "name": "Hira Sol",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Hira Sol. Duró poco pero dejó el aire oliendo a promesas."
+      },
+      {
+        "id": "v_1783088321768d",
+        "date": "2026-07-03",
+        "day": 87,
+        "source": "mundo",
+        "name": "Umi Luz",
+        "category": "muerte",
+        "text": "Umi Luz falleció hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 93,
+      "age": 94,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 114,
+      "age": 115,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 98,
+      "age": 99,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -171,7 +180,7 @@
       "id": "c8",
       "name": "Bastián Hilo",
       "type": "humano",
-      "age": 153,
+      "age": 154,
       "role": "narrador oral e historiador",
       "location": "Plaza Central",
       "traits": [
@@ -187,7 +196,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 86,
+      "age": 87,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -203,7 +212,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -218,7 +227,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -233,16 +242,17 @@
       "id": "c_1776788376826_i",
       "name": "Umi Luz",
       "type": "humano",
-      "age": 92,
+      "age": 93,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
         "silencioso"
       ],
       "emotion": "determinación",
-      "alive": true,
+      "alive": false,
       "belief": "agnóstico",
-      "faction": "Tecnolibres"
+      "faction": "Tecnolibres",
+      "deathDay": 87
     },
     {
       "id": "c_1777399077873_i",
@@ -264,7 +274,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -279,7 +289,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -294,7 +304,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 32,
+      "age": 33,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -309,7 +319,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -324,7 +334,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 27,
+      "age": 28,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -339,7 +349,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 20,
+      "age": 21,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -354,7 +364,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -369,7 +379,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 5,
+      "age": 6,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -424,6 +434,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1783088321768_n77",
+      "date": "2026-07-03",
+      "day": 87,
+      "source": "local",
+      "name": "Lua",
+      "category": "interpersonal",
+      "text": "Lua dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1783088321768_fdk",
+      "date": "2026-07-03",
+      "day": 87,
+      "source": "local",
+      "name": "Zerda",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1783088321768_13h",
+      "date": "2026-07-03",
+      "day": 87,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "fantástico",
+      "text": "Vex se materializó cerca de Remi Agua y dejó una nota en un idioma que nadie ha identificado. Remi Agua la guardó."
+    },
+    {
+      "id": "local_1783088321768_1w7",
+      "date": "2026-07-03",
+      "day": 87,
+      "source": "local",
+      "name": "Hira Sol",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Hira Sol. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "v_1783088321768d",
+      "date": "2026-07-03",
+      "day": 87,
+      "source": "mundo",
+      "name": "Umi Luz",
+      "category": "muerte",
+      "text": "Umi Luz falleció hoy."
+    },
     {
       "id": "local_1783001482622_ceu",
       "date": "2026-07-02",
@@ -1278,51 +1333,6 @@
       "name": "Vela Savia",
       "category": "ecológico",
       "text": "Una tormenta inesperada pasó sobre el sector de Vela Savia. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1781106500333_hyk",
-      "date": "2026-06-10",
-      "day": 64,
-      "source": "local",
-      "name": "Lua",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Lua todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1781106500333_o1i",
-      "date": "2026-06-10",
-      "day": 64,
-      "source": "local",
-      "name": "Zerda",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Zerda todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "local_1781018062724_yl2",
-      "date": "2026-06-09",
-      "day": 63,
-      "source": "local",
-      "name": "Iko",
-      "category": "fantástico",
-      "text": "Iko fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1781018062724_dsv",
-      "date": "2026-06-09",
-      "day": 63,
-      "source": "local",
-      "name": "Zerda",
-      "category": "contemplativo",
-      "text": "Zerda pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1781018062724_33j",
-      "date": "2026-06-09",
-      "day": 63,
-      "source": "local",
-      "name": "Cal Río",
-      "category": "contemplativo",
-      "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
     }
   ]
 }
