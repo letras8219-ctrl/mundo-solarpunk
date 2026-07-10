@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 93,
-    "date": "2026-07-09",
+    "day": 94,
+    "date": "2026-07-10",
     "season": "verano",
-    "seasonDay": 4,
-    "climate": "templado",
+    "seasonDay": 5,
+    "climate": "lluvioso",
     "resources": {
       "food": 100,
-      "energy": 69,
+      "energy": 73,
       "mood": 98
     },
     "todayEvents": [
       {
-        "id": "local_1783610344704_f3d",
-        "date": "2026-07-09",
-        "day": 93,
+        "id": "local_1783694248267_sbi",
+        "date": "2026-07-10",
+        "day": 94,
         "source": "local",
-        "name": "Vela Savia",
-        "category": "contemplativo",
-        "text": "Vela Savia caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1783610344704_m3s",
-        "date": "2026-07-09",
-        "day": 93,
-        "source": "local",
-        "name": "Gael Musgo",
+        "name": "Lua",
         "category": "fantástico",
-        "text": "Gael Musgo encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1783610344704_u6c",
-        "date": "2026-07-09",
-        "day": 93,
+        "id": "local_1783694248267_6ki",
+        "date": "2026-07-10",
+        "day": 94,
         "source": "local",
-        "name": "Luma Río",
-        "category": "trivial",
-        "text": "Luma Río horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "name": "Lua",
+        "category": "interpersonal",
+        "text": "Lua dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       },
       {
-        "id": "local_1783610344704_9gq",
-        "date": "2026-07-09",
-        "day": 93,
+        "id": "local_1783694248267_noo",
+        "date": "2026-07-10",
+        "day": 94,
+        "source": "local",
+        "name": "Remi Agua",
+        "category": "contemplativo",
+        "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1783694248267_cs8",
+        "date": "2026-07-10",
+        "day": 94,
         "source": "local",
         "name": "Vela Sol",
-        "category": "fantástico",
-        "text": "Vela Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "category": "contemplativo",
+        "text": "Vela Sol caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+      },
+      {
+        "id": "v_1783694248267a",
+        "date": "2026-07-10",
+        "day": 94,
+        "source": "mundo",
+        "name": "Luma Viento",
+        "category": "llegada",
+        "text": "Luma Viento llegó al mundo hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 100,
+      "age": 101,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 121,
+      "age": 122,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 105,
+      "age": 106,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +197,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 93,
+      "age": 94,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -204,7 +213,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 84,
+      "age": 85,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -219,7 +228,7 @@
       "id": "c_1776522342425",
       "name": "Vela Sol",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -266,7 +275,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 51,
+      "age": 52,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -281,7 +290,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 70,
+      "age": 71,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -296,7 +305,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -311,7 +320,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -326,7 +335,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -341,7 +350,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 27,
+      "age": 28,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -356,7 +365,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -371,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -386,7 +395,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 24,
+      "age": 25,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -396,6 +405,21 @@
       "alive": true,
       "belief": "animista",
       "faction": "Ecoverde"
+    },
+    {
+      "id": "c_1783694248068_i",
+      "name": "Luma Viento",
+      "type": "humano",
+      "age": 42,
+      "role": "recién llegado",
+      "location": "Plaza Central",
+      "traits": [
+        "valiente"
+      ],
+      "emotion": "esperanza",
+      "alive": true,
+      "belief": "animista",
+      "faction": "Círculo Raíz"
     }
   ],
   "locations": [
@@ -441,6 +465,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1783694248267_sbi",
+      "date": "2026-07-10",
+      "day": 94,
+      "source": "local",
+      "name": "Lua",
+      "category": "fantástico",
+      "text": "Lua encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1783694248267_6ki",
+      "date": "2026-07-10",
+      "day": 94,
+      "source": "local",
+      "name": "Lua",
+      "category": "interpersonal",
+      "text": "Lua dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1783694248267_noo",
+      "date": "2026-07-10",
+      "day": 94,
+      "source": "local",
+      "name": "Remi Agua",
+      "category": "contemplativo",
+      "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1783694248267_cs8",
+      "date": "2026-07-10",
+      "day": 94,
+      "source": "local",
+      "name": "Vela Sol",
+      "category": "contemplativo",
+      "text": "Vela Sol caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "v_1783694248267a",
+      "date": "2026-07-10",
+      "day": 94,
+      "source": "mundo",
+      "name": "Luma Viento",
+      "category": "llegada",
+      "text": "Luma Viento llegó al mundo hoy."
+    },
     {
       "id": "local_1783610344704_f3d",
       "date": "2026-07-09",
@@ -1295,51 +1364,6 @@
       "name": "Juno Río",
       "category": "fantástico",
       "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1781711132660_es3",
-      "date": "2026-06-17",
-      "day": 71,
-      "source": "local",
-      "name": "Teo Quilín",
-      "category": "trivial",
-      "text": "Teo Quilín pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1781711132660_b5v",
-      "date": "2026-06-17",
-      "day": 71,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "contemplativo",
-      "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1781711132660_isb",
-      "date": "2026-06-17",
-      "day": 71,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1781629416227_lty",
-      "date": "2026-06-16",
-      "day": 70,
-      "source": "local",
-      "name": "Remi Agua",
-      "category": "trivial",
-      "text": "Remi Agua pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1781629416227_k3g",
-      "date": "2026-06-16",
-      "day": 70,
-      "source": "local",
-      "name": "Zerda",
-      "category": "trivial",
-      "text": "Zerda pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
     }
   ]
 }
