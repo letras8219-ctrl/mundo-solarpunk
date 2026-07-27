@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 110,
-    "date": "2026-07-26",
+    "day": 111,
+    "date": "2026-07-27",
     "season": "verano",
-    "seasonDay": 21,
-    "climate": "lluvioso",
+    "seasonDay": 22,
+    "climate": "frío seco",
     "resources": {
       "food": 100,
       "energy": 100,
-      "mood": 98
+      "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1785073093603_872",
-        "date": "2026-07-26",
-        "day": 110,
+        "id": "local_1785163528066_ekd",
+        "date": "2026-07-27",
+        "day": 111,
         "source": "local",
-        "name": "Gael Tierra",
-        "category": "contemplativo",
-        "text": "Gael Tierra caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "name": "Luma Viento",
+        "category": "trivial",
+        "text": "Luma Viento horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       },
       {
-        "id": "local_1785073093603_p72",
-        "date": "2026-07-26",
-        "day": 110,
+        "id": "local_1785163528066_r7r",
+        "date": "2026-07-27",
+        "day": 111,
         "source": "local",
-        "name": "Juno Nube",
-        "category": "contemplativo",
-        "text": "Juno Nube pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+        "name": "Luma Viento",
+        "category": "espiritual",
+        "text": "Luma Viento participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       },
       {
-        "id": "local_1785073093603_l5a",
-        "date": "2026-07-26",
-        "day": 110,
+        "id": "local_1785163528066_atx",
+        "date": "2026-07-27",
+        "day": 111,
         "source": "local",
-        "name": "Sal Sol",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Sal Sol. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Juno Río",
+        "category": "fantástico",
+        "text": "Juno Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
       },
       {
-        "id": "local_1785073093603_hx2",
-        "date": "2026-07-26",
-        "day": 110,
+        "id": "local_1785163528066_57y",
+        "date": "2026-07-27",
+        "day": 111,
         "source": "local",
         "name": "Ari Musgo",
-        "category": "contemplativo",
-        "text": "Ari Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "category": "trivial",
+        "text": "Ari Musgo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 117,
+      "age": 118,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 138,
+      "age": 139,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 122,
+      "age": 123,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 110,
+      "age": 111,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -204,7 +204,7 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 101,
+      "age": 102,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -267,7 +267,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -282,7 +282,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -297,7 +297,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 56,
+      "age": 57,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -312,7 +312,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -327,7 +327,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 51,
+      "age": 52,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -342,7 +342,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -357,7 +357,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -372,7 +372,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -387,7 +387,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -402,7 +402,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -433,7 +433,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 39,
+      "age": 40,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -448,7 +448,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -503,6 +503,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1785163528066_ekd",
+      "date": "2026-07-27",
+      "day": 111,
+      "source": "local",
+      "name": "Luma Viento",
+      "category": "trivial",
+      "text": "Luma Viento horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
+    {
+      "id": "local_1785163528066_r7r",
+      "date": "2026-07-27",
+      "day": 111,
+      "source": "local",
+      "name": "Luma Viento",
+      "category": "espiritual",
+      "text": "Luma Viento participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1785163528066_atx",
+      "date": "2026-07-27",
+      "day": 111,
+      "source": "local",
+      "name": "Juno Río",
+      "category": "fantástico",
+      "text": "Juno Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1785163528066_57y",
+      "date": "2026-07-27",
+      "day": 111,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "trivial",
+      "text": "Ari Musgo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
     {
       "id": "local_1785073093603_872",
       "date": "2026-07-26",
@@ -1366,42 +1402,6 @@
       "name": "Remi Agua",
       "category": "trivial",
       "text": "Remi Agua organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1783172574175_rm8",
-      "date": "2026-07-04",
-      "day": 88,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "interpersonal",
-      "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1783172574175_4on",
-      "date": "2026-07-04",
-      "day": 88,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "trivial",
-      "text": "Vela Savia pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1783172574175_wof",
-      "date": "2026-07-04",
-      "day": 88,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "interpersonal",
-      "text": "Ari Musgo dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1783172574175_phc",
-      "date": "2026-07-04",
-      "day": 88,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "trivial",
-      "text": "Vela Savia horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
     }
   ]
 }
