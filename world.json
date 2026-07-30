@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 113,
-    "date": "2026-07-29",
+    "day": 114,
+    "date": "2026-07-30",
     "season": "verano",
-    "seasonDay": 24,
+    "seasonDay": 25,
     "climate": "frío seco",
     "resources": {
       "food": 100,
       "energy": 100,
-      "mood": 98
+      "mood": 100
     },
     "todayEvents": [
       {
-        "id": "local_1785334788196_j03",
-        "date": "2026-07-29",
-        "day": 113,
+        "id": "local_1785420686865_xo1",
+        "date": "2026-07-30",
+        "day": 114,
         "source": "local",
-        "name": "Juno Nube",
-        "category": "contemplativo",
-        "text": "Juno Nube pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1785334788196_olx",
-        "date": "2026-07-29",
-        "day": 113,
-        "source": "local",
-        "name": "Sal Sol",
-        "category": "espiritual",
-        "text": "Sal Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1785334788196_50e",
-        "date": "2026-07-29",
-        "day": 113,
-        "source": "local",
-        "name": "Ari Musgo",
+        "name": "Gael Musgo",
         "category": "trivial",
-        "text": "Ari Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "text": "Gael Musgo catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
       },
       {
-        "id": "local_1785334788196_zj6",
-        "date": "2026-07-29",
-        "day": 113,
+        "id": "local_1785420686865_ygv",
+        "date": "2026-07-30",
+        "day": 114,
         "source": "local",
+        "name": "Juno Río",
+        "category": "fantástico",
+        "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+      },
+      {
+        "id": "local_1785420686865_gzk",
+        "date": "2026-07-30",
+        "day": 114,
+        "source": "local",
+        "name": "Cal Río",
+        "category": "espiritual",
+        "text": "Cal Río participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1785420686865_1t4",
+        "date": "2026-07-30",
+        "day": 114,
+        "source": "local",
+        "name": "Umi Musgo",
+        "category": "trivial",
+        "text": "Umi Musgo catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+      },
+      {
+        "id": "v_1785420686865d",
+        "date": "2026-07-30",
+        "day": 114,
+        "source": "mundo",
         "name": "Hira Sol",
-        "category": "contemplativo",
-        "text": "Hira Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "category": "muerte",
+        "text": "Hira Sol falleció hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 120,
+      "age": 121,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 141,
+      "age": 142,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 125,
+      "age": 126,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +197,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 113,
+      "age": 114,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -204,16 +213,17 @@
       "id": "c_1776358622274",
       "name": "Hira Sol",
       "type": "humano",
-      "age": 104,
+      "age": 105,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
         "curioso"
       ],
       "emotion": "asombro puro",
-      "alive": true,
+      "alive": false,
       "belief": null,
-      "faction": null
+      "faction": null,
+      "deathDay": 114
     },
     {
       "id": "c_1776522342425",
@@ -267,7 +277,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -282,7 +292,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -297,7 +307,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -312,7 +322,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 89,
+      "age": 90,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -327,7 +337,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 54,
+      "age": 55,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -342,7 +352,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 47,
+      "age": 48,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -357,7 +367,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -372,7 +382,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 32,
+      "age": 33,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -387,7 +397,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -402,7 +412,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -433,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 42,
+      "age": 43,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -448,7 +458,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 42,
+      "age": 43,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -503,6 +513,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1785420686865_xo1",
+      "date": "2026-07-30",
+      "day": 114,
+      "source": "local",
+      "name": "Gael Musgo",
+      "category": "trivial",
+      "text": "Gael Musgo catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1785420686865_ygv",
+      "date": "2026-07-30",
+      "day": 114,
+      "source": "local",
+      "name": "Juno Río",
+      "category": "fantástico",
+      "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1785420686865_gzk",
+      "date": "2026-07-30",
+      "day": 114,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "espiritual",
+      "text": "Cal Río participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1785420686865_1t4",
+      "date": "2026-07-30",
+      "day": 114,
+      "source": "local",
+      "name": "Umi Musgo",
+      "category": "trivial",
+      "text": "Umi Musgo catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "v_1785420686865d",
+      "date": "2026-07-30",
+      "day": 114,
+      "source": "mundo",
+      "name": "Hira Sol",
+      "category": "muerte",
+      "text": "Hira Sol falleció hoy."
+    },
     {
       "id": "local_1785334788196_j03",
       "date": "2026-07-29",
@@ -1357,51 +1412,6 @@
       "name": "Bastián Hilo",
       "category": "muerte",
       "text": "Bastián Hilo falleció hoy."
-    },
-    {
-      "id": "v_1783520687114a",
-      "date": "2026-07-08",
-      "day": 92,
-      "source": "mundo",
-      "name": "Gael Musgo",
-      "category": "llegada",
-      "text": "Gael Musgo llegó al mundo hoy."
-    },
-    {
-      "id": "local_1783435606927_j0z",
-      "date": "2026-07-07",
-      "day": 91,
-      "source": "local",
-      "name": "Vex",
-      "category": "trivial",
-      "text": "Vex pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
-    },
-    {
-      "id": "local_1783435606927_wys",
-      "date": "2026-07-07",
-      "day": 91,
-      "source": "local",
-      "name": "Luma Río",
-      "category": "trivial",
-      "text": "Luma Río enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-    },
-    {
-      "id": "local_1783435606927_1dz",
-      "date": "2026-07-07",
-      "day": 91,
-      "source": "local",
-      "name": "Sal Sol",
-      "category": "fantástico",
-      "text": "Sal Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "local_1783435606927_t5d",
-      "date": "2026-07-07",
-      "day": 91,
-      "source": "local",
-      "name": "Gael Tierra",
-      "category": "contemplativo",
-      "text": "Gael Tierra se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
     }
   ]
 }
