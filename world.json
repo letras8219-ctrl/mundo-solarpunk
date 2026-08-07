@@ -1,61 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 121,
-    "date": "2026-08-06",
+    "day": 122,
+    "date": "2026-08-07",
     "season": "verano",
-    "seasonDay": 32,
+    "seasonDay": 33,
     "climate": "templado",
     "resources": {
       "food": 100,
       "energy": 100,
-      "mood": 98
+      "mood": 96
     },
     "todayEvents": [
       {
-        "id": "local_1786026131832_tuk",
-        "date": "2026-08-06",
-        "day": 121,
+        "id": "local_1786108371924_450",
+        "date": "2026-08-07",
+        "day": 122,
         "source": "local",
-        "name": "Cal Río",
-        "category": "contemplativo",
-        "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+        "name": "Luma Bruma",
+        "category": "trivial",
+        "text": "Luma Bruma pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       },
       {
-        "id": "local_1786026131832_mjc",
-        "date": "2026-08-06",
-        "day": 121,
+        "id": "local_1786108371924_b1s",
+        "date": "2026-08-07",
+        "day": 122,
+        "source": "local",
+        "name": "Vela Savia",
+        "category": "contemplativo",
+        "text": "Vela Savia se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+      },
+      {
+        "id": "local_1786108371924_kmy",
+        "date": "2026-08-07",
+        "day": 122,
+        "source": "local",
+        "name": "Vela Savia",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Vela Savia. Duró poco pero dejó el aire oliendo a promesas."
+      },
+      {
+        "id": "local_1786108371924_ncs",
+        "date": "2026-08-07",
+        "day": 122,
         "source": "local",
         "name": "Umi Musgo",
-        "category": "contemplativo",
-        "text": "Umi Musgo se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+        "category": "trivial",
+        "text": "Umi Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       },
       {
-        "id": "local_1786026131832_g0x",
-        "date": "2026-08-06",
-        "day": 121,
-        "source": "local",
-        "name": "Lua",
-        "category": "fantástico",
-        "text": "Lua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1786026131832_qps",
-        "date": "2026-08-06",
-        "day": 121,
-        "source": "local",
-        "name": "Iko",
-        "category": "interpersonal",
-        "text": "Iko dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-      },
-      {
-        "id": "v_1786026131832n",
-        "date": "2026-08-06",
-        "day": 121,
+        "id": "v_1786108371924a",
+        "date": "2026-08-07",
+        "day": 122,
         "source": "mundo",
-        "name": "Vela Nube",
-        "category": "nacimiento",
-        "text": "Vela Nube nació hoy."
+        "name": "Umi Viento",
+        "category": "llegada",
+        "text": "Umi Viento llegó al mundo hoy."
       }
     ]
   },
@@ -81,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 128,
+      "age": 129,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -131,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 149,
+      "age": 150,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -164,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 133,
+      "age": 134,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -197,7 +197,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 121,
+      "age": 122,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -277,7 +277,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -292,7 +292,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 98,
+      "age": 99,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -307,7 +307,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -322,7 +322,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 97,
+      "age": 98,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -337,7 +337,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -352,7 +352,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -367,7 +367,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 76,
+      "age": 77,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -382,7 +382,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -397,7 +397,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -412,7 +412,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 50,
+      "age": 51,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -458,7 +458,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 50,
+      "age": 51,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -473,7 +473,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 45,
+      "age": 46,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -488,7 +488,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -503,7 +503,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 0,
+      "age": 1,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -513,6 +513,21 @@
       "alive": true,
       "belief": null,
       "faction": null
+    },
+    {
+      "id": "c_1786108371729_i",
+      "name": "Umi Viento",
+      "type": "animal",
+      "age": 36,
+      "role": "recién llegado",
+      "location": "Plaza Central",
+      "traits": [
+        "curioso"
+      ],
+      "emotion": "determinación",
+      "alive": true,
+      "belief": "agnóstico",
+      "faction": "Ecoverde"
     }
   ],
   "locations": [
@@ -558,6 +573,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1786108371924_450",
+      "date": "2026-08-07",
+      "day": 122,
+      "source": "local",
+      "name": "Luma Bruma",
+      "category": "trivial",
+      "text": "Luma Bruma pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1786108371924_b1s",
+      "date": "2026-08-07",
+      "day": 122,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "contemplativo",
+      "text": "Vela Savia se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1786108371924_kmy",
+      "date": "2026-08-07",
+      "day": 122,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Vela Savia. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1786108371924_ncs",
+      "date": "2026-08-07",
+      "day": 122,
+      "source": "local",
+      "name": "Umi Musgo",
+      "category": "trivial",
+      "text": "Umi Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "v_1786108371924a",
+      "date": "2026-08-07",
+      "day": 122,
+      "source": "mundo",
+      "name": "Umi Viento",
+      "category": "llegada",
+      "text": "Umi Viento llegó al mundo hoy."
+    },
     {
       "id": "local_1786026131832_tuk",
       "date": "2026-08-06",
@@ -1412,51 +1472,6 @@
       "name": "Cal Río",
       "category": "fantástico",
       "text": "Cal Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "v_1784210572367a",
-      "date": "2026-07-16",
-      "day": 100,
-      "source": "mundo",
-      "name": "Mira Savia",
-      "category": "llegada",
-      "text": "Mira Savia llegó al mundo hoy."
-    },
-    {
-      "id": "local_1784123488138_ttv",
-      "date": "2026-07-15",
-      "day": 99,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "fantástico",
-      "text": "Hira Sol encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "local_1784123488138_jv1",
-      "date": "2026-07-15",
-      "day": 99,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "contemplativo",
-      "text": "Vela Savia pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1784123488138_nwe",
-      "date": "2026-07-15",
-      "day": 99,
-      "source": "local",
-      "name": "Iko",
-      "category": "espiritual",
-      "text": "Iko participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1784123488138_456",
-      "date": "2026-07-15",
-      "day": 99,
-      "source": "local",
-      "name": "Gael Musgo",
-      "category": "fantástico",
-      "text": "Gael Musgo encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
     }
   ]
 }
