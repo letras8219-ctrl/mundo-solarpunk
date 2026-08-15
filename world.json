@@ -1,11 +1,11 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 129,
-    "date": "2026-08-14",
+    "day": 130,
+    "date": "2026-08-15",
     "season": "verano",
-    "seasonDay": 40,
-    "climate": "bruma",
+    "seasonDay": 41,
+    "climate": "nublado",
     "resources": {
       "food": 100,
       "energy": 100,
@@ -13,40 +13,40 @@
     },
     "todayEvents": [
       {
-        "id": "local_1786713305136_92x",
-        "date": "2026-08-14",
-        "day": 129,
+        "id": "local_1786797872500_qx0",
+        "date": "2026-08-15",
+        "day": 130,
         "source": "local",
-        "name": "Ari Musgo",
+        "name": "Noa Savia",
         "category": "trivial",
-        "text": "Ari Musgo preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "text": "Noa Savia catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
       },
       {
-        "id": "local_1786713305136_viy",
-        "date": "2026-08-14",
-        "day": 129,
+        "id": "local_1786797872500_z1m",
+        "date": "2026-08-15",
+        "day": 130,
         "source": "local",
-        "name": "Vela Nube",
+        "name": "Bel Savia",
         "category": "interpersonal",
-        "text": "Vela Nube tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+        "text": "Bel Savia tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       },
       {
-        "id": "local_1786713305136_yg9",
-        "date": "2026-08-14",
-        "day": 129,
+        "id": "local_1786797872500_h77",
+        "date": "2026-08-15",
+        "day": 130,
         "source": "local",
-        "name": "Iko",
-        "category": "fantástico",
-        "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-      },
-      {
-        "id": "local_1786713305136_tbi",
-        "date": "2026-08-14",
-        "day": 129,
-        "source": "local",
-        "name": "Luma Viento",
+        "name": "Gael Tierra",
         "category": "trivial",
-        "text": "Luma Viento pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "text": "Gael Tierra pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+      },
+      {
+        "id": "local_1786797872500_9r9",
+        "date": "2026-08-15",
+        "day": 130,
+        "source": "local",
+        "name": "Gael Musgo",
+        "category": "trivial",
+        "text": "Gael Musgo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 136,
+      "age": 137,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 157,
+      "age": 158,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 141,
+      "age": 142,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 129,
+      "age": 130,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +268,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -283,7 +283,7 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 106,
+      "age": 107,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -298,7 +298,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -313,7 +313,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 105,
+      "age": 106,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -328,7 +328,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 70,
+      "age": 71,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -343,7 +343,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -358,7 +358,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 84,
+      "age": 85,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -373,7 +373,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 48,
+      "age": 49,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -388,7 +388,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 60,
+      "age": 61,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -403,7 +403,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -434,7 +434,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -449,7 +449,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -464,7 +464,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 53,
+      "age": 54,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -479,7 +479,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 11,
+      "age": 12,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -494,7 +494,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 8,
+      "age": 9,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -525,7 +525,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 32,
+      "age": 33,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -540,7 +540,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 2,
+      "age": 3,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -595,6 +595,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1786797872500_qx0",
+      "date": "2026-08-15",
+      "day": 130,
+      "source": "local",
+      "name": "Noa Savia",
+      "category": "trivial",
+      "text": "Noa Savia catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1786797872500_z1m",
+      "date": "2026-08-15",
+      "day": 130,
+      "source": "local",
+      "name": "Bel Savia",
+      "category": "interpersonal",
+      "text": "Bel Savia tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1786797872500_h77",
+      "date": "2026-08-15",
+      "day": 130,
+      "source": "local",
+      "name": "Gael Tierra",
+      "category": "trivial",
+      "text": "Gael Tierra pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1786797872500_9r9",
+      "date": "2026-08-15",
+      "day": 130,
+      "source": "local",
+      "name": "Gael Musgo",
+      "category": "trivial",
+      "text": "Gael Musgo pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
     {
       "id": "local_1786713305136_92x",
       "date": "2026-08-14",
@@ -1458,42 +1494,6 @@
       "name": "Cal Río",
       "category": "trivial",
       "text": "Cal Río horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "local_1784901202940_dg3",
-      "date": "2026-07-24",
-      "day": 108,
-      "source": "local",
-      "name": "Zerda",
-      "category": "interpersonal",
-      "text": "Zerda tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1784815858928_iwf",
-      "date": "2026-07-23",
-      "day": 107,
-      "source": "local",
-      "name": "Sal Sol",
-      "category": "fantástico",
-      "text": "Vex se materializó cerca de Sal Sol y dejó una nota en un idioma que nadie ha identificado. Sal Sol la guardó."
-    },
-    {
-      "id": "local_1784815858928_sge",
-      "date": "2026-07-23",
-      "day": 107,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "trivial",
-      "text": "Ari Musgo horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "local_1784815858928_tts",
-      "date": "2026-07-23",
-      "day": 107,
-      "source": "local",
-      "name": "Juno Nube",
-      "category": "trivial",
-      "text": "Juno Nube enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
     }
   ]
 }
