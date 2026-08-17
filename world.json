@@ -1,11 +1,11 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 131,
-    "date": "2026-08-16",
+    "day": 132,
+    "date": "2026-08-17",
     "season": "verano",
-    "seasonDay": 42,
-    "climate": "nublado",
+    "seasonDay": 43,
+    "climate": "tormenta suave",
     "resources": {
       "food": 100,
       "energy": 100,
@@ -13,40 +13,49 @@
     },
     "todayEvents": [
       {
-        "id": "local_1786884409951_cys",
-        "date": "2026-08-16",
-        "day": 131,
+        "id": "local_1786971088321_8di",
+        "date": "2026-08-17",
+        "day": 132,
         "source": "local",
-        "name": "Lua",
+        "name": "Noa Savia",
+        "category": "interpersonal",
+        "text": "Noa Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+      },
+      {
+        "id": "local_1786971088321_k5d",
+        "date": "2026-08-17",
+        "day": 132,
+        "source": "local",
+        "name": "Umi Musgo",
         "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Lua. Duró poco pero dejó el aire oliendo a promesas."
+        "text": "Una tormenta inesperada pasó sobre el sector de Umi Musgo. Duró poco pero dejó el aire oliendo a promesas."
       },
       {
-        "id": "local_1786884409951_irn",
-        "date": "2026-08-16",
-        "day": 131,
+        "id": "local_1786971088321_pjr",
+        "date": "2026-08-17",
+        "day": 132,
         "source": "local",
-        "name": "Luma Río",
-        "category": "trivial",
-        "text": "Luma Río catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-      },
-      {
-        "id": "local_1786884409951_3us",
-        "date": "2026-08-16",
-        "day": 131,
-        "source": "local",
-        "name": "Sal Sol",
+        "name": "Gael Musgo",
         "category": "contemplativo",
-        "text": "Sal Sol caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "text": "Gael Musgo pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       },
       {
-        "id": "local_1786884409951_ozp",
-        "date": "2026-08-16",
-        "day": 131,
+        "id": "local_1786971088321_2q6",
+        "date": "2026-08-17",
+        "day": 132,
         "source": "local",
+        "name": "Gael Nube",
+        "category": "trivial",
+        "text": "Gael Nube organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+      },
+      {
+        "id": "v_1786971088321d",
+        "date": "2026-08-17",
+        "day": 132,
+        "source": "mundo",
         "name": "Sal Sol",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Sal Sol todo el día. Donde se posaba, las plantas florecían en segundos."
+        "category": "muerte",
+        "text": "Sal Sol falleció hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 138,
+      "age": 139,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 159,
+      "age": 160,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 143,
+      "age": 144,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +197,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 131,
+      "age": 132,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +277,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 89,
+      "age": 90,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -283,22 +292,23 @@
       "id": "c_1779984653309_i",
       "name": "Sal Sol",
       "type": "humano",
-      "age": 108,
+      "age": 109,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
         "silencioso"
       ],
       "emotion": "nostalgia",
-      "alive": true,
+      "alive": false,
       "belief": "ateísta",
-      "faction": "Tecnolibres"
+      "faction": "Tecnolibres",
+      "deathDay": 132
     },
     {
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -313,7 +323,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 107,
+      "age": 108,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -328,7 +338,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 72,
+      "age": 73,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -343,7 +353,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -358,7 +368,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -373,7 +383,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 50,
+      "age": 51,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -388,7 +398,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -403,7 +413,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -434,7 +444,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 60,
+      "age": 61,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -449,7 +459,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 60,
+      "age": 61,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -464,7 +474,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 55,
+      "age": 56,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -479,7 +489,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 13,
+      "age": 14,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -494,7 +504,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 10,
+      "age": 11,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -525,7 +535,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -540,7 +550,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 4,
+      "age": 5,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -595,6 +605,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1786971088321_8di",
+      "date": "2026-08-17",
+      "day": 132,
+      "source": "local",
+      "name": "Noa Savia",
+      "category": "interpersonal",
+      "text": "Noa Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1786971088321_k5d",
+      "date": "2026-08-17",
+      "day": 132,
+      "source": "local",
+      "name": "Umi Musgo",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Umi Musgo. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1786971088321_pjr",
+      "date": "2026-08-17",
+      "day": 132,
+      "source": "local",
+      "name": "Gael Musgo",
+      "category": "contemplativo",
+      "text": "Gael Musgo pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1786971088321_2q6",
+      "date": "2026-08-17",
+      "day": 132,
+      "source": "local",
+      "name": "Gael Nube",
+      "category": "trivial",
+      "text": "Gael Nube organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
+    {
+      "id": "v_1786971088321d",
+      "date": "2026-08-17",
+      "day": 132,
+      "source": "mundo",
+      "name": "Sal Sol",
+      "category": "muerte",
+      "text": "Sal Sol falleció hoy."
+    },
     {
       "id": "local_1786884409951_cys",
       "date": "2026-08-16",
@@ -1449,51 +1504,6 @@
       "name": "Sal Sol",
       "category": "ecológico",
       "text": "Una tormenta inesperada pasó sobre el sector de Sal Sol. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1785073093603_hx2",
-      "date": "2026-07-26",
-      "day": 110,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "contemplativo",
-      "text": "Ari Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1784987018475_gli",
-      "date": "2026-07-25",
-      "day": 109,
-      "source": "local",
-      "name": "Gael Tierra",
-      "category": "trivial",
-      "text": "Gael Tierra pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1784987018475_myk",
-      "date": "2026-07-25",
-      "day": 109,
-      "source": "local",
-      "name": "Cal Río",
-      "category": "contemplativo",
-      "text": "Cal Río caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1784987018475_wl7",
-      "date": "2026-07-25",
-      "day": 109,
-      "source": "local",
-      "name": "Sal Sol",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Sal Sol. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1784987018475_ggg",
-      "date": "2026-07-25",
-      "day": 109,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "trivial",
-      "text": "Ari Musgo preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
     }
   ]
 }
