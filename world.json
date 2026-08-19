@@ -1,10 +1,10 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 133,
-    "date": "2026-08-18",
+    "day": 134,
+    "date": "2026-08-19",
     "season": "verano",
-    "seasonDay": 44,
+    "seasonDay": 45,
     "climate": "tormenta suave",
     "resources": {
       "food": 100,
@@ -13,40 +13,40 @@
     },
     "todayEvents": [
       {
-        "id": "local_1787057618857_9ey",
-        "date": "2026-08-18",
-        "day": 133,
+        "id": "local_1787144061814_z14",
+        "date": "2026-08-19",
+        "day": 134,
         "source": "local",
-        "name": "Remi Agua",
-        "category": "fantástico",
-        "text": "Remi Agua fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+        "name": "Ari Musgo",
+        "category": "contemplativo",
+        "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1787057618857_wbf",
-        "date": "2026-08-18",
-        "day": 133,
+        "id": "local_1787144061814_p2o",
+        "date": "2026-08-19",
+        "day": 134,
         "source": "local",
-        "name": "Juno Río",
+        "name": "Vex",
         "category": "trivial",
-        "text": "Juno Río horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "text": "Vex enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
       },
       {
-        "id": "local_1787057618857_msk",
-        "date": "2026-08-18",
-        "day": 133,
+        "id": "local_1787144061814_ro2",
+        "date": "2026-08-19",
+        "day": 134,
         "source": "local",
-        "name": "Umi Musgo",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Umi Musgo todo el día. Donde se posaba, las plantas florecían en segundos."
+        "name": "Cal Río",
+        "category": "contemplativo",
+        "text": "Cal Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1787057618857_uyo",
-        "date": "2026-08-18",
-        "day": 133,
+        "id": "local_1787144061814_38j",
+        "date": "2026-08-19",
+        "day": 134,
         "source": "local",
-        "name": "Gael Tierra",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Gael Tierra todo el día. Donde se posaba, las plantas florecían en segundos."
+        "name": "Noa Savia",
+        "category": "trivial",
+        "text": "Noa Savia horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 140,
+      "age": 141,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 161,
+      "age": 162,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 145,
+      "age": 146,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 133,
+      "age": 134,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +268,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 91,
+      "age": 92,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -299,7 +299,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -314,7 +314,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 109,
+      "age": 110,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -329,7 +329,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 74,
+      "age": 75,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -344,7 +344,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -359,7 +359,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 88,
+      "age": 89,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -374,7 +374,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -389,7 +389,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 64,
+      "age": 65,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -404,7 +404,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 81,
+      "age": 82,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -435,7 +435,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -450,7 +450,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -465,7 +465,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 57,
+      "age": 58,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -480,7 +480,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 15,
+      "age": 16,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -495,7 +495,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -526,7 +526,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -541,7 +541,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 6,
+      "age": 7,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -596,6 +596,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1787144061814_z14",
+      "date": "2026-08-19",
+      "day": 134,
+      "source": "local",
+      "name": "Ari Musgo",
+      "category": "contemplativo",
+      "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1787144061814_p2o",
+      "date": "2026-08-19",
+      "day": 134,
+      "source": "local",
+      "name": "Vex",
+      "category": "trivial",
+      "text": "Vex enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1787144061814_ro2",
+      "date": "2026-08-19",
+      "day": 134,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "contemplativo",
+      "text": "Cal Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1787144061814_38j",
+      "date": "2026-08-19",
+      "day": 134,
+      "source": "local",
+      "name": "Noa Savia",
+      "category": "trivial",
+      "text": "Noa Savia horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
     {
       "id": "local_1787057618857_9ey",
       "date": "2026-08-18",
@@ -1459,42 +1495,6 @@
       "name": "Vela Savia",
       "category": "contemplativo",
       "text": "Vela Savia pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1785248386496_pea",
-      "date": "2026-07-28",
-      "day": 112,
-      "source": "local",
-      "name": "Umi Musgo",
-      "category": "trivial",
-      "text": "Umi Musgo organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1785163528066_ekd",
-      "date": "2026-07-27",
-      "day": 111,
-      "source": "local",
-      "name": "Luma Viento",
-      "category": "trivial",
-      "text": "Luma Viento horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "local_1785163528066_r7r",
-      "date": "2026-07-27",
-      "day": 111,
-      "source": "local",
-      "name": "Luma Viento",
-      "category": "espiritual",
-      "text": "Luma Viento participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1785163528066_atx",
-      "date": "2026-07-27",
-      "day": 111,
-      "source": "local",
-      "name": "Juno Río",
-      "category": "fantástico",
-      "text": "Juno Río encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
     }
   ]
 }
