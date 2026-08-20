@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 134,
-    "date": "2026-08-19",
+    "day": 135,
+    "date": "2026-08-20",
     "season": "verano",
-    "seasonDay": 45,
-    "climate": "tormenta suave",
+    "seasonDay": 46,
+    "climate": "nublado",
     "resources": {
       "food": 100,
       "energy": 100,
-      "mood": 95
+      "mood": 93
     },
     "todayEvents": [
       {
-        "id": "local_1787144061814_z14",
-        "date": "2026-08-19",
-        "day": 134,
+        "id": "local_1787230566631_bhe",
+        "date": "2026-08-20",
+        "day": 135,
         "source": "local",
-        "name": "Ari Musgo",
+        "name": "Iko",
+        "category": "fantástico",
+        "text": "Iko encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "local_1787230566631_l4d",
+        "date": "2026-08-20",
+        "day": 135,
+        "source": "local",
+        "name": "Gael Nube",
         "category": "contemplativo",
-        "text": "Ari Musgo se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "text": "Gael Nube se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       },
       {
-        "id": "local_1787144061814_p2o",
-        "date": "2026-08-19",
-        "day": 134,
+        "id": "local_1787230566631_v39",
+        "date": "2026-08-20",
+        "day": 135,
         "source": "local",
-        "name": "Vex",
+        "name": "Luma Río",
+        "category": "espiritual",
+        "text": "Luma Río participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "local_1787230566631_jsl",
+        "date": "2026-08-20",
+        "day": 135,
+        "source": "local",
+        "name": "Gael Tierra",
         "category": "trivial",
-        "text": "Vex enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
-      },
-      {
-        "id": "local_1787144061814_ro2",
-        "date": "2026-08-19",
-        "day": 134,
-        "source": "local",
-        "name": "Cal Río",
-        "category": "contemplativo",
-        "text": "Cal Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-      },
-      {
-        "id": "local_1787144061814_38j",
-        "date": "2026-08-19",
-        "day": 134,
-        "source": "local",
-        "name": "Noa Savia",
-        "category": "trivial",
-        "text": "Noa Savia horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "text": "Gael Tierra horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 141,
+      "age": 142,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 162,
+      "age": 163,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 146,
+      "age": 147,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 134,
+      "age": 135,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +268,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 92,
+      "age": 93,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -299,7 +299,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 80,
+      "age": 81,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -314,7 +314,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 110,
+      "age": 111,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -329,7 +329,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -344,7 +344,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -359,7 +359,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 89,
+      "age": 90,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -374,7 +374,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 53,
+      "age": 54,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -389,7 +389,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -404,7 +404,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -435,7 +435,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 63,
+      "age": 64,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -450,7 +450,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -465,7 +465,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -480,7 +480,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 16,
+      "age": 17,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -495,7 +495,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 13,
+      "age": 14,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -526,7 +526,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -541,7 +541,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 7,
+      "age": 8,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -596,6 +596,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1787230566631_bhe",
+      "date": "2026-08-20",
+      "day": 135,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Iko encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1787230566631_l4d",
+      "date": "2026-08-20",
+      "day": 135,
+      "source": "local",
+      "name": "Gael Nube",
+      "category": "contemplativo",
+      "text": "Gael Nube se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
+    {
+      "id": "local_1787230566631_v39",
+      "date": "2026-08-20",
+      "day": 135,
+      "source": "local",
+      "name": "Luma Río",
+      "category": "espiritual",
+      "text": "Luma Río participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1787230566631_jsl",
+      "date": "2026-08-20",
+      "day": 135,
+      "source": "local",
+      "name": "Gael Tierra",
+      "category": "trivial",
+      "text": "Gael Tierra horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+    },
     {
       "id": "local_1787144061814_z14",
       "date": "2026-08-19",
@@ -1459,42 +1495,6 @@
       "name": "Ari Musgo",
       "category": "trivial",
       "text": "Ari Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1785334788196_zj6",
-      "date": "2026-07-29",
-      "day": 113,
-      "source": "local",
-      "name": "Hira Sol",
-      "category": "contemplativo",
-      "text": "Hira Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1785248386496_t83",
-      "date": "2026-07-28",
-      "day": 112,
-      "source": "local",
-      "name": "Lua",
-      "category": "fantástico",
-      "text": "Lua fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1785248386496_ici",
-      "date": "2026-07-28",
-      "day": 112,
-      "source": "local",
-      "name": "Gael Musgo",
-      "category": "fantástico",
-      "text": "Vex se materializó cerca de Gael Musgo y dejó una nota en un idioma que nadie ha identificado. Gael Musgo la guardó."
-    },
-    {
-      "id": "local_1785248386496_obw",
-      "date": "2026-07-28",
-      "day": 112,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "contemplativo",
-      "text": "Vela Savia pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
     }
   ]
 }
