@@ -1,11 +1,11 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 135,
-    "date": "2026-08-20",
+    "day": 136,
+    "date": "2026-08-21",
     "season": "verano",
-    "seasonDay": 46,
-    "climate": "nublado",
+    "seasonDay": 47,
+    "climate": "ventoso",
     "resources": {
       "food": 100,
       "energy": 100,
@@ -13,40 +13,40 @@
     },
     "todayEvents": [
       {
-        "id": "local_1787230566631_bhe",
-        "date": "2026-08-20",
-        "day": 135,
+        "id": "local_1787316908559_zpn",
+        "date": "2026-08-21",
+        "day": 136,
         "source": "local",
         "name": "Iko",
-        "category": "fantástico",
-        "text": "Iko encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-      },
-      {
-        "id": "local_1787230566631_l4d",
-        "date": "2026-08-20",
-        "day": 135,
-        "source": "local",
-        "name": "Gael Nube",
-        "category": "contemplativo",
-        "text": "Gael Nube se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-      },
-      {
-        "id": "local_1787230566631_v39",
-        "date": "2026-08-20",
-        "day": 135,
-        "source": "local",
-        "name": "Luma Río",
-        "category": "espiritual",
-        "text": "Luma Río participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1787230566631_jsl",
-        "date": "2026-08-20",
-        "day": 135,
-        "source": "local",
-        "name": "Gael Tierra",
         "category": "trivial",
-        "text": "Gael Tierra horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "text": "Iko pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1787316908559_trm",
+        "date": "2026-08-21",
+        "day": 136,
+        "source": "local",
+        "name": "Lua",
+        "category": "trivial",
+        "text": "Lua enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+      },
+      {
+        "id": "local_1787316908559_1dy",
+        "date": "2026-08-21",
+        "day": 136,
+        "source": "local",
+        "name": "Cal Río",
+        "category": "contemplativo",
+        "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+      },
+      {
+        "id": "local_1787316908559_0x4",
+        "date": "2026-08-21",
+        "day": 136,
+        "source": "local",
+        "name": "Luma Viento",
+        "category": "contemplativo",
+        "text": "Luma Viento se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 142,
+      "age": 143,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 163,
+      "age": 164,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 147,
+      "age": 148,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 135,
+      "age": 136,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +268,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 93,
+      "age": 94,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -299,7 +299,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 81,
+      "age": 82,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -314,7 +314,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 111,
+      "age": 112,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -329,7 +329,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 76,
+      "age": 77,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -344,7 +344,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -359,7 +359,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -374,7 +374,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 54,
+      "age": 55,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -389,7 +389,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 66,
+      "age": 67,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -404,7 +404,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 83,
+      "age": 84,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -435,7 +435,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 64,
+      "age": 65,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -450,7 +450,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 64,
+      "age": 65,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -465,7 +465,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 59,
+      "age": 60,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -480,7 +480,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 17,
+      "age": 18,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -495,7 +495,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 14,
+      "age": 15,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -526,7 +526,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -541,7 +541,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 8,
+      "age": 9,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -596,6 +596,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1787316908559_zpn",
+      "date": "2026-08-21",
+      "day": 136,
+      "source": "local",
+      "name": "Iko",
+      "category": "trivial",
+      "text": "Iko pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1787316908559_trm",
+      "date": "2026-08-21",
+      "day": 136,
+      "source": "local",
+      "name": "Lua",
+      "category": "trivial",
+      "text": "Lua enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+    },
+    {
+      "id": "local_1787316908559_1dy",
+      "date": "2026-08-21",
+      "day": 136,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "contemplativo",
+      "text": "Cal Río pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1787316908559_0x4",
+      "date": "2026-08-21",
+      "day": 136,
+      "source": "local",
+      "name": "Luma Viento",
+      "category": "contemplativo",
+      "text": "Luma Viento se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
     {
       "id": "local_1787230566631_bhe",
       "date": "2026-08-20",
@@ -1459,42 +1495,6 @@
       "name": "Umi Musgo",
       "category": "trivial",
       "text": "Umi Musgo catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-    },
-    {
-      "id": "v_1785420686865d",
-      "date": "2026-07-30",
-      "day": 114,
-      "source": "mundo",
-      "name": "Hira Sol",
-      "category": "muerte",
-      "text": "Hira Sol falleció hoy."
-    },
-    {
-      "id": "local_1785334788196_j03",
-      "date": "2026-07-29",
-      "day": 113,
-      "source": "local",
-      "name": "Juno Nube",
-      "category": "contemplativo",
-      "text": "Juno Nube pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1785334788196_olx",
-      "date": "2026-07-29",
-      "day": 113,
-      "source": "local",
-      "name": "Sal Sol",
-      "category": "espiritual",
-      "text": "Sal Sol participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1785334788196_50e",
-      "date": "2026-07-29",
-      "day": 113,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "trivial",
-      "text": "Ari Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
     }
   ]
 }
