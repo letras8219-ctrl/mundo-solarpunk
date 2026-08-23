@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 137,
-    "date": "2026-08-22",
+    "day": 138,
+    "date": "2026-08-23",
     "season": "verano",
-    "seasonDay": 48,
-    "climate": "nublado",
+    "seasonDay": 49,
+    "climate": "soleado",
     "resources": {
       "food": 100,
       "energy": 100,
-      "mood": 93
+      "mood": 95
     },
     "todayEvents": [
       {
-        "id": "local_1787402794557_rzc",
-        "date": "2026-08-22",
-        "day": 137,
+        "id": "local_1787489264588_54j",
+        "date": "2026-08-23",
+        "day": 138,
         "source": "local",
-        "name": "Luma Viento",
-        "category": "trivial",
-        "text": "Luma Viento horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-      },
-      {
-        "id": "local_1787402794557_0jb",
-        "date": "2026-08-22",
-        "day": 137,
-        "source": "local",
-        "name": "Juno Río",
+        "name": "Cal Río",
         "category": "fantástico",
-        "text": "Juno Río fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+        "text": "Una mariposa de alas plateadas siguió a Cal Río todo el día. Donde se posaba, las plantas florecían en segundos."
       },
       {
-        "id": "local_1787402794557_upz",
-        "date": "2026-08-22",
-        "day": 137,
+        "id": "local_1787489264588_t6l",
+        "date": "2026-08-23",
+        "day": 138,
         "source": "local",
-        "name": "Remi Agua",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Remi Agua. Duró poco pero dejó el aire oliendo a promesas."
-      },
-      {
-        "id": "local_1787402794557_bmr",
-        "date": "2026-08-22",
-        "day": 137,
-        "source": "local",
-        "name": "Noa Savia",
+        "name": "Gael Nube",
         "category": "contemplativo",
-        "text": "Noa Savia pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+        "text": "Gael Nube se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+      },
+      {
+        "id": "local_1787489264588_txd",
+        "date": "2026-08-23",
+        "day": 138,
+        "source": "local",
+        "name": "Vela Savia",
+        "category": "interpersonal",
+        "text": "Vela Savia tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+      },
+      {
+        "id": "local_1787489264588_ree",
+        "date": "2026-08-23",
+        "day": 138,
+        "source": "local",
+        "name": "Zerda",
+        "category": "espiritual",
+        "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+      },
+      {
+        "id": "v_1787489264588n",
+        "date": "2026-08-23",
+        "day": 138,
+        "source": "mundo",
+        "name": "Ari Sol",
+        "category": "nacimiento",
+        "text": "Ari Sol nació hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 144,
+      "age": 145,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +131,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 165,
+      "age": 166,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +164,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 149,
+      "age": 150,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +197,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 137,
+      "age": 138,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +277,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 95,
+      "age": 96,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -299,7 +308,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 83,
+      "age": 84,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -314,7 +323,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 113,
+      "age": 114,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -329,7 +338,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -344,7 +353,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -359,7 +368,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 92,
+      "age": 93,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -374,7 +383,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 56,
+      "age": 57,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -389,7 +398,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -404,7 +413,7 @@
       "id": "c_1783694248068_i",
       "name": "Luma Viento",
       "type": "humano",
-      "age": 85,
+      "age": 86,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -435,7 +444,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 66,
+      "age": 67,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -450,7 +459,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 66,
+      "age": 67,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -465,7 +474,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 61,
+      "age": 62,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -480,7 +489,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 19,
+      "age": 20,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -495,7 +504,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 16,
+      "age": 17,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -526,7 +535,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -541,9 +550,24 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 10,
+      "age": 11,
       "role": "recién nacido",
       "location": "El Mirador",
+      "traits": [
+        "curioso"
+      ],
+      "emotion": "asombro puro",
+      "alive": true,
+      "belief": null,
+      "faction": null
+    },
+    {
+      "id": "c_1787489264358",
+      "name": "Ari Sol",
+      "type": "humano",
+      "age": 0,
+      "role": "recién nacido",
+      "location": "Plaza Central",
       "traits": [
         "curioso"
       ],
@@ -596,6 +620,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1787489264588_54j",
+      "date": "2026-08-23",
+      "day": 138,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Cal Río todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1787489264588_t6l",
+      "date": "2026-08-23",
+      "day": 138,
+      "source": "local",
+      "name": "Gael Nube",
+      "category": "contemplativo",
+      "text": "Gael Nube se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
+    {
+      "id": "local_1787489264588_txd",
+      "date": "2026-08-23",
+      "day": 138,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "interpersonal",
+      "text": "Vela Savia tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1787489264588_ree",
+      "date": "2026-08-23",
+      "day": 138,
+      "source": "local",
+      "name": "Zerda",
+      "category": "espiritual",
+      "text": "Zerda participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "v_1787489264588n",
+      "date": "2026-08-23",
+      "day": 138,
+      "source": "mundo",
+      "name": "Ari Sol",
+      "category": "nacimiento",
+      "text": "Ari Sol nació hoy."
+    },
     {
       "id": "local_1787402794557_rzc",
       "date": "2026-08-22",
@@ -1450,51 +1519,6 @@
       "name": "Gael Tierra",
       "category": "interpersonal",
       "text": "Gael Tierra dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "v_1785591402079a",
-      "date": "2026-08-01",
-      "day": 116,
-      "source": "mundo",
-      "name": "Gael Nube",
-      "category": "llegada",
-      "text": "Gael Nube llegó al mundo hoy."
-    },
-    {
-      "id": "local_1785507513927_8a9",
-      "date": "2026-07-31",
-      "day": 115,
-      "source": "local",
-      "name": "Luma Río",
-      "category": "contemplativo",
-      "text": "Luma Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1785507513927_50t",
-      "date": "2026-07-31",
-      "day": 115,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "contemplativo",
-      "text": "Ari Musgo se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
-    },
-    {
-      "id": "local_1785507513927_bna",
-      "date": "2026-07-31",
-      "day": 115,
-      "source": "local",
-      "name": "Sal Sol",
-      "category": "trivial",
-      "text": "Sal Sol pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1785507513927_tsn",
-      "date": "2026-07-31",
-      "day": 115,
-      "source": "local",
-      "name": "Gael Musgo",
-      "category": "fantástico",
-      "text": "Gael Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
     }
   ]
 }
