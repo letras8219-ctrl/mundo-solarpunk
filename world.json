@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 144,
-    "date": "2026-08-29",
+    "day": 145,
+    "date": "2026-08-30",
     "season": "verano",
-    "seasonDay": 55,
-    "climate": "ventoso",
+    "seasonDay": 56,
+    "climate": "frío seco",
     "resources": {
       "food": 100,
       "energy": 100,
-      "mood": 100
+      "mood": 98
     },
     "todayEvents": [
       {
-        "id": "local_1788020946748_t6r",
-        "date": "2026-08-29",
-        "day": 144,
+        "id": "local_1788106954222_z4y",
+        "date": "2026-08-30",
+        "day": 145,
         "source": "local",
-        "name": "Luma Agua",
-        "category": "contemplativo",
-        "text": "Luma Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "name": "Vela Savia",
+        "category": "interpersonal",
+        "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       },
       {
-        "id": "local_1788020946748_lgw",
-        "date": "2026-08-29",
-        "day": 144,
+        "id": "local_1788106954222_nzq",
+        "date": "2026-08-30",
+        "day": 145,
         "source": "local",
-        "name": "Cal Río",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Cal Río todo el día. Donde se posaba, las plantas florecían en segundos."
-      },
-      {
-        "id": "local_1788020946748_1sh",
-        "date": "2026-08-29",
-        "day": 144,
-        "source": "local",
-        "name": "Juno Nube",
+        "name": "Mira Bruma",
         "category": "trivial",
-        "text": "Juno Nube catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+        "text": "Mira Bruma pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
       },
       {
-        "id": "local_1788020946748_ocx",
-        "date": "2026-08-29",
-        "day": 144,
+        "id": "local_1788106954222_rbw",
+        "date": "2026-08-30",
+        "day": 145,
         "source": "local",
-        "name": "Juno Nube",
+        "name": "Luma Bruma",
+        "category": "trivial",
+        "text": "Luma Bruma pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+      },
+      {
+        "id": "local_1788106954222_8mj",
+        "date": "2026-08-30",
+        "day": 145,
+        "source": "local",
+        "name": "Luma Río",
         "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Juno Nube todo el día. Donde se posaba, las plantas florecían en segundos."
+        "text": "Vex se materializó cerca de Luma Río y dejó una nota en un idioma que nadie ha identificado. Luma Río la guardó."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 151,
+      "age": 152,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 172,
+      "age": 173,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 156,
+      "age": 157,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 144,
+      "age": 145,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +268,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 102,
+      "age": 103,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -299,7 +299,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -314,7 +314,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 120,
+      "age": 121,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -329,7 +329,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 85,
+      "age": 86,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -344,7 +344,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -359,7 +359,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 99,
+      "age": 100,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -374,7 +374,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -389,7 +389,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -436,7 +436,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 73,
+      "age": 74,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -451,7 +451,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 73,
+      "age": 74,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -466,7 +466,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 68,
+      "age": 69,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -481,7 +481,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -496,7 +496,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -527,7 +527,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 47,
+      "age": 48,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -542,7 +542,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 17,
+      "age": 18,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -557,7 +557,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 6,
+      "age": 7,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -572,7 +572,7 @@
       "id": "c_1787662422228_i",
       "name": "Mira Bruma",
       "type": "humano",
-      "age": 30,
+      "age": 31,
       "role": "recién llegado",
       "location": "Granja Central",
       "traits": [
@@ -587,7 +587,7 @@
       "id": "c_1787749174346_i",
       "name": "Luma Agua",
       "type": "humano",
-      "age": 23,
+      "age": 24,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -642,6 +642,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1788106954222_z4y",
+      "date": "2026-08-30",
+      "day": 145,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "interpersonal",
+      "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1788106954222_nzq",
+      "date": "2026-08-30",
+      "day": 145,
+      "source": "local",
+      "name": "Mira Bruma",
+      "category": "trivial",
+      "text": "Mira Bruma pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1788106954222_rbw",
+      "date": "2026-08-30",
+      "day": 145,
+      "source": "local",
+      "name": "Luma Bruma",
+      "category": "trivial",
+      "text": "Luma Bruma pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+    },
+    {
+      "id": "local_1788106954222_8mj",
+      "date": "2026-08-30",
+      "day": 145,
+      "source": "local",
+      "name": "Luma Río",
+      "category": "fantástico",
+      "text": "Vex se materializó cerca de Luma Río y dejó una nota en un idioma que nadie ha identificado. Luma Río la guardó."
+    },
     {
       "id": "local_1788020946748_t6r",
       "date": "2026-08-29",
@@ -1505,42 +1541,6 @@
       "name": "Vela Nube",
       "category": "trivial",
       "text": "Vela Nube preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1786108371924_450",
-      "date": "2026-08-07",
-      "day": 122,
-      "source": "local",
-      "name": "Luma Bruma",
-      "category": "trivial",
-      "text": "Luma Bruma pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1786108371924_b1s",
-      "date": "2026-08-07",
-      "day": 122,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "contemplativo",
-      "text": "Vela Savia se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1786108371924_kmy",
-      "date": "2026-08-07",
-      "day": 122,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Vela Savia. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1786108371924_ncs",
-      "date": "2026-08-07",
-      "day": 122,
-      "source": "local",
-      "name": "Umi Musgo",
-      "category": "trivial",
-      "text": "Umi Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
     }
   ]
 }
