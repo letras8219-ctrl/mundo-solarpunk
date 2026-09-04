@@ -1,11 +1,11 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 149,
-    "date": "2026-09-03",
+    "day": 150,
+    "date": "2026-09-04",
     "season": "verano",
-    "seasonDay": 60,
-    "climate": "tormenta suave",
+    "seasonDay": 61,
+    "climate": "templado",
     "resources": {
       "food": 100,
       "energy": 100,
@@ -13,40 +13,40 @@
     },
     "todayEvents": [
       {
-        "id": "local_1788451643930_m7d",
-        "date": "2026-09-03",
-        "day": 149,
+        "id": "local_1788537759154_eix",
+        "date": "2026-09-04",
+        "day": 150,
         "source": "local",
-        "name": "Vex",
+        "name": "Cal Río",
         "category": "trivial",
-        "text": "Vex pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+        "text": "Cal Río pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       },
       {
-        "id": "local_1788451643930_6ih",
-        "date": "2026-09-03",
-        "day": 149,
+        "id": "local_1788537759154_lhf",
+        "date": "2026-09-04",
+        "day": 150,
         "source": "local",
-        "name": "Juno Nube",
+        "name": "Luma Agua",
         "category": "trivial",
-        "text": "Juno Nube enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "text": "Luma Agua organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       },
       {
-        "id": "local_1788451643930_4zf",
-        "date": "2026-09-03",
-        "day": 149,
+        "id": "local_1788537759154_cyq",
+        "date": "2026-09-04",
+        "day": 150,
         "source": "local",
         "name": "Iko",
-        "category": "contemplativo",
-        "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "category": "fantástico",
+        "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1788451643930_ygc",
-        "date": "2026-09-03",
-        "day": 149,
+        "id": "local_1788537759154_n89",
+        "date": "2026-09-04",
+        "day": 150,
         "source": "local",
-        "name": "Gael Musgo",
+        "name": "Ari Sol",
         "category": "contemplativo",
-        "text": "Gael Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "text": "Ari Sol caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 156,
+      "age": 157,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -122,7 +122,7 @@
       "id": "c5",
       "name": "Lua",
       "type": "humano",
-      "age": 177,
+      "age": 178,
       "role": "mensajera en moto solar",
       "location": "Zona Este",
       "traits": [
@@ -155,7 +155,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 161,
+      "age": 162,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -188,7 +188,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 149,
+      "age": 150,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -268,7 +268,7 @@
       "id": "c_1779204916682",
       "name": "Ari Musgo",
       "type": "humano",
-      "age": 107,
+      "age": 108,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -299,7 +299,7 @@
       "id": "c_1780235695579",
       "name": "Remi Agua",
       "type": "humano",
-      "age": 95,
+      "age": 96,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -314,7 +314,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 125,
+      "age": 126,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -329,7 +329,7 @@
       "id": "c_1780672433680",
       "name": "Cal Río",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -344,7 +344,7 @@
       "id": "c_1781277933129",
       "name": "Juno Río",
       "type": "humano",
-      "age": 83,
+      "age": 84,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -359,7 +359,7 @@
       "id": "c_1782227485997_i",
       "name": "Gael Tierra",
       "type": "humano",
-      "age": 104,
+      "age": 105,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -374,7 +374,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -389,7 +389,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 80,
+      "age": 81,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -436,7 +436,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 78,
+      "age": 79,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -451,7 +451,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -466,7 +466,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 73,
+      "age": 74,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -481,7 +481,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 31,
+      "age": 32,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -496,7 +496,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -527,7 +527,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 52,
+      "age": 53,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -542,7 +542,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 22,
+      "age": 23,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -557,7 +557,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 11,
+      "age": 12,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -572,7 +572,7 @@
       "id": "c_1787662422228_i",
       "name": "Mira Bruma",
       "type": "humano",
-      "age": 35,
+      "age": 36,
       "role": "recién llegado",
       "location": "Granja Central",
       "traits": [
@@ -587,7 +587,7 @@
       "id": "c_1787749174346_i",
       "name": "Luma Agua",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -602,7 +602,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -657,6 +657,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1788537759154_eix",
+      "date": "2026-09-04",
+      "day": 150,
+      "source": "local",
+      "name": "Cal Río",
+      "category": "trivial",
+      "text": "Cal Río pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
+    {
+      "id": "local_1788537759154_lhf",
+      "date": "2026-09-04",
+      "day": 150,
+      "source": "local",
+      "name": "Luma Agua",
+      "category": "trivial",
+      "text": "Luma Agua organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
+    {
+      "id": "local_1788537759154_cyq",
+      "date": "2026-09-04",
+      "day": 150,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1788537759154_n89",
+      "date": "2026-09-04",
+      "day": 150,
+      "source": "local",
+      "name": "Ari Sol",
+      "category": "contemplativo",
+      "text": "Ari Sol caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
     {
       "id": "local_1788451643930_m7d",
       "date": "2026-09-03",
@@ -1520,42 +1556,6 @@
       "name": "Gael Musgo",
       "category": "espiritual",
       "text": "Gael Musgo participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-    },
-    {
-      "id": "local_1786540695882_9kc",
-      "date": "2026-08-12",
-      "day": 127,
-      "source": "local",
-      "name": "Bel Savia",
-      "category": "trivial",
-      "text": "Bel Savia organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1786540695882_ar8",
-      "date": "2026-08-12",
-      "day": 127,
-      "source": "local",
-      "name": "Gael Musgo",
-      "category": "trivial",
-      "text": "Gael Musgo horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "v_1786540695882n",
-      "date": "2026-08-12",
-      "day": 127,
-      "source": "mundo",
-      "name": "Bel Savia",
-      "category": "nacimiento",
-      "text": "Bel Savia nació hoy."
-    },
-    {
-      "id": "local_1786454053804_bi1",
-      "date": "2026-08-11",
-      "day": 126,
-      "source": "local",
-      "name": "Juno Río",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Juno Río todo el día. Donde se posaba, las plantas florecían en segundos."
     }
   ]
 }
