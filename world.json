@@ -1,52 +1,61 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 182,
-    "date": "2026-10-07",
+    "day": 183,
+    "date": "2026-10-08",
     "season": "otoño",
-    "seasonDay": 3,
-    "climate": "templado",
+    "seasonDay": 4,
+    "climate": "tormenta suave",
     "resources": {
-      "food": 98,
-      "energy": 97,
-      "mood": 74
+      "food": 97,
+      "energy": 94,
+      "mood": 73
     },
     "todayEvents": [
       {
-        "id": "local_1791398479127_3gf",
-        "date": "2026-10-07",
-        "day": 182,
+        "id": "local_1791484775868_ubj",
+        "date": "2026-10-08",
+        "day": 183,
         "source": "local",
-        "name": "Gael Musgo",
-        "category": "interpersonal",
-        "text": "Gael Musgo dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Juno Nube",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Juno Nube todo el día. Donde se posaba, las plantas florecían en segundos."
       },
       {
-        "id": "local_1791398479127_gqj",
-        "date": "2026-10-07",
-        "day": 182,
+        "id": "local_1791484775868_8uf",
+        "date": "2026-10-08",
+        "day": 183,
         "source": "local",
-        "name": "Luma Bruma",
-        "category": "trivial",
-        "text": "Luma Bruma organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "name": "Iko",
+        "category": "contemplativo",
+        "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
       },
       {
-        "id": "local_1791398479127_s59",
-        "date": "2026-10-07",
-        "day": 182,
+        "id": "local_1791484775868_blw",
+        "date": "2026-10-08",
+        "day": 183,
         "source": "local",
         "name": "Gael Bruma",
-        "category": "trivial",
-        "text": "Gael Bruma horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
+        "category": "contemplativo",
+        "text": "Gael Bruma pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       },
       {
-        "id": "local_1791398479127_ck9",
-        "date": "2026-10-07",
-        "day": 182,
+        "id": "local_1791484775868_9lo",
+        "date": "2026-10-08",
+        "day": 183,
         "source": "local",
-        "name": "Noa Bruma",
+        "name": "Umi Musgo",
         "category": "fantástico",
-        "text": "Vex se materializó cerca de Noa Bruma y dejó una nota en un idioma que nadie ha identificado. Noa Bruma la guardó."
+        "text": "Umi Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+      },
+      {
+        "id": "v_1791484775868a",
+        "date": "2026-10-08",
+        "day": 183,
+        "source": "mundo",
+        "name": "Juno Tierra",
+        "category": "llegada",
+        "text": "Juno Tierra llegó al mundo hoy."
       }
     ]
   },
@@ -72,7 +81,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 189,
+      "age": 190,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +165,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 194,
+      "age": 195,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +198,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 182,
+      "age": 183,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +326,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 158,
+      "age": 159,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +389,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 101,
+      "age": 102,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -395,7 +404,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 113,
+      "age": 114,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -442,7 +451,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 111,
+      "age": 112,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -457,7 +466,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 111,
+      "age": 112,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -472,7 +481,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 106,
+      "age": 107,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -487,7 +496,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 64,
+      "age": 65,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -502,7 +511,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -533,7 +542,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 85,
+      "age": 86,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -548,7 +557,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 55,
+      "age": 56,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -563,7 +572,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -578,7 +587,7 @@
       "id": "c_1787662422228_i",
       "name": "Mira Bruma",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién llegado",
       "location": "Granja Central",
       "traits": [
@@ -593,7 +602,7 @@
       "id": "c_1787749174346_i",
       "name": "Luma Agua",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -608,7 +617,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -623,7 +632,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 57,
+      "age": 58,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -638,7 +647,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 53,
+      "age": 54,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -653,7 +662,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -668,7 +677,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -683,7 +692,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 4,
+      "age": 5,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -698,7 +707,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -713,7 +722,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 46,
+      "age": 47,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -723,6 +732,21 @@
       "alive": true,
       "belief": "ateísta",
       "faction": "Ecoverde"
+    },
+    {
+      "id": "c_1791484775498_i",
+      "name": "Juno Tierra",
+      "type": "humano",
+      "age": 39,
+      "role": "recién llegado",
+      "location": "El Mirador",
+      "traits": [
+        "valiente"
+      ],
+      "emotion": "nostalgia",
+      "alive": true,
+      "belief": "ateísta",
+      "faction": "Tecnolibres"
     }
   ],
   "locations": [
@@ -768,6 +792,51 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1791484775868_ubj",
+      "date": "2026-10-08",
+      "day": 183,
+      "source": "local",
+      "name": "Juno Nube",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Juno Nube todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1791484775868_8uf",
+      "date": "2026-10-08",
+      "day": 183,
+      "source": "local",
+      "name": "Iko",
+      "category": "contemplativo",
+      "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "local_1791484775868_blw",
+      "date": "2026-10-08",
+      "day": 183,
+      "source": "local",
+      "name": "Gael Bruma",
+      "category": "contemplativo",
+      "text": "Gael Bruma pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1791484775868_9lo",
+      "date": "2026-10-08",
+      "day": 183,
+      "source": "local",
+      "name": "Umi Musgo",
+      "category": "fantástico",
+      "text": "Umi Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "v_1791484775868a",
+      "date": "2026-10-08",
+      "day": 183,
+      "source": "mundo",
+      "name": "Juno Tierra",
+      "category": "llegada",
+      "text": "Juno Tierra llegó al mundo hoy."
+    },
     {
       "id": "local_1791398479127_3gf",
       "date": "2026-10-07",
@@ -1622,51 +1691,6 @@
       "name": "Juno Río",
       "category": "fantástico",
       "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1789490241527_9tm",
-      "date": "2026-09-15",
-      "day": 161,
-      "source": "local",
-      "name": "Umi Musgo",
-      "category": "fantástico",
-      "text": "Umi Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1789490241527_tyv",
-      "date": "2026-09-15",
-      "day": 161,
-      "source": "local",
-      "name": "Juno Río",
-      "category": "fantástico",
-      "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-    },
-    {
-      "id": "local_1789490241527_vg6",
-      "date": "2026-09-15",
-      "day": 161,
-      "source": "local",
-      "name": "Umi Musgo",
-      "category": "interpersonal",
-      "text": "Umi Musgo dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1789490241527_7gy",
-      "date": "2026-09-15",
-      "day": 161,
-      "source": "local",
-      "name": "Vela Nube",
-      "category": "contemplativo",
-      "text": "Vela Nube caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1789408584635_hah",
-      "date": "2026-09-14",
-      "day": 160,
-      "source": "local",
-      "name": "Gael Nube",
-      "category": "trivial",
-      "text": "Gael Nube enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
     }
   ]
 }
