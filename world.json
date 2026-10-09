@@ -1,61 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 183,
-    "date": "2026-10-08",
+    "day": 184,
+    "date": "2026-10-09",
     "season": "otoño",
-    "seasonDay": 4,
+    "seasonDay": 5,
     "climate": "tormenta suave",
     "resources": {
-      "food": 97,
-      "energy": 94,
-      "mood": 73
+      "food": 95,
+      "energy": 91,
+      "mood": 69
     },
     "todayEvents": [
       {
-        "id": "local_1791484775868_ubj",
-        "date": "2026-10-08",
-        "day": 183,
+        "id": "local_1791569432277_kot",
+        "date": "2026-10-09",
+        "day": 184,
+        "source": "local",
+        "name": "Vela Savia",
+        "category": "interpersonal",
+        "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+      },
+      {
+        "id": "local_1791569432277_e6t",
+        "date": "2026-10-09",
+        "day": 184,
+        "source": "local",
+        "name": "Noa Savia",
+        "category": "fantástico",
+        "text": "Noa Savia encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+      },
+      {
+        "id": "local_1791569432277_8x3",
+        "date": "2026-10-09",
+        "day": 184,
         "source": "local",
         "name": "Juno Nube",
-        "category": "fantástico",
-        "text": "Una mariposa de alas plateadas siguió a Juno Nube todo el día. Donde se posaba, las plantas florecían en segundos."
+        "category": "interpersonal",
+        "text": "Juno Nube tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       },
       {
-        "id": "local_1791484775868_8uf",
-        "date": "2026-10-08",
-        "day": 183,
+        "id": "local_1791569432277_uk8",
+        "date": "2026-10-09",
+        "day": 184,
         "source": "local",
-        "name": "Iko",
-        "category": "contemplativo",
-        "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1791484775868_blw",
-        "date": "2026-10-08",
-        "day": 183,
-        "source": "local",
-        "name": "Gael Bruma",
-        "category": "contemplativo",
-        "text": "Gael Bruma pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-      },
-      {
-        "id": "local_1791484775868_9lo",
-        "date": "2026-10-08",
-        "day": 183,
-        "source": "local",
-        "name": "Umi Musgo",
-        "category": "fantástico",
-        "text": "Umi Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-      },
-      {
-        "id": "v_1791484775868a",
-        "date": "2026-10-08",
-        "day": 183,
-        "source": "mundo",
-        "name": "Juno Tierra",
-        "category": "llegada",
-        "text": "Juno Tierra llegó al mundo hoy."
+        "name": "Noa Bruma",
+        "category": "interpersonal",
+        "text": "Noa Bruma dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       }
     ]
   },
@@ -81,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 190,
+      "age": 191,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -165,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 195,
+      "age": 196,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -198,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 183,
+      "age": 184,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -326,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 159,
+      "age": 160,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -389,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 102,
+      "age": 103,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -404,7 +395,7 @@
       "id": "c_1783520686943_i",
       "name": "Gael Musgo",
       "type": "humano",
-      "age": 114,
+      "age": 115,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -451,7 +442,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 112,
+      "age": 113,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -466,7 +457,7 @@
       "id": "c_1784987018287_i",
       "name": "Umi Musgo",
       "type": "humano",
-      "age": 112,
+      "age": 113,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -481,7 +472,7 @@
       "id": "c_1785591401873_i",
       "name": "Gael Nube",
       "type": "robot",
-      "age": 107,
+      "age": 108,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -496,7 +487,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -511,7 +502,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -542,7 +533,7 @@
       "id": "c_1786367854331_i",
       "name": "Noa Savia",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "recién llegado",
       "location": "Taller Comunal",
       "traits": [
@@ -557,7 +548,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 56,
+      "age": 57,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -572,7 +563,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -587,7 +578,7 @@
       "id": "c_1787662422228_i",
       "name": "Mira Bruma",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién llegado",
       "location": "Granja Central",
       "traits": [
@@ -602,7 +593,7 @@
       "id": "c_1787749174346_i",
       "name": "Luma Agua",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -617,7 +608,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -632,7 +623,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 58,
+      "age": 59,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -647,7 +638,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 54,
+      "age": 55,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -662,7 +653,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -677,7 +668,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -692,7 +683,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 5,
+      "age": 6,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -707,7 +698,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 4,
+      "age": 5,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -722,7 +713,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 47,
+      "age": 48,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -737,7 +728,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -792,6 +783,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1791569432277_kot",
+      "date": "2026-10-09",
+      "day": 184,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "interpersonal",
+      "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1791569432277_e6t",
+      "date": "2026-10-09",
+      "day": 184,
+      "source": "local",
+      "name": "Noa Savia",
+      "category": "fantástico",
+      "text": "Noa Savia encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1791569432277_8x3",
+      "date": "2026-10-09",
+      "day": 184,
+      "source": "local",
+      "name": "Juno Nube",
+      "category": "interpersonal",
+      "text": "Juno Nube tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1791569432277_uk8",
+      "date": "2026-10-09",
+      "day": 184,
+      "source": "local",
+      "name": "Noa Bruma",
+      "category": "interpersonal",
+      "text": "Noa Bruma dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
     {
       "id": "local_1791484775868_ubj",
       "date": "2026-10-08",
@@ -1655,42 +1682,6 @@
       "name": "Noa Bruma",
       "category": "llegada",
       "text": "Noa Bruma llegó al mundo hoy."
-    },
-    {
-      "id": "local_1789576222372_j7j",
-      "date": "2026-09-16",
-      "day": 162,
-      "source": "local",
-      "name": "Ari Musgo",
-      "category": "fantástico",
-      "text": "Ari Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1789576222372_uym",
-      "date": "2026-09-16",
-      "day": 162,
-      "source": "local",
-      "name": "Remi Agua",
-      "category": "contemplativo",
-      "text": "Remi Agua se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1789576222372_vr8",
-      "date": "2026-09-16",
-      "day": 162,
-      "source": "local",
-      "name": "Cal Río",
-      "category": "trivial",
-      "text": "Cal Río organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1789576222372_1ov",
-      "date": "2026-09-16",
-      "day": 162,
-      "source": "local",
-      "name": "Juno Río",
-      "category": "fantástico",
-      "text": "Juno Río encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
     }
   ]
 }
