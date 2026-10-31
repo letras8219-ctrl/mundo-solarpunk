@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 205,
-    "date": "2026-10-30",
+    "day": 206,
+    "date": "2026-10-31",
     "season": "otoño",
-    "seasonDay": 26,
-    "climate": "nublado",
+    "seasonDay": 27,
+    "climate": "ventoso",
     "resources": {
-      "food": 93,
-      "energy": 72,
-      "mood": 36
+      "food": 95,
+      "energy": 69,
+      "mood": 33
     },
     "todayEvents": [
       {
-        "id": "local_1793382713134_59y",
-        "date": "2026-10-30",
-        "day": 205,
+        "id": "local_1793466179507_ssz",
+        "date": "2026-10-31",
+        "day": 206,
         "source": "local",
-        "name": "Vela Luz",
+        "name": "Bel Savia",
         "category": "trivial",
-        "text": "Vela Luz enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "text": "Bel Savia catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
       },
       {
-        "id": "local_1793382713134_1mf",
-        "date": "2026-10-30",
-        "day": 205,
-        "source": "local",
-        "name": "Bel Nube",
-        "category": "trivial",
-        "text": "Bel Nube pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-      },
-      {
-        "id": "local_1793382713134_cts",
-        "date": "2026-10-30",
-        "day": 205,
+        "id": "local_1793466179507_62d",
+        "date": "2026-10-31",
+        "day": 206,
         "source": "local",
         "name": "Zerda",
         "category": "trivial",
-        "text": "Zerda pasó el día sin hacer nada productivo y por primera vez en mucho tiempo, eso estuvo perfectamente bien."
+        "text": "Zerda preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
       },
       {
-        "id": "local_1793382713134_0es",
-        "date": "2026-10-30",
-        "day": 205,
+        "id": "local_1793466179507_bcz",
+        "date": "2026-10-31",
+        "day": 206,
         "source": "local",
-        "name": "Luma Río",
-        "category": "trivial",
-        "text": "Luma Río organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "name": "Gael Bruma",
+        "category": "contemplativo",
+        "text": "Gael Bruma se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+      },
+      {
+        "id": "local_1793466179507_ruy",
+        "date": "2026-10-31",
+        "day": 206,
+        "source": "local",
+        "name": "Vex",
+        "category": "contemplativo",
+        "text": "Vex se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 212,
+      "age": 213,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 217,
+      "age": 218,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 205,
+      "age": 206,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 181,
+      "age": 182,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 124,
+      "age": 125,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 134,
+      "age": 135,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -490,7 +490,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +505,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 84,
+      "age": 85,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -552,7 +552,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -567,7 +567,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -598,7 +598,7 @@
       "id": "c_1787749174346_i",
       "name": "Luma Agua",
       "type": "humano",
-      "age": 84,
+      "age": 85,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -613,7 +613,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 59,
+      "age": 60,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -628,7 +628,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 80,
+      "age": 81,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -643,7 +643,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 76,
+      "age": 77,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -658,7 +658,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -673,7 +673,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 60,
+      "age": 61,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -688,7 +688,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 27,
+      "age": 28,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -703,7 +703,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 26,
+      "age": 27,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -718,7 +718,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -733,7 +733,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -748,7 +748,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 27,
+      "age": 28,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -803,6 +803,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1793466179507_ssz",
+      "date": "2026-10-31",
+      "day": 206,
+      "source": "local",
+      "name": "Bel Savia",
+      "category": "trivial",
+      "text": "Bel Savia catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
+    },
+    {
+      "id": "local_1793466179507_62d",
+      "date": "2026-10-31",
+      "day": 206,
+      "source": "local",
+      "name": "Zerda",
+      "category": "trivial",
+      "text": "Zerda preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1793466179507_bcz",
+      "date": "2026-10-31",
+      "day": 206,
+      "source": "local",
+      "name": "Gael Bruma",
+      "category": "contemplativo",
+      "text": "Gael Bruma se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
+    {
+      "id": "local_1793466179507_ruy",
+      "date": "2026-10-31",
+      "day": 206,
+      "source": "local",
+      "name": "Vex",
+      "category": "contemplativo",
+      "text": "Vex se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
     {
       "id": "local_1793382713134_59y",
       "date": "2026-10-30",
@@ -1666,42 +1702,6 @@
       "name": "Iko",
       "category": "contemplativo",
       "text": "Iko caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1791484775868_blw",
-      "date": "2026-10-08",
-      "day": 183,
-      "source": "local",
-      "name": "Gael Bruma",
-      "category": "contemplativo",
-      "text": "Gael Bruma pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1791484775868_9lo",
-      "date": "2026-10-08",
-      "day": 183,
-      "source": "local",
-      "name": "Umi Musgo",
-      "category": "fantástico",
-      "text": "Umi Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "v_1791484775868a",
-      "date": "2026-10-08",
-      "day": 183,
-      "source": "mundo",
-      "name": "Juno Tierra",
-      "category": "llegada",
-      "text": "Juno Tierra llegó al mundo hoy."
-    },
-    {
-      "id": "local_1791398479127_3gf",
-      "date": "2026-10-07",
-      "day": 182,
-      "source": "local",
-      "name": "Gael Musgo",
-      "category": "interpersonal",
-      "text": "Gael Musgo dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
     }
   ]
 }
