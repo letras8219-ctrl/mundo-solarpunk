@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 207,
-    "date": "2026-11-01",
+    "day": 208,
+    "date": "2026-11-02",
     "season": "otoño",
-    "seasonDay": 28,
-    "climate": "tormenta suave",
+    "seasonDay": 29,
+    "climate": "lluvioso",
     "resources": {
-      "food": 95,
-      "energy": 68,
-      "mood": 30
+      "food": 97,
+      "energy": 65,
+      "mood": 29
     },
     "todayEvents": [
       {
-        "id": "local_1793555222287_i8v",
-        "date": "2026-11-01",
-        "day": 207,
+        "id": "local_1793655189251_e7l",
+        "date": "2026-11-02",
+        "day": 208,
         "source": "local",
-        "name": "Zerda",
+        "name": "Vex",
         "category": "trivial",
-        "text": "Zerda organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+        "text": "Vex organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
       },
       {
-        "id": "local_1793555222287_xem",
-        "date": "2026-11-01",
-        "day": 207,
+        "id": "local_1793655189251_oi0",
+        "date": "2026-11-02",
+        "day": 208,
         "source": "local",
         "name": "Vex",
         "category": "interpersonal",
         "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
       },
       {
-        "id": "local_1793555222287_6sw",
-        "date": "2026-11-01",
-        "day": 207,
+        "id": "local_1793655189251_co6",
+        "date": "2026-11-02",
+        "day": 208,
         "source": "local",
-        "name": "Gael Bruma",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Gael Bruma. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Vela Musgo",
+        "category": "contemplativo",
+        "text": "Vela Musgo se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
       },
       {
-        "id": "local_1793555222287_s49",
-        "date": "2026-11-01",
-        "day": 207,
+        "id": "local_1793655189251_0z7",
+        "date": "2026-11-02",
+        "day": 208,
         "source": "local",
-        "name": "Luma Bruma",
+        "name": "Vela Nube",
         "category": "trivial",
-        "text": "Luma Bruma enseñó a tres niños a construir papalotes con materiales reciclados. Los llamaron \"dragones del viento\"."
+        "text": "Vela Nube pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 214,
+      "age": 215,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 219,
+      "age": 220,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 207,
+      "age": 208,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 183,
+      "age": 184,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 126,
+      "age": 127,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 136,
+      "age": 137,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -490,7 +490,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 89,
+      "age": 90,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +505,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -552,7 +552,7 @@
       "id": "c_1786540695697",
       "name": "Bel Savia",
       "type": "humano",
-      "age": 80,
+      "age": 81,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -567,7 +567,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -598,7 +598,7 @@
       "id": "c_1787749174346_i",
       "name": "Luma Agua",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "recién llegado",
       "location": "La Frontera",
       "traits": [
@@ -613,7 +613,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 61,
+      "age": 62,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -628,7 +628,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -643,7 +643,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 78,
+      "age": 79,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -658,7 +658,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 65,
+      "age": 66,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -673,7 +673,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 62,
+      "age": 63,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -688,7 +688,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -703,7 +703,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 28,
+      "age": 29,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -718,7 +718,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -733,7 +733,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 63,
+      "age": 64,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -748,7 +748,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 29,
+      "age": 30,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -803,6 +803,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1793655189251_e7l",
+      "date": "2026-11-02",
+      "day": 208,
+      "source": "local",
+      "name": "Vex",
+      "category": "trivial",
+      "text": "Vex organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
+    },
+    {
+      "id": "local_1793655189251_oi0",
+      "date": "2026-11-02",
+      "day": 208,
+      "source": "local",
+      "name": "Vex",
+      "category": "interpersonal",
+      "text": "Vex dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1793655189251_co6",
+      "date": "2026-11-02",
+      "day": 208,
+      "source": "local",
+      "name": "Vela Musgo",
+      "category": "contemplativo",
+      "text": "Vela Musgo se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
+    },
+    {
+      "id": "local_1793655189251_0z7",
+      "date": "2026-11-02",
+      "day": 208,
+      "source": "local",
+      "name": "Vela Nube",
+      "category": "trivial",
+      "text": "Vela Nube pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
+    },
     {
       "id": "local_1793555222287_i8v",
       "date": "2026-11-01",
@@ -1666,42 +1702,6 @@
       "name": "Mira Bruma",
       "category": "trivial",
       "text": "Mira Bruma catalogó semillas del banco comunal y encontró una variedad que nadie recordaba haber guardado."
-    },
-    {
-      "id": "local_1791652183642_mml",
-      "date": "2026-10-10",
-      "day": 185,
-      "source": "local",
-      "name": "Luma Agua",
-      "category": "fantástico",
-      "text": "Luma Agua encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
-    },
-    {
-      "id": "local_1791652183642_98v",
-      "date": "2026-10-10",
-      "day": 185,
-      "source": "local",
-      "name": "Mira Bruma",
-      "category": "contemplativo",
-      "text": "Mira Bruma caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-    },
-    {
-      "id": "local_1791569432277_kot",
-      "date": "2026-10-09",
-      "day": 184,
-      "source": "local",
-      "name": "Vela Savia",
-      "category": "interpersonal",
-      "text": "Vela Savia dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1791569432277_e6t",
-      "date": "2026-10-09",
-      "day": 184,
-      "source": "local",
-      "name": "Noa Savia",
-      "category": "fantástico",
-      "text": "Noa Savia encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
     }
   ]
 }
