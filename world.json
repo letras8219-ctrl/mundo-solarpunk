@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 213,
-    "date": "2026-11-07",
+    "day": 214,
+    "date": "2026-11-08",
     "season": "otoño",
-    "seasonDay": 34,
-    "climate": "tormenta suave",
+    "seasonDay": 35,
+    "climate": "soleado",
     "resources": {
-      "food": 96,
-      "energy": 59,
-      "mood": 19
+      "food": 95,
+      "energy": 56,
+      "mood": 16
     },
     "todayEvents": [
       {
-        "id": "local_1794073067442_jpx",
-        "date": "2026-11-07",
-        "day": 213,
+        "id": "local_1794160038002_gz6",
+        "date": "2026-11-08",
+        "day": 214,
         "source": "local",
-        "name": "Juno Tierra",
-        "category": "fantástico",
-        "text": "Juno Tierra encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-      },
-      {
-        "id": "local_1794073067442_eg9",
-        "date": "2026-11-07",
-        "day": 213,
-        "source": "local",
-        "name": "Luma Bruma",
-        "category": "fantástico",
-        "text": "Luma Bruma encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
-      },
-      {
-        "id": "local_1794073067442_xdt",
-        "date": "2026-11-07",
-        "day": 213,
-        "source": "local",
-        "name": "Noa Río",
+        "name": "Sal Tierra",
         "category": "trivial",
-        "text": "Noa Río preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+        "text": "Sal Tierra preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
       },
       {
-        "id": "local_1794073067442_eyf",
-        "date": "2026-11-07",
-        "day": 213,
+        "id": "local_1794160038002_ak8",
+        "date": "2026-11-08",
+        "day": 214,
         "source": "local",
-        "name": "Luma Río",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Luma Río. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Gael Bruma",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Gael Bruma todo el día. Donde se posaba, las plantas florecían en segundos."
+      },
+      {
+        "id": "local_1794160038002_bsg",
+        "date": "2026-11-08",
+        "day": 214,
+        "source": "local",
+        "name": "Vela Savia",
+        "category": "contemplativo",
+        "text": "Vela Savia caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+      },
+      {
+        "id": "local_1794160038002_d2p",
+        "date": "2026-11-08",
+        "day": 214,
+        "source": "local",
+        "name": "Sal Savia",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Sal Savia todo el día. Donde se posaba, las plantas florecían en segundos."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 220,
+      "age": 221,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 225,
+      "age": 226,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 213,
+      "age": 214,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 189,
+      "age": 190,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 132,
+      "age": 133,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 142,
+      "age": 143,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -490,7 +490,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 95,
+      "age": 96,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +505,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 92,
+      "age": 93,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -568,7 +568,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -615,7 +615,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 67,
+      "age": 68,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -630,7 +630,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 88,
+      "age": 89,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -645,7 +645,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 84,
+      "age": 85,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -660,7 +660,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -675,7 +675,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 68,
+      "age": 69,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -690,7 +690,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 35,
+      "age": 36,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -705,7 +705,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 34,
+      "age": 35,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -720,7 +720,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -735,7 +735,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -750,7 +750,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 35,
+      "age": 36,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -765,7 +765,7 @@
       "id": "c_1793991955991",
       "name": "Remi Raíz",
       "type": "humano",
-      "age": 1,
+      "age": 2,
       "role": "recién nacido",
       "location": "Lago del Sur",
       "traits": [
@@ -820,6 +820,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1794160038002_gz6",
+      "date": "2026-11-08",
+      "day": 214,
+      "source": "local",
+      "name": "Sal Tierra",
+      "category": "trivial",
+      "text": "Sal Tierra preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
+    },
+    {
+      "id": "local_1794160038002_ak8",
+      "date": "2026-11-08",
+      "day": 214,
+      "source": "local",
+      "name": "Gael Bruma",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Gael Bruma todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1794160038002_bsg",
+      "date": "2026-11-08",
+      "day": 214,
+      "source": "local",
+      "name": "Vela Savia",
+      "category": "contemplativo",
+      "text": "Vela Savia caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+    },
+    {
+      "id": "local_1794160038002_d2p",
+      "date": "2026-11-08",
+      "day": 214,
+      "source": "local",
+      "name": "Sal Savia",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Sal Savia todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
     {
       "id": "local_1794073067442_jpx",
       "date": "2026-11-07",
@@ -1683,42 +1719,6 @@
       "name": "Vela Nube",
       "category": "trivial",
       "text": "Vela Nube organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1792167696153_mr3",
-      "date": "2026-10-16",
-      "day": 191,
-      "source": "local",
-      "name": "Iko",
-      "category": "fantástico",
-      "text": "Iko fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1792167696153_r3u",
-      "date": "2026-10-16",
-      "day": 191,
-      "source": "local",
-      "name": "Juno Nube",
-      "category": "fantástico",
-      "text": "Juno Nube fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1792167696153_y1a",
-      "date": "2026-10-16",
-      "day": 191,
-      "source": "local",
-      "name": "Gael Bruma",
-      "category": "trivial",
-      "text": "Gael Bruma preparó una olla de sopa de verduras y la repartió entre los vecinos. Alguien dijo que era la mejor del año."
-    },
-    {
-      "id": "local_1792082299097_y48",
-      "date": "2026-10-15",
-      "day": 190,
-      "source": "local",
-      "name": "Luma Agua",
-      "category": "contemplativo",
-      "text": "Luma Agua pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
     }
   ]
 }
