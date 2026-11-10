@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 215,
-    "date": "2026-11-09",
+    "day": 216,
+    "date": "2026-11-10",
     "season": "otoño",
-    "seasonDay": 36,
-    "climate": "bruma",
+    "seasonDay": 37,
+    "climate": "ventoso",
     "resources": {
-      "food": 93,
-      "energy": 54,
-      "mood": 14
+      "food": 91,
+      "energy": 52,
+      "mood": 10
     },
     "todayEvents": [
       {
-        "id": "local_1794262001477_ga2",
-        "date": "2026-11-09",
-        "day": 215,
+        "id": "local_1794338958176_nm3",
+        "date": "2026-11-10",
+        "day": 216,
         "source": "local",
-        "name": "Vex",
-        "category": "trivial",
-        "text": "Vex pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-      },
-      {
-        "id": "local_1794262001477_klz",
-        "date": "2026-11-09",
-        "day": 215,
-        "source": "local",
-        "name": "Sal Tierra",
-        "category": "contemplativo",
-        "text": "Sal Tierra caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
-      },
-      {
-        "id": "local_1794262001477_p3n",
-        "date": "2026-11-09",
-        "day": 215,
-        "source": "local",
-        "name": "Vela Nube",
+        "name": "Sal Savia",
         "category": "fantástico",
-        "text": "Vela Nube fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+        "text": "Sal Savia fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
       },
       {
-        "id": "local_1794262001477_ch5",
-        "date": "2026-11-09",
-        "day": 215,
+        "id": "local_1794338958176_dpa",
+        "date": "2026-11-10",
+        "day": 216,
         "source": "local",
-        "name": "Noa Río",
+        "name": "Gael Bruma",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Gael Bruma. Duró poco pero dejó el aire oliendo a promesas."
+      },
+      {
+        "id": "local_1794338958176_qlg",
+        "date": "2026-11-10",
+        "day": 216,
+        "source": "local",
+        "name": "Juno Tierra",
         "category": "contemplativo",
-        "text": "Noa Río se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+        "text": "Juno Tierra pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+      },
+      {
+        "id": "local_1794338958176_5fe",
+        "date": "2026-11-10",
+        "day": 216,
+        "source": "local",
+        "name": "Iko",
+        "category": "interpersonal",
+        "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 222,
+      "age": 223,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 227,
+      "age": 228,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 215,
+      "age": 216,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 191,
+      "age": 192,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 134,
+      "age": 135,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 144,
+      "age": 145,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -490,7 +490,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 97,
+      "age": 98,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +505,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 94,
+      "age": 95,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -568,7 +568,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -615,7 +615,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 69,
+      "age": 70,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -630,7 +630,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 90,
+      "age": 91,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -645,7 +645,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 86,
+      "age": 87,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -660,7 +660,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 73,
+      "age": 74,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -675,7 +675,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 70,
+      "age": 71,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -690,7 +690,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -705,7 +705,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 36,
+      "age": 37,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -720,7 +720,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -735,7 +735,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -750,7 +750,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 37,
+      "age": 38,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -765,7 +765,7 @@
       "id": "c_1793991955991",
       "name": "Remi Raíz",
       "type": "humano",
-      "age": 3,
+      "age": 4,
       "role": "recién nacido",
       "location": "Lago del Sur",
       "traits": [
@@ -820,6 +820,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1794338958176_nm3",
+      "date": "2026-11-10",
+      "day": 216,
+      "source": "local",
+      "name": "Sal Savia",
+      "category": "fantástico",
+      "text": "Sal Savia fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
+    },
+    {
+      "id": "local_1794338958176_dpa",
+      "date": "2026-11-10",
+      "day": 216,
+      "source": "local",
+      "name": "Gael Bruma",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Gael Bruma. Duró poco pero dejó el aire oliendo a promesas."
+    },
+    {
+      "id": "local_1794338958176_qlg",
+      "date": "2026-11-10",
+      "day": 216,
+      "source": "local",
+      "name": "Juno Tierra",
+      "category": "contemplativo",
+      "text": "Juno Tierra pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1794338958176_5fe",
+      "date": "2026-11-10",
+      "day": 216,
+      "source": "local",
+      "name": "Iko",
+      "category": "interpersonal",
+      "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
     {
       "id": "local_1794262001477_ga2",
       "date": "2026-11-09",
@@ -1683,42 +1719,6 @@
       "name": "Ari Sol",
       "category": "contemplativo",
       "text": "Ari Sol se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1792337854612_m5n",
-      "date": "2026-10-18",
-      "day": 193,
-      "source": "local",
-      "name": "Vex",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Vex. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1792337854612_kli",
-      "date": "2026-10-18",
-      "day": 193,
-      "source": "local",
-      "name": "Luma Río",
-      "category": "interpersonal",
-      "text": "Luma Río dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
-    },
-    {
-      "id": "local_1792337854612_3mi",
-      "date": "2026-10-18",
-      "day": 193,
-      "source": "local",
-      "name": "Luma Bruma",
-      "category": "contemplativo",
-      "text": "Luma Bruma pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
-    },
-    {
-      "id": "local_1792250178211_h9l",
-      "date": "2026-10-17",
-      "day": 192,
-      "source": "local",
-      "name": "Bel Nube",
-      "category": "trivial",
-      "text": "Bel Nube horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
     }
   ]
 }
