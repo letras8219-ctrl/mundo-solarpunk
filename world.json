@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 217,
-    "date": "2026-11-11",
+    "day": 218,
+    "date": "2026-11-12",
     "season": "otoño",
-    "seasonDay": 38,
-    "climate": "frío seco",
+    "seasonDay": 39,
+    "climate": "soleado",
     "resources": {
-      "food": 89,
-      "energy": 50,
-      "mood": 6
+      "food": 91,
+      "energy": 51,
+      "mood": 4
     },
     "todayEvents": [
       {
-        "id": "local_1794425087849_4io",
-        "date": "2026-11-11",
-        "day": 217,
+        "id": "local_1794512537506_56d",
+        "date": "2026-11-12",
+        "day": 218,
         "source": "local",
-        "name": "Gael Bruma",
-        "category": "espiritual",
-        "text": "Gael Bruma participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
-      },
-      {
-        "id": "local_1794425087849_z4f",
-        "date": "2026-11-11",
-        "day": 217,
-        "source": "local",
-        "name": "Luma Musgo",
+        "name": "Zerda",
         "category": "contemplativo",
-        "text": "Luma Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
+        "text": "Zerda pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
       },
       {
-        "id": "local_1794425087849_xp5",
-        "date": "2026-11-11",
-        "day": 217,
+        "id": "local_1794512537506_gdi",
+        "date": "2026-11-12",
+        "day": 218,
         "source": "local",
-        "name": "Ari Sol",
-        "category": "interpersonal",
-        "text": "Ari Sol dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Iko",
+        "category": "fantástico",
+        "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1794425087849_jv8",
-        "date": "2026-11-11",
-        "day": 217,
+        "id": "local_1794512537506_wmk",
+        "date": "2026-11-12",
+        "day": 218,
         "source": "local",
-        "name": "Vex",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Vex. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Juno Tierra",
+        "category": "contemplativo",
+        "text": "Juno Tierra pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+      },
+      {
+        "id": "local_1794512537506_tpz",
+        "date": "2026-11-12",
+        "day": 218,
+        "source": "local",
+        "name": "Noa Bruma",
+        "category": "contemplativo",
+        "text": "Noa Bruma se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 224,
+      "age": 225,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 229,
+      "age": 230,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 217,
+      "age": 218,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 193,
+      "age": 194,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 136,
+      "age": 137,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 146,
+      "age": 147,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -490,7 +490,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 99,
+      "age": 100,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +505,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 96,
+      "age": 97,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -568,7 +568,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -615,7 +615,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 71,
+      "age": 72,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -630,7 +630,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 92,
+      "age": 93,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -645,7 +645,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 88,
+      "age": 89,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -660,7 +660,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 75,
+      "age": 76,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -675,7 +675,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 72,
+      "age": 73,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -690,7 +690,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -705,7 +705,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 38,
+      "age": 39,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -720,7 +720,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 81,
+      "age": 82,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -735,7 +735,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 73,
+      "age": 74,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -750,7 +750,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 39,
+      "age": 40,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -765,7 +765,7 @@
       "id": "c_1793991955991",
       "name": "Remi Raíz",
       "type": "humano",
-      "age": 5,
+      "age": 6,
       "role": "recién nacido",
       "location": "Lago del Sur",
       "traits": [
@@ -820,6 +820,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1794512537506_56d",
+      "date": "2026-11-12",
+      "day": 218,
+      "source": "local",
+      "name": "Zerda",
+      "category": "contemplativo",
+      "text": "Zerda pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1794512537506_gdi",
+      "date": "2026-11-12",
+      "day": 218,
+      "source": "local",
+      "name": "Iko",
+      "category": "fantástico",
+      "text": "Iko encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1794512537506_wmk",
+      "date": "2026-11-12",
+      "day": 218,
+      "source": "local",
+      "name": "Juno Tierra",
+      "category": "contemplativo",
+      "text": "Juno Tierra pasó la tarde bajo el árbol de mimbre. Las hojas susurraban algo parecido a una canción de cuna."
+    },
+    {
+      "id": "local_1794512537506_tpz",
+      "date": "2026-11-12",
+      "day": 218,
+      "source": "local",
+      "name": "Noa Bruma",
+      "category": "contemplativo",
+      "text": "Noa Bruma se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
+    },
     {
       "id": "local_1794425087849_4io",
       "date": "2026-11-11",
@@ -1683,42 +1719,6 @@
       "name": "Ari Sol",
       "category": "interpersonal",
       "text": "Ari Sol tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1792514170998_j3y",
-      "date": "2026-10-20",
-      "day": 195,
-      "source": "local",
-      "name": "Luma Musgo",
-      "category": "fantástico",
-      "text": "Una mariposa de alas plateadas siguió a Luma Musgo todo el día. Donde se posaba, las plantas florecían en segundos."
-    },
-    {
-      "id": "v_1792514170998d",
-      "date": "2026-10-20",
-      "day": 195,
-      "source": "mundo",
-      "name": "Mira Bruma",
-      "category": "muerte",
-      "text": "Mira Bruma falleció hoy."
-    },
-    {
-      "id": "local_1792434771069_4bq",
-      "date": "2026-10-19",
-      "day": 194,
-      "source": "local",
-      "name": "Vela Musgo",
-      "category": "fantástico",
-      "text": "Vela Musgo fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1792434771069_8cr",
-      "date": "2026-10-19",
-      "day": 194,
-      "source": "local",
-      "name": "Luma Musgo",
-      "category": "contemplativo",
-      "text": "Luma Musgo caminó descalzo por el jardín de musgo. La tierra estaba tibia. Se quedó quieto un largo rato."
     }
   ]
 }
