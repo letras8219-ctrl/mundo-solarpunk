@@ -1,52 +1,52 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 223,
-    "date": "2026-11-17",
+    "day": 224,
+    "date": "2026-11-18",
     "season": "otoño",
-    "seasonDay": 44,
-    "climate": "templado",
+    "seasonDay": 45,
+    "climate": "frío seco",
     "resources": {
-      "food": 92,
-      "energy": 41,
+      "food": 90,
+      "energy": 39,
       "mood": 0
     },
     "todayEvents": [
       {
-        "id": "local_1794947968534_0si",
-        "date": "2026-11-17",
-        "day": 223,
+        "id": "local_1795032804099_pod",
+        "date": "2026-11-18",
+        "day": 224,
         "source": "local",
-        "name": "Luma Río",
-        "category": "fantástico",
-        "text": "Vex se materializó cerca de Luma Río y dejó una nota en un idioma que nadie ha identificado. Luma Río la guardó."
+        "name": "Noa Bruma",
+        "category": "interpersonal",
+        "text": "Noa Bruma tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
       },
       {
-        "id": "local_1794947968534_rej",
-        "date": "2026-11-17",
-        "day": 223,
+        "id": "local_1795032804099_heq",
+        "date": "2026-11-18",
+        "day": 224,
         "source": "local",
         "name": "Bel Nube",
         "category": "fantástico",
-        "text": "Vex se materializó cerca de Bel Nube y dejó una nota en un idioma que nadie ha identificado. Bel Nube la guardó."
+        "text": "Bel Nube encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
       },
       {
-        "id": "local_1794947968534_1je",
-        "date": "2026-11-17",
-        "day": 223,
+        "id": "local_1795032804099_lid",
+        "date": "2026-11-18",
+        "day": 224,
         "source": "local",
-        "name": "Juno Tierra",
-        "category": "contemplativo",
-        "text": "Juno Tierra se despertó antes del amanecer y contempló el cielo cambiando de color sobre los paneles solares."
-      },
-      {
-        "id": "local_1794947968534_4o3",
-        "date": "2026-11-17",
-        "day": 223,
-        "source": "local",
-        "name": "Noa Río",
+        "name": "Remi Raíz",
         "category": "interpersonal",
-        "text": "Noa Río tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+        "text": "Remi Raíz dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+      },
+      {
+        "id": "local_1795032804099_32f",
+        "date": "2026-11-18",
+        "day": 224,
+        "source": "local",
+        "name": "Remi Raíz",
+        "category": "ecológico",
+        "text": "Una tormenta inesperada pasó sobre el sector de Remi Raíz. Duró poco pero dejó el aire oliendo a promesas."
       }
     ]
   },
@@ -72,7 +72,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 230,
+      "age": 231,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +156,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 235,
+      "age": 236,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +189,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 223,
+      "age": 224,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,7 +317,7 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 199,
+      "age": 200,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -380,7 +380,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 142,
+      "age": 143,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,7 +443,7 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 152,
+      "age": 153,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
@@ -490,7 +490,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 105,
+      "age": 106,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +505,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 102,
+      "age": 103,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -568,7 +568,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 85,
+      "age": 86,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -615,7 +615,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 77,
+      "age": 78,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -630,7 +630,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 98,
+      "age": 99,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -645,7 +645,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 94,
+      "age": 95,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -660,7 +660,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 81,
+      "age": 82,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -675,7 +675,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -690,7 +690,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -705,7 +705,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 44,
+      "age": 45,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -720,7 +720,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 87,
+      "age": 88,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -735,7 +735,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -750,7 +750,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -765,7 +765,7 @@
       "id": "c_1793991955991",
       "name": "Remi Raíz",
       "type": "humano",
-      "age": 11,
+      "age": 12,
       "role": "recién nacido",
       "location": "Lago del Sur",
       "traits": [
@@ -780,7 +780,7 @@
       "id": "c_1794597868342_i",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 40,
+      "age": 41,
       "role": "recién llegado",
       "location": "Zona Este",
       "traits": [
@@ -851,6 +851,42 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1795032804099_pod",
+      "date": "2026-11-18",
+      "day": 224,
+      "source": "local",
+      "name": "Noa Bruma",
+      "category": "interpersonal",
+      "text": "Noa Bruma tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+    },
+    {
+      "id": "local_1795032804099_heq",
+      "date": "2026-11-18",
+      "day": 224,
+      "source": "local",
+      "name": "Bel Nube",
+      "category": "fantástico",
+      "text": "Bel Nube encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+    },
+    {
+      "id": "local_1795032804099_lid",
+      "date": "2026-11-18",
+      "day": 224,
+      "source": "local",
+      "name": "Remi Raíz",
+      "category": "interpersonal",
+      "text": "Remi Raíz dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+    },
+    {
+      "id": "local_1795032804099_32f",
+      "date": "2026-11-18",
+      "day": 224,
+      "source": "local",
+      "name": "Remi Raíz",
+      "category": "ecológico",
+      "text": "Una tormenta inesperada pasó sobre el sector de Remi Raíz. Duró poco pero dejó el aire oliendo a promesas."
+    },
     {
       "id": "local_1794947968534_0si",
       "date": "2026-11-17",
@@ -1714,42 +1750,6 @@
       "name": "Bel Nube",
       "category": "interpersonal",
       "text": "Bel Nube tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1793039394690_mbk",
-      "date": "2026-10-26",
-      "day": 201,
-      "source": "local",
-      "name": "Gael Bruma",
-      "category": "ecológico",
-      "text": "Una tormenta inesperada pasó sobre el sector de Gael Bruma. Duró poco pero dejó el aire oliendo a promesas."
-    },
-    {
-      "id": "local_1793039394690_6zd",
-      "date": "2026-10-26",
-      "day": 201,
-      "source": "local",
-      "name": "Luma Musgo",
-      "category": "trivial",
-      "text": "Luma Musgo pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1792943386530_2hr",
-      "date": "2026-10-25",
-      "day": 200,
-      "source": "local",
-      "name": "Juno Tierra",
-      "category": "fantástico",
-      "text": "Juno Tierra fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1792943386530_kxe",
-      "date": "2026-10-25",
-      "day": 200,
-      "source": "local",
-      "name": "Iko",
-      "category": "trivial",
-      "text": "Iko organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
     }
   ]
 }
