@@ -1,52 +1,70 @@
 {
   "world": {
     "name": "Ventania",
-    "day": 224,
-    "date": "2026-11-18",
+    "day": 225,
+    "date": "2026-11-19",
     "season": "otoño",
-    "seasonDay": 45,
+    "seasonDay": 46,
     "climate": "frío seco",
     "resources": {
-      "food": 90,
-      "energy": 39,
+      "food": 89,
+      "energy": 36,
       "mood": 0
     },
     "todayEvents": [
       {
-        "id": "local_1795032804099_pod",
-        "date": "2026-11-18",
-        "day": 224,
+        "id": "local_1795119356916_ieq",
+        "date": "2026-11-19",
+        "day": 225,
         "source": "local",
-        "name": "Noa Bruma",
-        "category": "interpersonal",
-        "text": "Noa Bruma tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
+        "name": "Iko",
+        "category": "espiritual",
+        "text": "Iko participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
       },
       {
-        "id": "local_1795032804099_heq",
-        "date": "2026-11-18",
-        "day": 224,
+        "id": "local_1795119356916_w5e",
+        "date": "2026-11-19",
+        "day": 225,
         "source": "local",
-        "name": "Bel Nube",
+        "name": "Sal Tierra",
         "category": "fantástico",
-        "text": "Bel Nube encontró en el molino abandonado una habitación nueva que nadie había visto. Contenía mapas de otro tiempo."
+        "text": "Sal Tierra encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
       },
       {
-        "id": "local_1795032804099_lid",
-        "date": "2026-11-18",
-        "day": 224,
+        "id": "local_1795119356916_xdv",
+        "date": "2026-11-19",
+        "day": 225,
         "source": "local",
-        "name": "Remi Raíz",
-        "category": "interpersonal",
-        "text": "Remi Raíz dio el primer paso para reconciliarse con alguien después de semanas de silencio. Fue difícil. Fue necesario."
+        "name": "Vex",
+        "category": "fantástico",
+        "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
       },
       {
-        "id": "local_1795032804099_32f",
-        "date": "2026-11-18",
-        "day": 224,
+        "id": "local_1795119356916_cvc",
+        "date": "2026-11-19",
+        "day": 225,
         "source": "local",
-        "name": "Remi Raíz",
-        "category": "ecológico",
-        "text": "Una tormenta inesperada pasó sobre el sector de Remi Raíz. Duró poco pero dejó el aire oliendo a promesas."
+        "name": "Gael Bruma",
+        "category": "fantástico",
+        "text": "Vex se materializó cerca de Gael Bruma y dejó una nota en un idioma que nadie ha identificado. Gael Bruma la guardó."
+      },
+      {
+        "id": "v_1795119356916d",
+        "date": "2026-11-19",
+        "day": 225,
+        "source": "mundo",
+        "name": "Vela Savia",
+        "category": "muerte",
+        "text": "Vela Savia falleció hoy."
+      },
+      {
+        "id": "v_1795119356916d",
+        "date": "2026-11-19",
+        "day": 225,
+        "source": "mundo",
+        "name": "Juno Nube",
+        "category": "muerte",
+        "text": "Juno Nube falleció hoy."
       }
     ]
   },
@@ -72,7 +90,7 @@
       "id": "c2",
       "name": "Iko",
       "type": "robot",
-      "age": 231,
+      "age": 232,
       "role": "compositor y filósofo",
       "location": "Taller Comunal",
       "traits": [
@@ -156,7 +174,7 @@
       "id": "c7",
       "name": "Zerda",
       "type": "robot",
-      "age": 236,
+      "age": 237,
       "role": "agrónoma autónoma",
       "location": "Granja Central",
       "traits": [
@@ -189,7 +207,7 @@
       "id": "c9",
       "name": "Vex",
       "type": "interdimensional",
-      "age": 224,
+      "age": 225,
       "role": "observador de umbrales",
       "location": "La Frontera",
       "traits": [
@@ -317,16 +335,17 @@
       "id": "c_1780418527018_i",
       "name": "Vela Savia",
       "type": "humano",
-      "age": 200,
+      "age": 201,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
         "viajero"
       ],
       "emotion": "esperanza",
-      "alive": true,
+      "alive": false,
       "belief": "ateísta",
-      "faction": "Tecnolibres"
+      "faction": "Tecnolibres",
+      "deathDay": 225
     },
     {
       "id": "c_1780672433680",
@@ -380,7 +399,7 @@
       "id": "c_1782568347977",
       "name": "Luma Río",
       "type": "humano",
-      "age": 143,
+      "age": 144,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -443,16 +462,17 @@
       "id": "c_1784296029200_i",
       "name": "Juno Nube",
       "type": "robot",
-      "age": 153,
+      "age": 154,
       "role": "recién llegado",
       "location": "Bosque Norte",
       "traits": [
         "curioso"
       ],
       "emotion": "nostalgia",
-      "alive": true,
+      "alive": false,
       "belief": "agnóstico",
-      "faction": "Ecoverde"
+      "faction": "Ecoverde",
+      "deathDay": 225
     },
     {
       "id": "c_1784987018287_i",
@@ -490,7 +510,7 @@
       "id": "c_1785768493087",
       "name": "Luma Bruma",
       "type": "humano",
-      "age": 106,
+      "age": 107,
       "role": "recién nacido",
       "location": "Zona Este",
       "traits": [
@@ -505,7 +525,7 @@
       "id": "c_1786026131546",
       "name": "Vela Nube",
       "type": "humano",
-      "age": 103,
+      "age": 104,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -568,7 +588,7 @@
       "id": "c_1787489264358",
       "name": "Ari Sol",
       "type": "humano",
-      "age": 86,
+      "age": 87,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -615,7 +635,7 @@
       "id": "c_1788202704488",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 78,
+      "age": 79,
       "role": "recién nacido",
       "location": "Plaza Central",
       "traits": [
@@ -630,7 +650,7 @@
       "id": "c_1789056405219_i",
       "name": "Vela Luz",
       "type": "humano",
-      "age": 99,
+      "age": 100,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -645,7 +665,7 @@
       "id": "c_1789662944869_i",
       "name": "Noa Bruma",
       "type": "robot",
-      "age": 95,
+      "age": 96,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -660,7 +680,7 @@
       "id": "c_1789832400392_i",
       "name": "Noa Río",
       "type": "humano",
-      "age": 82,
+      "age": 83,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -675,7 +695,7 @@
       "id": "c_1790180970017_i",
       "name": "Luma Musgo",
       "type": "humano",
-      "age": 79,
+      "age": 80,
       "role": "recién llegado",
       "location": "Plaza Central",
       "traits": [
@@ -690,7 +710,7 @@
       "id": "c_1790962840672",
       "name": "Sal Tierra",
       "type": "humano",
-      "age": 46,
+      "age": 47,
       "role": "recién nacido",
       "location": "Granja Central",
       "traits": [
@@ -705,7 +725,7 @@
       "id": "c_1791043207272",
       "name": "Vela Musgo",
       "type": "humano",
-      "age": 45,
+      "age": 46,
       "role": "recién nacido",
       "location": "El Mirador",
       "traits": [
@@ -720,7 +740,7 @@
       "id": "c_1791310078016_i",
       "name": "Gael Bruma",
       "type": "humano",
-      "age": 88,
+      "age": 89,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -735,7 +755,7 @@
       "id": "c_1791484775498_i",
       "name": "Juno Tierra",
       "type": "humano",
-      "age": 80,
+      "age": 81,
       "role": "recién llegado",
       "location": "El Mirador",
       "traits": [
@@ -750,7 +770,7 @@
       "id": "c_1792688048802_i",
       "name": "Sal Savia",
       "type": "humano",
-      "age": 46,
+      "age": 47,
       "role": "recién llegado",
       "location": "Lago del Sur",
       "traits": [
@@ -765,7 +785,7 @@
       "id": "c_1793991955991",
       "name": "Remi Raíz",
       "type": "humano",
-      "age": 12,
+      "age": 13,
       "role": "recién nacido",
       "location": "Lago del Sur",
       "traits": [
@@ -780,7 +800,7 @@
       "id": "c_1794597868342_i",
       "name": "Bel Nube",
       "type": "humano",
-      "age": 41,
+      "age": 42,
       "role": "recién llegado",
       "location": "Zona Este",
       "traits": [
@@ -851,6 +871,60 @@
     }
   ],
   "history": [
+    {
+      "id": "local_1795119356916_ieq",
+      "date": "2026-11-19",
+      "day": 225,
+      "source": "local",
+      "name": "Iko",
+      "category": "espiritual",
+      "text": "Iko participó en un ritual al amanecer. Sintió algo que no sabe cómo nombrar."
+    },
+    {
+      "id": "local_1795119356916_w5e",
+      "date": "2026-11-19",
+      "day": 225,
+      "source": "local",
+      "name": "Sal Tierra",
+      "category": "fantástico",
+      "text": "Sal Tierra encontró en su jardín una planta que no existía ayer. Sus flores cambian de color según quién las mira."
+    },
+    {
+      "id": "local_1795119356916_xdv",
+      "date": "2026-11-19",
+      "day": 225,
+      "source": "local",
+      "name": "Vex",
+      "category": "fantástico",
+      "text": "Una mariposa de alas plateadas siguió a Vex todo el día. Donde se posaba, las plantas florecían en segundos."
+    },
+    {
+      "id": "local_1795119356916_cvc",
+      "date": "2026-11-19",
+      "day": 225,
+      "source": "local",
+      "name": "Gael Bruma",
+      "category": "fantástico",
+      "text": "Vex se materializó cerca de Gael Bruma y dejó una nota en un idioma que nadie ha identificado. Gael Bruma la guardó."
+    },
+    {
+      "id": "v_1795119356916d",
+      "date": "2026-11-19",
+      "day": 225,
+      "source": "mundo",
+      "name": "Vela Savia",
+      "category": "muerte",
+      "text": "Vela Savia falleció hoy."
+    },
+    {
+      "id": "v_1795119356916d",
+      "date": "2026-11-19",
+      "day": 225,
+      "source": "mundo",
+      "name": "Juno Nube",
+      "category": "muerte",
+      "text": "Juno Nube falleció hoy."
+    },
     {
       "id": "local_1795032804099_pod",
       "date": "2026-11-18",
@@ -1696,60 +1770,6 @@
       "name": "Iko",
       "category": "interpersonal",
       "text": "Iko tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
-    },
-    {
-      "id": "local_1793123102632_qdl",
-      "date": "2026-10-27",
-      "day": 202,
-      "source": "local",
-      "name": "Sal Tierra",
-      "category": "fantástico",
-      "text": "Sal Tierra fue testigo de cómo un portal de luz azul se abrió brevemente en la ladera de la montaña. No dejó rastro."
-    },
-    {
-      "id": "local_1793123102632_vbg",
-      "date": "2026-10-27",
-      "day": 202,
-      "source": "local",
-      "name": "Vela Nube",
-      "category": "trivial",
-      "text": "Vela Nube pasó la mañana reparando bicicletas en el taller abierto. Arregló siete en total."
-    },
-    {
-      "id": "local_1793123102632_x5g",
-      "date": "2026-10-27",
-      "day": 202,
-      "source": "local",
-      "name": "Vex",
-      "category": "trivial",
-      "text": "Vex organizó una partida de cartas en la terraza. Ganó, pero fue generoso con los perdedores."
-    },
-    {
-      "id": "local_1793123102632_6zq",
-      "date": "2026-10-27",
-      "day": 202,
-      "source": "local",
-      "name": "Zerda",
-      "category": "contemplativo",
-      "text": "Zerda se quedó en el Mirador hasta que el último color del atardecer desapareció. No dijo nada al regresar."
-    },
-    {
-      "id": "local_1793039394690_pkz",
-      "date": "2026-10-26",
-      "day": 201,
-      "source": "local",
-      "name": "Noa Bruma",
-      "category": "trivial",
-      "text": "Noa Bruma horneó pan de masa madre. El aroma convocó a media docena de vecinos sin que nadie los invitara."
-    },
-    {
-      "id": "local_1793039394690_5vx",
-      "date": "2026-10-26",
-      "day": 201,
-      "source": "local",
-      "name": "Bel Nube",
-      "category": "interpersonal",
-      "text": "Bel Nube tuvo una conversación que duró hasta el amanecer. No recordaba la última vez que había hablado así de verdad."
     }
   ]
 }
